@@ -1,15 +1,15 @@
 //foundation
-@use "foundation/_reset.scss";
+@use "foundation/_reset";
 
 //layout
-@use "layout/_header.scss";
-@use "layout/_main.scss";
-@use "layout/_sidebar.scss";
-@use "layout/_footer.scss";
+@use "layout/_header";
+@use "layout/_main";
+@use "layout/_sidebar";
+@use "layout/_footer";
 
 //object
 /* component */
-@use "compnent/_button.scss";
+@use "compnent/_button";
 
 /* project */
 @use "";
