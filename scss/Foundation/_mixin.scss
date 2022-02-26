@@ -4,17 +4,17 @@ $tab: 960px;
 $sp: 480px;
 
 @mixin pc {
-    @media screen and (max-widh: ($pc)) {
+    @media screen and (min-widh: ($pc)) {
         @content;
     }
 }
 @mixin tab {
-    @media screen and (max-widh: ($tab)) {
+    @media screen and (min-widh: ($tab)) {
         @content;
     }
 }
 @mixin sp {
-    @media screen and (max-widh: ($sp)) {
+    @media screen and (min-widh: ($sp)) {
         @content;
     }
 }
