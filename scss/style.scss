@@ -1,19 +1,19 @@
 //foundation
-@use "Foundation/_reset";
-@use "Founfation/_base";
-@use "Founfation/_mixin";
-@use "Founfation/_variable";
+@use "Foundation/reset";
+@use "Founfation/base";
+@use "Founfation/mixin";
+@use "Founfation/variable";
 
 //layout
-@use "Layout/_header";
-@use "Layout/_main";
-@use "Layout/_sidebar";
-@use "Layout/_footer";
+@use "Layout/header";
+@use "Layout/main";
+@use "Layout/sidebar";
+@use "Layout/footer";
 
 //object
-@use "Object/Component/_button";
+@use "Object/Component/button";
 
 //Project
-@use "Object/Project/_header-logo";
+@use "Object/Project/header-logo";
 
 

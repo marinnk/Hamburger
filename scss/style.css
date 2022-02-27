@@ -1,11 +1,11 @@
-@use "Foundation/_reset";
-@use "Founfation/_base";
-@use "Founfation/_mixin";
-@use "Founfation/_variable";
-@use "Layout/_header";
-@use "Layout/_main";
-@use "Layout/_sidebar";
-@use "Layout/_footer";
-@use "Object/Component/_button";
-@use "Object/Project/_header-logo";
+@use "Foundation/reset";
+@use "Founfation/base";
+@use "Founfation/mixin";
+@use "Founfation/variable";
+@use "Layout/header";
+@use "Layout/main";
+@use "Layout/sidebar";
+@use "Layout/footer";
+@use "Object/Component/button";
+@use "Object/Project/header-logo";
 /*# sourceMappingURL=style.css.map */
