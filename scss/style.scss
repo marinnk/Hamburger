@@ -1,17 +1,11 @@
 //foundation
 @use "Foundation/reset";
 @use "Founfation/base";
-@use "Founfation/mixin";
 @use "Founfation/variable";
 
 //layout
 @use "Layout/header";
-@use "Layout/main";
-@use "Layout/sidebar";
-@use "Layout/footer";
 
-//object
-@use "Object/Component/button";
 
 //Project
 @use "Object/Project/header-logo";

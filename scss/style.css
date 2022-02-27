@@ -1,11 +1,6 @@
 @use "Foundation/reset";
 @use "Founfation/base";
-@use "Founfation/mixin";
 @use "Founfation/variable";
 @use "Layout/header";
-@use "Layout/main";
-@use "Layout/sidebar";
-@use "Layout/footer";
-@use "Object/Component/button";
 @use "Object/Project/header-logo";
 /*# sourceMappingURL=style.css.map */
