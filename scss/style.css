@@ -6,5 +6,5 @@
 @use "Layout/_main";
 @use "Layout/_sidebar";
 @use "Layout/_footer";
-@use "Component/_button";
+@use "Object/Component/_button";
 /*# sourceMappingURL=style.css.map */
