@@ -1,16 +1,16 @@
 //foundation
-@use "foundation/_reset";
-@use "founfation/_base";
-@use "founfation/_mixin";
-@use "founfation/_variable";
+@use "Foundation/_reset";
+@use "Founfation/_base";
+@use "Founfation/_mixin";
+@use "Founfation/_variable";
 
 //layout
-@use "layout/_header";
-@use "layout/_main";
-@use "layout/_sidebar";
-@use "layout/_footer";
+@use "Layout/_header";
+@use "Layout/_main";
+@use "Layout/_sidebar";
+@use "Layout/_footer";
 
 //object
-@use "compnent/_button";
+@use "Compnent/_button";
 
 

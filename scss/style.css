@@ -1,10 +1,10 @@
-@use "foundation/_reset";
-@use "founfation/_base";
-@use "founfation/_mixin";
-@use "founfation/_variable";
-@use "layout/_header";
-@use "layout/_main";
-@use "layout/_sidebar";
-@use "layout/_footer";
-@use "compnent/_button";
+@use "Foundation/_reset";
+@use "Founfation/_base";
+@use "Founfation/_mixin";
+@use "Founfation/_variable";
+@use "Layout/_header";
+@use "Layout/_main";
+@use "Layout/_sidebar";
+@use "Layout/_footer";
+@use "Compnent/_button";
 /*# sourceMappingURL=style.css.map */
