@@ -1,4 +1,5 @@
-@use "../Foundation/variable" as v;
+@use "../../Foundation/variable" as v;
+
 .c-search__button {
     background-color: v.$nav-bacground-color;
 }
