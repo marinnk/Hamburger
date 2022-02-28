@@ -1,6 +1,6 @@
 @use "Foundation/reset";
-@use "Founfation/base";
-@use "Founfation/variable";
+@use "Foundation/base";
+@use "Foundation/variable";
 @use "Layout/header";
 @use "Object/Project/header-logo";
 /*# sourceMappingURL=style.css.map */
