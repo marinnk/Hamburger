@@ -1,5 +1,5 @@
-@use "../../Foundation/variable";
+@use "../../Foundation/variable" as v;
 
 .p-header__logo {
-    color: variable.$header-background-color;
+    color: v.$header-background-color;
 }
