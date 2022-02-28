@@ -1,0 +1,5 @@
+@use "../../Foundation/variable" as v;
+
+.p-header {
+   background-color: v.$header-background-color; 
+}
