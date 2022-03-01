@@ -372,6 +372,7 @@ li {
 
 .p-header__logo {
   color: #707070;
+  margin: 0;
 }
 
 .p-header {
