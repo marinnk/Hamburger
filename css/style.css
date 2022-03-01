@@ -389,6 +389,10 @@ li {
   background-color: #FFF7EF;
 }
 
+.p-menu__button {
+  margin: 0;
+}
+
 .c-search__button {
   background-color: #F2EDE9;
 }
