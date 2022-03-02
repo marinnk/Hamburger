@@ -4,7 +4,7 @@
     color: v.$color;
     margin: 0;
 
-    @include tab {
+    @include tab { /* タブレット幅まで */
         width: 203px;
         margin: auto;
     }

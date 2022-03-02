@@ -1,6 +1,6 @@
 /* Error: Undefined mixin.
  *    ,
- * 7  | /     @include tab {
+ * 7  | /     @include tab { /* タブレット幅まで *∕
  * 8  | |         width: 203px;
  * 9  | |         margin: auto;
  * 10 | \     }
@@ -16,5 +16,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 7  \2502  \250c      @include tab {\a 8  \2502  \2502          width: 203px;\a 9  \2502  \2502          margin: auto;\a 10 \2502  \2514      }\a    \2575 \a   scss/Object/Project/_header-logo.scss 7:5  @forward\a   scss/style.scss 11:1                       root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 7  \2502  \250c      @include tab { /* \30bf \30d6 \30ec \30c3 \30c8 \5e45 \307e \3067  */\a 8  \2502  \2502          width: 203px;\a 9  \2502  \2502          margin: auto;\a 10 \2502  \2514      }\a    \2575 \a   scss/Object/Project/_header-logo.scss 7:5  @forward\a   scss/style.scss 11:1                       root stylesheet";
 }
