@@ -3,8 +3,8 @@
 .p-header__logo {
     color: v.$color;
 
-    @include tab { /* タブレット幅まで */
+    
         width: 203px;
         margin: auto;
-    }
+    
 }
