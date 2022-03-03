@@ -386,7 +386,8 @@ li {
 }
 
 .p-search {
-  margin: 0 31px 0 24px;
+  margin: 38px 31px 0 24px;
+  padding-bottom: 40px;
 }
 
 .p-search__form {
