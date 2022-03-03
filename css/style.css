@@ -398,6 +398,10 @@ li {
   right: 0;
 }
 
+.p-search {
+  margin: 0 31px 0 24px;
+}
+
 .c-search__button {
   background-color: #F2EDE9;
 }
