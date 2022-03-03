@@ -1,0 +1,9 @@
+@use "../../Foundation/variable" as v;
+
+.c-header__logo {
+    color: v.$color-gray-dark;
+
+        width: 203px;
+        margin: auto;
+    
+}

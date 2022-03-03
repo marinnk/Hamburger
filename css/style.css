@@ -404,4 +404,10 @@ li {
   border-radius: 10px;
 }
 
+.c-header__logo {
+  color: #707070;
+  width: 203px;
+  margin: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
