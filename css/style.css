@@ -410,11 +410,14 @@ li {
   margin-right: 12px;
 }
 
+.p-search__button {
+  padding: 12px 23px 12px 22px;
+  border-radius: 10px;
+}
+
 .c-search__button {
   background-color: #F2EDE9;
-  border-radius: 10px;
   border: 1px solid #707070;
-  padding: 12px 23px 12px 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
