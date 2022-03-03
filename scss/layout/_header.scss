@@ -1,3 +1,7 @@
-.l-header {
-    width: 100%;
+@use "../../Foundation/mixin";
+
+@include tab {
+    .l-header {
+        width: 100%;
+    }
 }
