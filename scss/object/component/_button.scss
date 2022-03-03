@@ -1,7 +1,7 @@
 @use "../../Foundation/variable" as v;
 
 .c-search__button {
-    background-color: v.$nav-bacground-color;
+    background-color: v.$color-beige;
     border-radius: 10px;
-    border: 1px solid v.$color;
+    border: 1px solid v.$color-gray-dark;
 }
