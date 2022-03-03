@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,QAAQ,CAAR,kBAAQ;AACR,QAAQ,CAAR,iBAAQ;AACR,QAAQ,CAAR,qBAAQ;AAGR,QAAQ,CAAR,eAAQ;AAIR,QAAQ,CAAR,4BAAQ;AACR,QAAQ,CAAR,6BAAQ;AAGR,QAAQ,CAAR,yBAAQ",
-    "sources": [
-        "style.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
