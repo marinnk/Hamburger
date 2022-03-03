@@ -8,13 +8,13 @@
 
 
 //Project
-@forward "Object/Project/header-logo";
+
 @forward "Object/Project/header";
-@forward "Object/Project/menu";
 @forward "Object/Project/search";
 @forward "Object/Project/search-form";
 
 //Component
 @forward "Object/Component/button";
-
+@forward "Object/Component/header-logo";
+@forward "Object/Component/menu";
 

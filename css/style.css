@@ -380,22 +380,9 @@ li {
   width: 100%;
 }
 
-.p-header__logo {
-  color: #707070;
-  width: 203px;
-  margin: auto;
-}
-
 .p-header {
   background-color: #FFF7EF;
   position: relative;
-}
-
-.p-menu__button {
-  margin: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .p-search {
