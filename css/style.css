@@ -402,6 +402,11 @@ li {
   margin: 0 31px 0 24px;
 }
 
+.p-search__form {
+  border-radius: 10px;
+  border: 1px solid #707070;
+}
+
 .c-search__button {
   background-color: #F2EDE9;
   border-radius: 10px;

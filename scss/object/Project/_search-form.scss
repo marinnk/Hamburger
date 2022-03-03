@@ -1,0 +1,6 @@
+@use "../../Foundation/variable" as v;
+
+.p-search__form {
+    border-radius: 10px;
+    border: 1px solid v.$color-gray-dark;
+}
