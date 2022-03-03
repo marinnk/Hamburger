@@ -413,6 +413,8 @@ li {
 .c-button {
   background-color: #F2EDE9;
   border: 1px solid #707070;
+  padding: 12px 23px 12px 22px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
