@@ -410,4 +410,11 @@ li {
   margin: auto;
 }
 
+.c-menu {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
