@@ -2,4 +2,6 @@
 
 .c-search__button {
     background-color: v.$nav-bacground-color;
+    border-radius: 10px;
+    border: 1px solid v.$color;
 }

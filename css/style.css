@@ -404,6 +404,8 @@ li {
 
 .c-search__button {
   background-color: #F2EDE9;
+  border-radius: 10px;
+  border: 1px solid #707070;
 }
 
 /*# sourceMappingURL=style.css.map */
