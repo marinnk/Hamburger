@@ -1,0 +1,5 @@
+@use "../../Foundation/variable" as v;
+
+.c-background-color--header {
+    background-color: v.$header-background-color;
+}
