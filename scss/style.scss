@@ -1,20 +1,21 @@
 //foundation
-@forward "Foundation/reset";
-@forward "Foundation/base";
-@forward "Foundation/variable";
+@use "Foundation/reset";
+@use "Foundation/base";
+@use "Foundation/variable";
 
 //layout
-@forward "Layout/header";
+@use "Layout/header";
 
 
 //Project
 
-@forward "Object/Project/header";
-@forward "Object/Project/search";
+@use "Object/Project/header";
+@use "Object/Project/search";
 
 //Component
-@forward "Object/Component/button";
-@forward "Object/Component/header-logo";
-@forward "Object/Component/menu";
-@forward "Object/Component/background-color";
-@forward "Object/Component/search-form";
+@use "Object/Component/button";
+@use "Object/Component/header-logo";
+@use "Object/Component/menu";
+@use "Object/Component/background-color";
+@use "Object/Component/search-form";
+@use "Object/Component/icon";
