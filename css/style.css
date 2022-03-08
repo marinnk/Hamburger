@@ -395,6 +395,7 @@ li {
 .p-search__box {
   position: relative;
   display: inline-block;
+  width: 230px;
 }
 .p-search__box::before {
   content: "";

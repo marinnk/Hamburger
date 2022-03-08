@@ -1,6 +1,7 @@
 .p-search__box {
     position: relative;
     display: inline-block;
+    width: 230px;
 
     &::before {
         content: "";
