@@ -382,9 +382,6 @@ li {
 /* archive・archibe-searchで使用 */
 .l-header {
   width: 100%;
-}
-
-.p-header {
   position: relative;
 }
 
@@ -392,6 +389,20 @@ li {
   margin: 0 auto;
   margin-top: 38px;
   padding-bottom: 40px;
+}
+
+.p-search__box {
+  position: relative;
+  display: inline-block;
+}
+.p-search__box::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url(../../../img/multiple-pages/magnifying-glass-solid.svg);
+  position: absolute;
+  top: 4px;
+  left: 5px;
 }
 
 .c-button--search {
@@ -426,6 +437,13 @@ li {
   height: 46px;
   width: 230px;
   margin-right: 12px;
+  position: relative;
+}
+.c-search-form::before {
+  content: "f002";
+  width: 16px;
+  height: 16px;
+  font-weight: 100;
 }
 
 .c-icon {
