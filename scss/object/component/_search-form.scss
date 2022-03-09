@@ -1,9 +1,17 @@
 @use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
 
 .c-search-form {
     border-radius: 10px;
     border: 1px solid v.$color-gray-dark;
     height: 46px;
-    width: 230px;
     margin-right: 12px;
+
+    @include m.sp {
+        width: 230px;
+    }
+
+    @include m.tab {
+        width: 396px;
+    }
 }
