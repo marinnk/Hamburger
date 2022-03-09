@@ -391,7 +391,7 @@ li {
 }
 
 .p-search {
-  width: 320px;
+  width: 326px;
   margin: 0 auto;
   margin-top: 38px;
   padding-bottom: 40px;
@@ -401,8 +401,10 @@ li {
   position: relative;
   display: inline-block;
   width: 230px;
+  margin-right: 12px;
 }
 .p-search__box::before {
+  /* 虫眼鏡 */
   content: "";
   width: 24px;
   height: 24px;
@@ -443,7 +445,6 @@ li {
   border-radius: 10px;
   border: 1px solid #707070;
   height: 46px;
-  margin-right: 12px;
 }
 @media screen and (min-widh: 480px) {
   .c-search-form {

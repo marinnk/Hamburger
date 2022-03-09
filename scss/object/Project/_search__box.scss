@@ -2,8 +2,9 @@
     position: relative;
     display: inline-block;
     width: 230px;
+    margin-right: 12px;
 
-    &::before {
+    &::before { /* 虫眼鏡 */
         content: "";
         width: 24px;
         height: 24px;
