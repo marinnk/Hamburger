@@ -1,8 +1,16 @@
+@use "../../Foundation/mixin" as m;
+
 .p-search__box {
     position: relative;
     display: inline-block;
-    width: 230px;
     margin-right: 12px;
+
+    @include m.sp {
+        width: 230px;
+    }
+    @include m.tab {
+        width: 396px;
+    }
 
     &::before { /* 虫眼鏡 */
         content: "";

@@ -400,8 +400,17 @@ li {
 .p-search__box {
   position: relative;
   display: inline-block;
-  width: 230px;
   margin-right: 12px;
+}
+@media screen and (min-widh: 480px) {
+  .p-search__box {
+    width: 230px;
+  }
+}
+@media screen and (min-widh: 960px) {
+  .p-search__box {
+    width: 396px;
+  }
 }
 .p-search__box::before {
   /* 虫眼鏡 */
