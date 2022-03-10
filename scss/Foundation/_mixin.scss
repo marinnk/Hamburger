@@ -3,8 +3,8 @@ $pc: 1280px;
 $tab: 960px;
 $sp: 480px;
 
-@mixin pc {
-    @media screen and (min-widh: ($pc)) {
+@mixin sp {
+    @media screen and (min-widh: ($sp)) {
         @content;
     }
 }
@@ -13,8 +13,8 @@ $sp: 480px;
         @content;
     }
 }
-@mixin sp {
-    @media screen and (min-widh: ($sp)) {
+@mixin pc {
+    @media screen and (min-widh: ($pc)) {
         @content;
     }
 }
