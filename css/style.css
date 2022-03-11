@@ -442,8 +442,18 @@ li {
   margin: 0;
   color: #707070;
   position: absolute;
-  top: 14px;
-  right: 16px;
+}
+@media screen and (min-width: 480px) {
+  .c-menu {
+    top: 14px;
+    right: 16px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .c-menu {
+    top: 18px;
+    right: 26px;
+  }
 }
 
 .c-background-color--header {
