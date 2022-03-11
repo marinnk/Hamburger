@@ -1,6 +1,12 @@
 .p-search {
-    width: 326px;
     margin: 0 auto;
     margin-top: 38px;
     padding-bottom: 40px;
+
+    @include sp {
+        width: 326px;
+    }
+    @include tab {
+        width: 546px;
+    }
 }
