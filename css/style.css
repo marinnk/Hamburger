@@ -402,12 +402,12 @@ li {
   display: inline-block;
   margin-right: 12px;
 }
-@media screen and (max-widh: 480px) {
+@media screen and (min-width: 480px) {
   .p-search__box {
     width: 230px;
   }
 }
-@media screen and (min-widh: 960px) {
+@media screen and (min-width: 960px) {
   .p-search__box {
     width: 396px;
   }
@@ -455,12 +455,12 @@ li {
   border: 1px solid #707070;
   height: 46px;
 }
-@media screen and (max-widh: 480px) {
+@media screen and (min-width: 480px) {
   .c-search-form {
     width: 230px;
   }
 }
-@media screen and (min-widh: 960px) {
+@media screen and (min-width: 960px) {
   .c-search-form {
     width: 396px;
   }

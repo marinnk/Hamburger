@@ -5,10 +5,10 @@
     display: inline-block;
     margin-right: 12px;
 
-    @include m.mq(sp) {
+    @include m.sp {
         width: 230px;
     }
-    @include m.mq(tab) {
+    @include m.tab {
         width: 396px;
     }
 
