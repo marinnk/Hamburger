@@ -391,30 +391,37 @@ li {
 }
 
 .p-search {
-  width: 326px;
   margin: 0 auto;
   margin-top: 38px;
   padding-bottom: 40px;
 }
+@media screen and (min-width: 480px) {
+  .p-search {
+    width: 326px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .p-search {
+    width: 546px;
+  }
+}
 
-.p-search__box {
+.p-search-form {
   position: relative;
   display: inline-block;
   margin-right: 12px;
 }
 @media screen and (min-width: 480px) {
-  .p-search__box {
+  .p-search-form {
     width: 230px;
   }
 }
 @media screen and (min-width: 960px) {
-  .p-search__box {
-    width: 100%;
-    min-width: 230px;
-    max-width: 396px;
+  .p-search-form {
+    width: 396px;
   }
 }
-.p-search__box::before {
+.p-search-form::before {
   /* 虫眼鏡 */
   content: "";
   width: 24px;
@@ -462,18 +469,18 @@ li {
   background-color: #FFF7EF;
 }
 
-.c-search-form {
+.c-input-box {
   border-radius: 10px;
   border: 1px solid #707070;
   height: 46px;
 }
 @media screen and (min-width: 480px) {
-  .c-search-form {
+  .c-input-box {
     width: 230px;
   }
 }
 @media screen and (min-width: 960px) {
-  .c-search-form {
+  .c-input-box {
     width: 396px;
   }
 }

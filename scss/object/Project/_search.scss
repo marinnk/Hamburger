@@ -1,12 +1,14 @@
+@use "../../Foundation/mixin" as m;;
+
 .p-search {
     margin: 0 auto;
     margin-top: 38px;
     padding-bottom: 40px;
 
-    @include sp {
+    @include m.sp {
         width: 326px;
     }
-    @include tab {
+    @include m.tab {
         width: 546px;
     }
 }
