@@ -1,7 +1,7 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
-.c-search-form {
+.c-input-box {
     border-radius: 10px;
     border: 1px solid v.$color-gray-dark;
     height: 46px;
