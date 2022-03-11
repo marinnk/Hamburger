@@ -9,11 +9,11 @@
 
 //Project
 @use "Object/Project/search";
-@use "Object/Project/search__box";
+@use "Object/Project/search-form";
 
 //Component
 @use "Object/Component/button";
 @use "Object/Component/header-logo";
 @use "Object/Component/menu";
 @use "Object/Component/background-color";
-@use "Object/Component/search-form";
+@use "Object/Component/input-box";
