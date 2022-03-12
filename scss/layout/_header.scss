@@ -1,4 +1,10 @@
+@use "../Foundation/mixin" as m;
+
 .l-header {
     width: 100%;
     position: relative;
+
+    @include m.pc {
+        width: 80%;
+    }
 }
