@@ -2,9 +2,8 @@
 
 .l-main {
     background-color: pink;
-    width: 100%;
     height: 100px;
-    
+
     @include m.pc {
         width: 80%;
         height: 100px;
