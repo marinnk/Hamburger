@@ -1,18 +1,26 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
-.c-menu {
+.c-menu--header {
     margin: 0;
     color: v.$color-gray-dark;
     position: absolute;
+    top: 14px;
+    right: 16px;
 
-    @include m.sp {
-        top: 14px;
-        right: 16px;
-    }
     @include m.tab {
         top: 18px;
         right: 26px;
     }
+    @include m.pc {
+        display: none;
+    }
     
+}
+.c-menu--sidebar {
+    display: none;
+
+    @include m.pc {
+        display: block;
+    }
 }
