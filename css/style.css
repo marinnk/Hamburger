@@ -391,7 +391,6 @@ li {
 }
 
 .l-header {
-  width: 100%;
   position: relative;
 }
 
@@ -405,6 +404,9 @@ li {
   }
 }
 
+.l-outer {
+  width: 100%;
+}
 @media screen and (min-width: 1280px) {
   .l-outer {
     width: 80%;
