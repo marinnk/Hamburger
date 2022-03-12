@@ -4,11 +4,9 @@
     margin: 0 auto;
     margin-top: 38px;
     padding-bottom: 40px;
+    width: 326px;
 
-    @include m.sp {
-        width: 326px;
-    }
     @include m.tab {
-        width: 546px;
+        width: 554px;
     }
 }

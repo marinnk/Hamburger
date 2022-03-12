@@ -432,15 +432,11 @@ li {
   margin: 0 auto;
   margin-top: 38px;
   padding-bottom: 40px;
-}
-@media screen and (min-width: 480px) {
-  .p-search {
-    width: 326px;
-  }
+  width: 326px;
 }
 @media screen and (min-width: 960px) {
   .p-search {
-    width: 546px;
+    width: 554px;
   }
 }
 
@@ -448,15 +444,12 @@ li {
   position: relative;
   display: inline-block;
   margin-right: 12px;
-}
-@media screen and (min-width: 480px) {
-  .p-search-form {
-    width: 230px;
-  }
+  width: 230px;
 }
 @media screen and (min-width: 960px) {
   .p-search-form {
     width: 396px;
+    margin-right: 14px;
   }
 }
 .p-search-form::before {
@@ -476,6 +469,11 @@ li {
   padding: 12px 0;
   width: 78px;
   border-radius: 10px;
+}
+@media screen and (min-width: 960px) {
+  .c-button--search {
+    width: 138px;
+  }
 }
 
 .c-header__logo {

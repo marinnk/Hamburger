@@ -1,4 +1,5 @@
 @use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
 
 .c-button--search {
     background-color: v.$color-beige;
@@ -6,4 +7,8 @@
     padding: 12px 0;
     width: 78px;
     border-radius: 10px;
+
+    @include m.tab {
+        width: 138px;
+    }
 }
