@@ -1,6 +1,7 @@
 @use "../Foundation/mixin" as m;
+@use "../Foundation/variable" as v;
 
 .l-footer {
-    background-color: palegreen;
+    background-color: v.$footer-backgraound-color;
     height: 100px;
 }
