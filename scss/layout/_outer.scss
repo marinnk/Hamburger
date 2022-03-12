@@ -1,0 +1,7 @@
+@use "../Foundation/mixin" as m;
+
+.l-outer {
+    @include m.pc {
+        width: 80%;
+    }
+}

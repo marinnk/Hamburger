@@ -394,17 +394,20 @@ li {
   width: 100%;
   position: relative;
 }
-@media screen and (min-width: 1280px) {
-  .l-header {
-    width: 80%;
-  }
-}
 
+.l-sidebar {
+  background-color: #F2EDE9;
+}
 @media screen and (min-width: 1280px) {
   .l-sidebar {
     width: 20%;
     height: auto;
-    background-color: burlywood;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .l-outer {
+    width: 80%;
   }
 }
 
@@ -414,7 +417,6 @@ li {
 }
 @media screen and (min-width: 1280px) {
   .l-main {
-    width: 80%;
     height: 100px;
   }
 }
