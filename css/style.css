@@ -385,6 +385,11 @@ li {
 /* ナビ・ボタン背景色 */
 /* ナビ文字色*/
 /* archive・archibe-searchで使用 */
+.l-container {
+  width: 100%;
+  display: flex;
+}
+
 .l-header {
   width: 100%;
   position: relative;
@@ -398,13 +403,21 @@ li {
 @media screen and (min-width: 1280px) {
   .l-sidebar {
     width: 20%;
+    height: auto;
     background-color: burlywood;
   }
 }
 
-.l-container {
+.l-main {
+  background-color: pink;
   width: 100%;
-  display: flex;
+  height: 100px;
+}
+@media screen and (min-width: 1280px) {
+  .l-main {
+    width: 80%;
+    height: 100px;
+  }
 }
 
 .p-search {

@@ -3,6 +3,7 @@
 .l-sidebar {
     @include m.pc {
         width: 20%;
+        height: auto;
         background-color: burlywood;
     }
 }
