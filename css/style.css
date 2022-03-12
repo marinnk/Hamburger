@@ -395,6 +395,18 @@ li {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .l-sidebar {
+    width: 20%;
+    background-color: burlywood;
+  }
+}
+
+.l-container {
+  width: 100%;
+  display: flex;
+}
+
 .p-search {
   margin: 0 auto;
   margin-top: 38px;

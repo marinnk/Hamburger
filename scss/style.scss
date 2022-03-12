@@ -6,6 +6,8 @@
 
 //layouts
 @use "Layout/header";
+@use "Layout/sidebar";
+@use "Layout/container";
 
 //Project
 @use "Object/Project/search";
