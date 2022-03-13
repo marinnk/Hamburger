@@ -488,7 +488,6 @@ li {
   width: 203px;
   margin: auto;
   padding-top: 40px;
-  font-family: "Roboto";
 }
 
 .c-menu--header {
@@ -497,7 +496,6 @@ li {
   position: absolute;
   top: 14px;
   right: 16px;
-  font-family: "Roboto";
 }
 @media screen and (min-width: 960px) {
   .c-menu--header {
@@ -529,5 +527,9 @@ li {
   border: 1px solid #707070;
   height: 46px;
   width: 100%;
+}
+
+.c-font-family {
+  font-family: "Roboto";
 }
 /*# sourceMappingURL=style.css.map */
