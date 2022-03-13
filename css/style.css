@@ -364,6 +364,7 @@ body {
   -moz-text-size-adjust: 100%;
        text-size-adjust: 100%;
   font-size: 1.6rem;
+  font-family: "M+ 1m";
 }
 
 img {
@@ -434,7 +435,6 @@ li {
   min-width: 326px;
   /* 326pxより小さくならないように */
   max-width: 553px;
-  background-color: palegreen;
   display: flex;
   /* 検索フォームとボタンを横並びに */
 }
@@ -488,6 +488,7 @@ li {
   width: 203px;
   margin: auto;
   padding-top: 40px;
+  font-family: "Roboto";
 }
 
 .c-menu--header {
@@ -496,6 +497,7 @@ li {
   position: absolute;
   top: 14px;
   right: 16px;
+  font-family: "Roboto";
 }
 @media screen and (min-width: 960px) {
   .c-menu--header {
