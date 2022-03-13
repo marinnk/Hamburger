@@ -430,27 +430,38 @@ li {
 
 .p-search {
   margin: 0 auto;
-  margin-top: 38px;
-  padding-bottom: 40px;
-  width: 326px;
+  padding: 20px;
+  min-width: 326px;
+  /* 326pxより小さくならないように */
+  max-width: 553px;
+  background-color: palegreen;
+  display: flex;
+  /* 検索フォームとボタンを横並びに */
 }
 @media screen and (min-width: 960px) {
   .p-search {
-    width: 554px;
+    min-width: 554px;
   }
 }
 
+/*
+.p-search {
+    margin: 0 auto;
+    margin-top: 38px;
+    padding-bottom: 40px;
+    min-width: 326px;
+
+    @include m.tab {
+        width: 554px;
+    }
+}
+*/
 .p-search-form {
   position: relative;
   display: inline-block;
   margin-right: 12px;
-  width: 230px;
-}
-@media screen and (min-width: 960px) {
-  .p-search-form {
-    width: 396px;
-    margin-right: 14px;
-  }
+  width: 100%;
+  height: 46px;
 }
 .p-search-form::before {
   /* 虫眼鏡 */
@@ -462,12 +473,18 @@ li {
   top: 11px;
   left: 12px;
 }
+@media screen and (min-width: 960px) {
+  .p-search-form {
+    width: 396px;
+    margin-right: 14px;
+  }
+}
 
 .c-button--search {
   background-color: #F2EDE9;
   border: 1px solid #707070;
   padding: 12px 0;
-  width: 78px;
+  width: 30%;
   border-radius: 10px;
 }
 @media screen and (min-width: 960px) {
@@ -519,11 +536,7 @@ li {
   border-radius: 10px;
   border: 1px solid #707070;
   height: 46px;
-}
-@media screen and (min-width: 480px) {
-  .c-input-box {
-    width: 230px;
-  }
+  width: 100%;
 }
 @media screen and (min-width: 960px) {
   .c-input-box {

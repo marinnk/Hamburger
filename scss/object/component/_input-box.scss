@@ -5,10 +5,7 @@
     border-radius: 10px;
     border: 1px solid v.$color-gray-dark;
     height: 46px;
-
-    @include m.sp {
-        width: 230px;
-    }
+    width: 100%;
 
     @include m.tab {
         width: 396px;

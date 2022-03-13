@@ -2,11 +2,25 @@
 
 .p-search {
     margin: 0 auto;
+    padding: 20px;
+    min-width: 326px; /* 326pxより小さくならないように */
+    max-width: 553px;
+    background-color: palegreen;
+    display: flex; /* 検索フォームとボタンを横並びに */
+
+    @include m.tab {
+        min-width: 554px;
+    }
+}
+/*
+.p-search {
+    margin: 0 auto;
     margin-top: 38px;
     padding-bottom: 40px;
-    width: 326px;
+    min-width: 326px;
 
     @include m.tab {
         width: 554px;
     }
 }
+*/
