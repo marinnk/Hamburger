@@ -473,24 +473,14 @@ li {
   top: 11px;
   left: 12px;
 }
-@media screen and (min-width: 960px) {
-  .p-search-form {
-    width: 396px;
-    margin-right: 14px;
-  }
-}
 
 .c-button--search {
   background-color: #F2EDE9;
   border: 1px solid #707070;
   padding: 12px 0;
+  height: 46px;
   width: 30%;
   border-radius: 10px;
-}
-@media screen and (min-width: 960px) {
-  .c-button--search {
-    width: 138px;
-  }
 }
 
 .c-header__logo {
@@ -537,10 +527,5 @@ li {
   border: 1px solid #707070;
   height: 46px;
   width: 100%;
-}
-@media screen and (min-width: 960px) {
-  .c-input-box {
-    width: 396px;
-  }
 }
 /*# sourceMappingURL=style.css.map */

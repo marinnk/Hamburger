@@ -5,10 +5,8 @@
     background-color: v.$color-beige;
     border: 1px solid v.$color-gray-dark;
     padding: 12px 0;
+    height: 46px;
     width: 30%;
     border-radius: 10px;
 
-    @include m.tab {
-        width: 138px;
-    }
 }
