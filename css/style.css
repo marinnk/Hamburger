@@ -347,6 +347,11 @@
   position: absolute;
 }
 
+/* 全ページで使用 */
+/* ヘッダー背景色 */
+/* ナビ・ボタン背景色 */
+/* ナビ文字色*/
+/* archive・archibe-searchで使用 */
 *,
 *:before,
 *:after {
@@ -374,18 +379,13 @@ img {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #707070;
 }
 
 li {
   list-style: none;
 }
 
-/* 全ページで使用 */
-/* ヘッダー背景色 */
-/* ナビ・ボタン背景色 */
-/* ナビ文字色*/
-/* archive・archibe-searchで使用 */
 .l-container {
   width: 100%;
   display: flex;
@@ -531,5 +531,13 @@ li {
 
 .c-font-family {
   font-family: "Roboto";
+}
+
+.c-font-size--20 {
+  font-size: 2rem;
+}
+
+.c-font-size--40 {
+  font-size: 4rem;
 }
 /*# sourceMappingURL=style.css.map */
