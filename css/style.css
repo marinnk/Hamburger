@@ -458,7 +458,6 @@ li {
 */
 .p-search-form {
   position: relative;
-  display: inline-block;
   margin-right: 12px;
   width: 100%;
   height: 46px;
@@ -481,6 +480,7 @@ li {
   height: 46px;
   width: 30%;
   border-radius: 10px;
+  color: #707070;
 }
 
 .c-header__logo {
@@ -539,5 +539,9 @@ li {
 
 .c-font-size--40 {
   font-size: 4rem;
+}
+
+.c-font-weight--bold {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
