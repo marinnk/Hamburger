@@ -10,16 +10,8 @@
     @include m.tab {
         min-width: 554px;
     }
-}
-/*
-.p-search {
-    margin: 0 auto;
-    margin-top: 38px;
-    padding-bottom: 40px;
-    min-width: 326px;
 
-    @include m.tab {
-        width: 554px;
+    @include m.pc {
+        margin-right: 31px;
     }
 }
-*/
