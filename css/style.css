@@ -445,7 +445,7 @@ li {
 }
 @media screen and (min-width: 1280px) {
   .p-search {
-    margin-right: 31px;
+    margin: 0;
   }
 }
 
@@ -492,7 +492,7 @@ li {
 @media screen and (min-width: 1280px) {
   .c-header__logo {
     padding: 0;
-    margin-left: 65px;
+    margin-left: 31px;
   }
 }
 
