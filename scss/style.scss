@@ -16,6 +16,8 @@
 @use "Object/Project/search";
 @use "Object/Project/search-form";
 @use "Object/Project/p-header";
+@use "Object/Project/p-sidebar";
+@use "Object/Project/nav";
 
 //Component
 @use "Object/Component/button";
@@ -27,3 +29,5 @@
 @use "Object/Component/font-size";
 @use "Object/Component/font-weight";
 @use "Object/Component/text";
+@use "Object/Component/title";
+@use "Object/Component/transparent-background";

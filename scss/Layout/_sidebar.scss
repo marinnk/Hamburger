@@ -3,6 +3,7 @@
 
 .l-sidebar {
     background-color: v.$color-beige;
+    width: 100%;
 
     @include m.pc {
         width: 20%;
