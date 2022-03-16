@@ -484,6 +484,9 @@ p {
   padding: 40px 0 30px 0;
   width: 50%;
   margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .p-nav {
@@ -587,8 +590,17 @@ p {
   margin-bottom: 20px;
 }
 
+.c-text--footer {
+  display: inline-block;
+  margin-bottom: 34px;
+}
+
 .c-title--nav {
   padding-left: 46px;
+}
+
+.c-copyright {
+  display: inline;
 }
 
 .c-list {
