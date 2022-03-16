@@ -17,6 +17,7 @@
 @use "Object/Project/search-form";
 @use "Object/Project/p-header";
 @use "Object/Project/p-sidebar";
+@use "Object/Project/p-footer";
 @use "Object/Project/nav";
 
 //Component
@@ -31,5 +32,6 @@
 @use "Object/Component/text";
 @use "Object/Component/title";
 @use "Object/Component/list";
-@use "Object/Component/color";
+@use "Object/Component/letter-color";
+@use "Object/Component/copyright";
 @use "Object/Component/transparent-background";

@@ -428,7 +428,8 @@ p {
 
 .l-footer {
   background-color: #9D8670;
-  height: 100px;
+  height: auto;
+  width: 100%;
 }
 
 .p-search {
@@ -477,6 +478,12 @@ p {
 
 .p-sidebar {
   width: 100%;
+}
+
+.p-footer {
+  padding: 40px 0 30px 0;
+  width: 50%;
+  margin: auto;
 }
 
 .p-nav {
@@ -556,6 +563,10 @@ p {
   font-family: "Roboto";
 }
 
+.c-font-size--14 {
+  font-size: 1.4rem;
+}
+
 .c-font-size--20 {
   font-size: 2rem;
 }
@@ -582,6 +593,10 @@ p {
 
 .c-list {
   padding-left: 66px;
+}
+
+.c-letter-color--white {
+  color: #fff;
 }
 
 .c-transparent-background--nav {
