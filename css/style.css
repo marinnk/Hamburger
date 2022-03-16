@@ -576,6 +576,10 @@ li {
   padding-left: 46px;
 }
 
+.c-list {
+  padding-left: 66px;
+}
+
 .c-transparent-background--nav {
   background: rgba(0, 0, 0, 0.5);
 }
