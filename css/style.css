@@ -494,6 +494,10 @@ p {
   height: auto;
 }
 
+.p-menu-area {
+  margin-top: 212px;
+}
+
 .c-button--search {
   background-color: #F2EDE9;
   border: 1px solid #707070;
