@@ -399,6 +399,7 @@ p {
 .l-sidebar {
   background-color: #F2EDE9;
   width: 100%;
+  position: relative;
 }
 @media screen and (min-width: 1280px) {
   .l-sidebar {
@@ -490,8 +491,7 @@ p {
 }
 
 .p-nav {
-  width: 100%;
-  height: auto;
+  width: 80%;
 }
 
 .p-menu-area {
@@ -547,6 +547,15 @@ p {
   .c-menu--sidebar {
     display: block;
   }
+}
+
+.c-cross {
+  position: absolute;
+  top: 25px;
+  right: 17px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
 }
 
 .c-background-color--header {
