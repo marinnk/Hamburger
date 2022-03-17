@@ -418,7 +418,7 @@ p {
 
 .l-main {
   background-color: pink;
-  height: 100px;
+  height: 2200px;
 }
 @media screen and (min-width: 1280px) {
   .l-main {
@@ -617,5 +617,6 @@ p {
 
 .c-transparent-background--nav {
   background: rgba(0, 0, 0, 0.5);
+  width: 100px;
 }
 /*# sourceMappingURL=style.css.map */
