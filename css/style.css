@@ -388,8 +388,13 @@ p {
 }
 
 .l-container {
-  width: 100%;
-  display: flex;
+  /* ヘッダー・メインとサイドバーを横並びにする */
+}
+@media screen and (min-width: 1280px) {
+  .l-container {
+    width: 100%;
+    display: flex;
+  }
 }
 
 .l-header {
@@ -399,7 +404,6 @@ p {
 .l-sidebar {
   background-color: #F2EDE9;
   width: 100%;
-  position: relative;
 }
 @media screen and (min-width: 1280px) {
   .l-sidebar {
@@ -477,10 +481,6 @@ p {
   }
 }
 
-.p-sidebar {
-  width: 100%;
-}
-
 .p-footer {
   padding: 40px 0 30px 0;
   width: 50%;
@@ -491,11 +491,16 @@ p {
 }
 
 .p-nav {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  right: 0;
   width: 80%;
+  height: 100vh;
 }
 
 .p-menu-area {
-  margin-top: 212px;
+  padding-top: 212px;
 }
 
 .c-button--search {
@@ -550,12 +555,16 @@ p {
 }
 
 .c-cross {
+  /* ×ボタン外側位置決め */
   position: absolute;
   top: 25px;
   right: 17px;
   width: 32px;
   height: 32px;
   cursor: pointer;
+}
+.c-cross span {
+  display: inline-block;
 }
 
 .c-background-color--header {

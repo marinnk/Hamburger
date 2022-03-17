@@ -4,7 +4,6 @@
 .l-sidebar {
     background-color: v.$color-beige;
     width: 100%;
-    position: relative;
 
     @include m.pc {
         width: 20%;

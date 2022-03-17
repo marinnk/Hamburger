@@ -1,6 +1,8 @@
 @use "../Foundation/mixin" as m;
 
-.l-container {
-    width: 100%;
-    display: flex;
+.l-container { /* ヘッダー・メインとサイドバーを横並びにする */
+    @include m.pc {
+        width: 100%;
+        display: flex;
+    }
 }

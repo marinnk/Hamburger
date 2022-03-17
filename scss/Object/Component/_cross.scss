@@ -1,8 +1,13 @@
-.c-cross {
+.c-cross { /* ×ボタン外側位置決め */
     position: absolute;
     top: 25px;
     right: 17px;
     width: 32px;
     height: 32px;
     cursor: pointer;
+
+    span {
+        display: inline-block;
+        
+    }
 }
