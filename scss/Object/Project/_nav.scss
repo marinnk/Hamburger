@@ -1,8 +1,13 @@
-.p-nav {
-    position: absolute;
-    z-index: 999;
+.p-nav { /* ナビ */
+    position: fixed;
+    z-index: 10;
     top: 0;
-    right: 0;
+    right: -120%;/* 最初は隠れてる */ 
     width: 80%;
     height: 100vh;
+    transition: all .5s;
+
+    &.open {
+        right: 0;/* クリックしたら表示される */  
+    }
 }

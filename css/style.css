@@ -491,15 +491,22 @@ p {
 }
 
 .p-nav {
-  position: absolute;
-  z-index: 999;
+  /* ナビ */
+  position: fixed;
+  z-index: 10;
   top: 0;
-  right: 0;
+  right: -120%;
+  /* 最初は隠れてる */
   width: 80%;
   height: 100vh;
+  transition: all 0.5s;
+}
+.p-nav.open {
+  right: 0;
+  /* クリックしたら表示される */
 }
 
-.p-menu-area {
+.p-manu-area {
   padding-top: 212px;
 }
 
@@ -555,10 +562,9 @@ p {
 }
 
 .c-close {
-  /* ×ボタン外側位置決め */
-  position: absolute;
-  top: 25px;
-  right: 17px;
+  /* ×ボタン */
+  top: 10px;
+  right: 10px;
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -634,7 +640,20 @@ p {
 }
 
 .c-transparent-background--nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  content: "";
   background: rgba(0, 0, 0, 0.5);
-  width: 100px;
+  width: 0;
+  height: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.c-transparent-background--nav.open {
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
