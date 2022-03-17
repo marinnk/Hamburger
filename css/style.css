@@ -554,7 +554,7 @@ p {
   }
 }
 
-.c-cross {
+.c-close {
   /* ×ボタン外側位置決め */
   position: absolute;
   top: 25px;
@@ -563,7 +563,7 @@ p {
   height: 32px;
   cursor: pointer;
 }
-.c-cross span {
+.c-close span {
   display: inline-block;
 }
 
