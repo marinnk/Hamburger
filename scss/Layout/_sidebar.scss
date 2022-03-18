@@ -2,9 +2,6 @@
 @use "../Foundation/variable" as v;
 
 .l-sidebar {
-    background-color: v.$color-beige;
-    width: 100%;
-
     @include m.pc {
         width: 20%;
         height: auto;

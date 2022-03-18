@@ -401,10 +401,6 @@ p {
   position: relative;
 }
 
-.l-sidebar {
-  background-color: #F2EDE9;
-  width: 100%;
-}
 @media screen and (min-width: 1280px) {
   .l-sidebar {
     width: 20%;
@@ -493,21 +489,17 @@ p {
 .p-nav {
   /* ナビ */
   position: fixed;
-  z-index: 10;
+  z-index: 999;
   top: 0;
   right: -120%;
   /* 最初は隠れてる */
-  width: 80%;
+  width: 90%;
   height: 100vh;
   transition: all 0.5s;
 }
 .p-nav.open {
   right: 0;
   /* クリックしたら表示される */
-}
-
-.p-manu-area {
-  padding-top: 212px;
 }
 
 .c-button--search {
@@ -577,7 +569,7 @@ p {
   background-color: #FFF7EF;
 }
 
-.c-background-color--nav {
+.c-background-color--sidebar {
   background-color: #F2EDE9;
 }
 
@@ -639,6 +631,7 @@ p {
   color: #fff;
 }
 
+/* 透明背景 */
 .c-transparent-background--nav {
   position: fixed;
   top: 0;
