@@ -539,6 +539,18 @@ p {
   position: absolute;
   top: 14px;
   right: 16px;
+  z-index: 9999;
+}
+.c-menu--header span {
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  background-color: #707070;
+}
+.c-menu--header span:nth-of-type(1) {
+  top: 18px;
+  left: 18px;
+  transform: translateY(6px) rotate(-45deg);
 }
 @media screen and (min-width: 960px) {
   .c-menu--header {
@@ -562,7 +574,7 @@ p {
 }
 
 .c-close {
-  /* ×ボタン */
+  position: relative;
   top: 10px;
   right: 10px;
   width: 32px;
@@ -571,6 +583,13 @@ p {
 }
 .c-close span {
   display: inline-block;
+  position: absolute;
+  left: 14px;
+  height: 3px;
+  background-color: black;
+}
+.c-close span:nth-child(1) {
+  top: 15px;
 }
 
 .c-background-color--header {
@@ -637,6 +656,10 @@ p {
 
 .c-letter-color--white {
   color: #fff;
+}
+
+.c-letter-color--gray {
+  color: #707070;
 }
 
 /* 透明背景 */
