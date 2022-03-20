@@ -485,10 +485,7 @@ p {
 }
 
 .p-footer {
-  padding: 40px 0 30px 0;
-  width: 50%;
-  margin: auto;
-  text-align: center;
+  padding-bottom: 30px;
   /* フッターリスト・コピーライトを縦並びに */
   display: flex;
   flex-direction: column;
@@ -496,7 +493,7 @@ p {
 }
 .p-footer ul {
   padding: 0;
-  margin: 0;
+  margin: 40px 0 34px 0;
 }
 
 .p-nav {
