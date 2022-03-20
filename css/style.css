@@ -630,6 +630,10 @@ p {
   padding-left: 66px;
 }
 
+.c-list--footer {
+  display: flex;
+}
+
 .c-letter-color--white {
   color: #fff;
 }
