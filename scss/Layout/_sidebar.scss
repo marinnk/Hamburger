@@ -3,9 +3,8 @@
 
 .l-sidebar {
     width: 100%;
-    height: 100%;
+    height: auto;
     @include m.pc {
         width: 20%;
-        height: auto;
     }
 }

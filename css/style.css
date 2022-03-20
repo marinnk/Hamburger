@@ -403,12 +403,11 @@ p {
 
 .l-sidebar {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 @media screen and (min-width: 1280px) {
   .l-sidebar {
     width: 20%;
-    height: auto;
   }
 }
 
@@ -517,11 +516,9 @@ p {
   height: 46px;
   width: 30%;
   border-radius: 10px;
-  color: #707070;
 }
 
 .c-header__logo {
-  color: #707070;
   width: 203px;
   margin: auto;
   padding-top: 40px;
@@ -535,7 +532,6 @@ p {
 
 .c-menu--header {
   margin: 0;
-  color: #707070;
   position: absolute;
   top: 14px;
   right: 16px;
@@ -545,7 +541,6 @@ p {
   position: absolute;
   left: 14px;
   height: 3px;
-  background-color: #707070;
 }
 .c-menu--header span:nth-of-type(1) {
   top: 18px;
@@ -571,25 +566,6 @@ p {
   .c-menu--sidebar {
     display: block;
   }
-}
-
-.c-close {
-  position: relative;
-  top: 10px;
-  right: 10px;
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-}
-.c-close span {
-  display: inline-block;
-  position: absolute;
-  left: 14px;
-  height: 3px;
-  background-color: black;
-}
-.c-close span:nth-child(1) {
-  top: 15px;
 }
 
 .c-background-color--header {
