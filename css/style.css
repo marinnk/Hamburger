@@ -489,8 +489,14 @@ p {
   width: 50%;
   margin: auto;
   text-align: center;
+  /* フッターリスト・コピーライトを縦並びに */
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.p-footer ul {
+  padding: 0;
+  margin: 0;
 }
 
 .p-nav {
@@ -613,11 +619,6 @@ p {
   margin-bottom: 20px;
 }
 
-.c-text--footer {
-  display: inline-block;
-  margin-bottom: 34px;
-}
-
 .c-title--nav {
   padding-left: 46px;
 }
@@ -626,15 +627,12 @@ p {
   border-right: 2px solid #fff;
 }
 
-.c-copyright {
-  display: inline;
-}
-
 .c-list {
   padding-left: 66px;
 }
 
 .c-list--footer {
+  /* 横並びにするため */
   display: flex;
 }
 
