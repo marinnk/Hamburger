@@ -622,6 +622,10 @@ p {
   padding-left: 46px;
 }
 
+.c-border {
+  border-right: 2px solid #fff;
+}
+
 .c-copyright {
   display: inline;
 }
