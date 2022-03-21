@@ -480,10 +480,6 @@ p {
   }
 }
 
-.p-sidebar {
-  position: relative;
-}
-
 .p-footer {
   padding-bottom: 30px;
   /* フッターリスト・コピーライトを縦並びに */
@@ -504,7 +500,7 @@ p {
   right: -120%;
   /* 最初は隠れてる */
   width: 90%;
-  height: 100vh;
+  height: auto;
   transition: all 0.5s;
 }
 .p-nav.open {
@@ -644,16 +640,13 @@ p {
 
 /* 透明背景 */
 .c-transparent-background--nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background-color: #000;
   width: 0;
   height: 0;
-  z-index: 2;
-  opacity: 0;
-  transition: opacity 0.5s;
+  opacity: 0.8;
 }
 .c-transparent-background--nav.open {
   width: 100%;
@@ -663,5 +656,6 @@ p {
 
 .u-margin {
   margin-left: 20px;
+  /* フッター余白調整に使用 */
 }
 /*# sourceMappingURL=style.css.map */

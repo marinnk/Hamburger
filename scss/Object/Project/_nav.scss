@@ -4,7 +4,7 @@
     top: 0;
     right: -120%;/* 最初は隠れてる */ 
     width: 90%;
-    height: 100vh;
+    height: auto;
     transition: all .5s;
 
     &.open {

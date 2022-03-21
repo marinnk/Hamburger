@@ -1,15 +1,12 @@
 /* 透明背景 */
 .c-transparent-background--nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    content: "";
-    background: rgba(0,0,0,0.5);
+    background-color: #000;
     width: 0;
     height: 0;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity 0.5s;
+    opacity: 0.8;
 
     &.open {
         width: 100%;
