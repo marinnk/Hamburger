@@ -411,15 +411,6 @@ p {
   }
 }
 
-.l-outer {
-  width: 100%;
-}
-@media screen and (min-width: 1280px) {
-  .l-outer {
-    width: 80%;
-  }
-}
-
 .l-main {
   background-color: pink;
   height: 2200px;
