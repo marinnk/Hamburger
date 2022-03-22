@@ -4,8 +4,9 @@
     top: 0;
     right: -120%;/* 最初は隠れてる */ 
     width: 90%;
-    height: auto;
+    height: 100vh;
     transition: all .5s;
+    padding-top: 212px;
 
     &.open {
         right: 0;/* クリックしたら表示される */  

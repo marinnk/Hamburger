@@ -2,6 +2,8 @@
 @use "../Foundation/mixin" as m;
 
 .l-wrapper {
-        display: grid;
-        grid-template-rows: 217px 1fr 150px;
+        @include m.pc {
+           display: grid;
+           grid-template-rows: 217px 1fr 150px;
+        }
 }

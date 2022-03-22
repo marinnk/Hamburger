@@ -388,9 +388,11 @@ p {
 }
 
 /* グリッドレイアウト試す場所 */
-.l-wrapper {
-  display: grid;
-  grid-template-rows: 217px 1fr 150px;
+@media screen and (min-width: 1280px) {
+  .l-wrapper {
+    display: grid;
+    grid-template-rows: 217px 1fr 150px;
+  }
 }
 
 .l-container {
@@ -492,8 +494,9 @@ p {
   right: -120%;
   /* 最初は隠れてる */
   width: 90%;
-  height: auto;
+  height: 100vh;
   transition: all 0.5s;
+  padding-top: 212px;
 }
 .p-nav.open {
   right: 0;
