@@ -1,5 +1,7 @@
 /* グリッドレイアウト試す場所 */
-/*.l-wrapper {
-    display: grid;
-    grid-template-rows: 80% 20%;
-}*/
+@use "../Foundation/mixin" as m;
+
+.l-wrapper {
+        display: grid;
+        grid-template-rows: 217px 1fr 150px;
+}

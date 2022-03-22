@@ -388,10 +388,11 @@ p {
 }
 
 /* グリッドレイアウト試す場所 */
-/*.l-wrapper {
-    display: grid;
-    grid-template-rows: 80% 20%;
-}*/
+.l-wrapper {
+  display: grid;
+  grid-template-rows: 217px 1fr 150px;
+}
+
 .l-container {
   /* ヘッダー・メインとサイドバーを横並びにする */
 }
@@ -409,11 +410,6 @@ p {
 .l-sidebar {
   width: 100%;
   height: auto;
-}
-@media screen and (min-width: 1280px) {
-  .l-sidebar {
-    width: 20%;
-  }
 }
 
 .l-main {
