@@ -5,20 +5,6 @@
     position: absolute;
     top: 14px;
     right: 16px;
-    z-index: 9999;
-
-    span {
-        position: absolute;
-        left: 14px;
-        height: 3px;
-        
-        &:nth-of-type(1) {
-            top: 18px;
-            left: 18px;
-            transform: translateY(6px) rotate(-45deg);
-        }
-    }
-
 
     @include m.tab {
         top: 18px;

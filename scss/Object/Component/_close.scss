@@ -1,6 +1,11 @@
 @use "../../Foundation/variable" as v;
 
-.c-close span{
+.c-close {
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+
+span{
     display: inline-block;
     position: absolute;
     z-index: 9999;
@@ -16,9 +21,12 @@
         top: 31px;
     }
     &.open:nth-of-type(1) {
-        transform: rotate(40deg);
+        top: 10px;
+        transform: translateY(20px)rotate(40deg);
     }
     &.open:nth-of-type(2) {
-        transform: rotate(-40deg);
+        top: 50px;
+        transform: translateY(-20px)rotate(-40deg);
     }
+}
 }
