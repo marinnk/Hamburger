@@ -9,3 +9,28 @@
     width: 30%;
     border-radius: 10px;
 }
+
+.c-button--headermenu {
+    margin: 0;
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    @include m.tab {
+        top: 18px;
+        right: 26px;
+    }
+    @include m.pc {
+        display: none;
+    }   
+}
+.c-button--sidemenu {
+    display: none;
+
+    @include m.pc {
+        display: block;
+    }
+}

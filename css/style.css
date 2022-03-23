@@ -512,6 +512,36 @@ p {
   border-radius: 10px;
 }
 
+.c-button--headermenu {
+  margin: 0;
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 960px) {
+  .c-button--headermenu {
+    top: 18px;
+    right: 26px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .c-button--headermenu {
+    display: none;
+  }
+}
+
+.c-button--sidemenu {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .c-button--sidemenu {
+    display: block;
+  }
+}
+
 .c-header__logo {
   width: 203px;
   margin: auto;
@@ -524,37 +554,14 @@ p {
   }
 }
 
-.c-menu--header {
-  margin: 0;
-  position: absolute;
-  top: 14px;
-  right: 16px;
-}
-@media screen and (min-width: 960px) {
-  .c-menu--header {
-    top: 18px;
-    right: 26px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .c-menu--header {
-    display: none;
-  }
-}
-
-.c-menu--sidebar {
-  display: none;
-}
-@media screen and (min-width: 1280px) {
-  .c-menu--sidebar {
-    display: block;
-  }
-}
-
 .c-close {
   width: 50px;
   height: 50px;
   background-color: #000;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
 }
 .c-close span {
   display: inline-block;
