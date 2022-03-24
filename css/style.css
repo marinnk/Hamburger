@@ -494,7 +494,7 @@ p {
   right: -120%;
   /* 最初は隠れてる */
   width: 90%;
-  height: 100vh;
+  height: 338vh;
   transition: all 0.5s;
   padding-top: 212px;
 }
@@ -668,12 +668,12 @@ p {
   background-color: #000;
   width: 0;
   height: 0;
-  opacity: 0.8;
+  opacity: 0;
 }
 .c-transparent-background--nav.open {
   width: 100%;
   height: 100vh;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .u-margin {
