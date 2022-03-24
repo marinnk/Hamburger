@@ -563,17 +563,13 @@ p {
   position: absolute;
   top: 5px;
   right: 23px;
-  /* buttonタグのスタイル無くすため */
   cursor: pointer;
+  display: none;
+  /* buttonタグのスタイル無くすため */
   border: none;
   background: none;
-  display: none;
-}
-.c-close.open {
-  display: block;
 }
 .c-close span {
-  display: inline-block;
   position: absolute;
   z-index: 9999;
   right: 10px;
@@ -581,17 +577,14 @@ p {
   background-color: #707070;
   width: 30px;
 }
-.c-close span:nth-of-type(1) {
-  top: 15px;
+.c-close.open {
+  display: block;
 }
-.c-close span:nth-of-type(2) {
-  top: 31px;
-}
-.c-close span.open:nth-of-type(1) {
+.c-close.open span:nth-of-type(1) {
   top: 10px;
   transform: translateY(20px) rotate(40deg);
 }
-.c-close span.open:nth-of-type(2) {
+.c-close.open span:nth-of-type(2) {
   top: 50px;
   transform: translateY(-20px) rotate(-40deg);
 }

@@ -5,7 +5,7 @@ $(".c-button--headermenu").click(function() {
     $(".c-close>span").toggleClass("open");
 })
 $(".c-close").click(function() {
-    $(this).removeClass("open");
+    $(".c-close").removeClass("open");
     $(".p-nav").removeClass("open");
 })
 });
