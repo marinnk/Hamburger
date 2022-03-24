@@ -2,6 +2,7 @@ $(function() {
 $(".c-button--headermenu").click(function() {
     $(".c-close").toggleClass("open");
     $(".p-nav").toggleClass("open");
+    $(".c-close>span").toggleClass("open");
 })
 $(".c-close").click(function() {
     $(this).removeClass("open");

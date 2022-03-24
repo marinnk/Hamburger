@@ -28,6 +28,9 @@
     }   
 }
 .c-button--sidemenu {
+    background: none;
+    border: none;
+    cursor: pointer;
     display: none;
 
     @include m.pc {

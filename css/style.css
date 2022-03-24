@@ -534,6 +534,9 @@ p {
 }
 
 .c-button--sidemenu {
+  background: none;
+  border: none;
+  cursor: pointer;
   display: none;
 }
 @media screen and (min-width: 1280px) {
@@ -568,7 +571,6 @@ p {
 }
 .c-close.open {
   display: block;
-  background-color: aliceblue;
 }
 .c-close span {
   display: inline-block;
