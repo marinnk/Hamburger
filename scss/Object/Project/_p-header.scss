@@ -4,5 +4,6 @@
     @include m.pc {
         display: flex;
         justify-content: space-between;
+        grid-area: header;
     }
 }

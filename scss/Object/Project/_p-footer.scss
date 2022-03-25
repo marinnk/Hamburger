@@ -1,9 +1,15 @@
+@use "../../Foundation/mixin" as m;
+
 .p-footer {
     padding-bottom: 30px;
     /* フッターリスト・コピーライトを縦並びに */
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include m.pc {
+        grid-area: footer;
+    }
 
     ul {
         padding: 0;

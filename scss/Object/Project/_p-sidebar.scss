@@ -3,5 +3,6 @@
 .p-sidebar {
     @include m.pc {
         position: relative;
+        grid-area: sidebar;
     }
 }

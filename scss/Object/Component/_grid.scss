@@ -5,5 +5,10 @@
         @include m.pc {
            display: grid;
            grid-template-rows: 217px 1fr 150px;
+           grid-template-columns: 1553px 367px;
+           grid-template-areas: 
+                "header sidebar"
+                "main   sidebar"
+                "fotter fotter";
         }
 }
