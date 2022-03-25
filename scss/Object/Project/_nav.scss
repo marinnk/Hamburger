@@ -14,8 +14,11 @@
         right: 0;/* クリックしたら表示される */  
     }
     @include m.pc {
-        width: auto;
-        height: 100px;
-        padding-top: 212px;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 10px;
+        width: 100%;
+        height: auto;
     }
 }
