@@ -466,8 +466,10 @@ p {
   }
 }
 
-.p-sidebar {
-  position: relative;
+@media screen and (min-width: 1280px) {
+  .p-sidebar {
+    position: relative;
+  }
 }
 
 .p-footer {
@@ -494,6 +496,11 @@ p {
   transition: all 0.5s;
   padding-top: 212px;
 }
+@media screen and (min-width: 960px) {
+  .p-nav {
+    width: 50%;
+  }
+}
 .p-nav.open {
   right: 0;
   /* クリックしたら表示される */
@@ -503,7 +510,7 @@ p {
     position: absolute;
     z-index: 0;
     top: 0;
-    right: 10px;
+    right: 0;
     width: 100%;
     height: auto;
   }

@@ -1,3 +1,7 @@
+@use "../../Foundation/mixin" as m;
+
 .p-sidebar {
-    position: relative;
+    @include m.pc {
+        position: relative;
+    }
 }
