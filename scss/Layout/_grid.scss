@@ -1,7 +1,7 @@
 /* グリッドレイアウト試す場所 */
 @use "../Foundation/mixin" as m;
 
-.l-wrapper {
+.c-grid {
         @include m.pc {
            display: grid;
            grid-template-rows: 217px 1fr 150px;

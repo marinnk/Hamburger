@@ -502,6 +502,13 @@ p {
   right: 0;
   /* クリックしたら表示される */
 }
+@media screen and (min-width: 1280px) {
+  .p-nav {
+    width: auto;
+    height: 100px;
+    padding-top: 212px;
+  }
+}
 
 .c-button--search {
   background-color: #F2EDE9;

@@ -5,7 +5,6 @@
 @use "Foundation/mixin";
 
 //layouts
-@use "Layout/wrapper";
 @use "Layout/container";
 @use "Layout/header";
 @use "Layout/sidebar";
@@ -22,6 +21,7 @@
 
 //Component
 @use "Object/Component/button";
+@use "Object/Component/grid";
 @use "Object/Component/header-logo";
 @use "Object/Component/close";
 @use "Object/Component/background-color";

@@ -1,3 +1,5 @@
+@use "../../Foundation/mixin" as m;
+
 .p-nav { /* ナビ */
     position: absolute;
     z-index: 999;
@@ -10,5 +12,10 @@
 
     &.open {
         right: 0;/* クリックしたら表示される */  
+    }
+    @include m.pc {
+        width: auto;
+        height: 100px;
+        padding-top: 212px;
     }
 }
