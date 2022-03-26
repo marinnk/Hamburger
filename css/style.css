@@ -532,6 +532,7 @@ p {
   border-radius: 10px;
 }
 
+/* menuボタン */
 .c-button--headermenu {
   margin: 0;
   position: absolute;
@@ -565,6 +566,39 @@ p {
   }
 }
 
+/* ×ボタン */
+.c-button--close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  right: 23px;
+  cursor: pointer;
+  display: none;
+  /* buttonタグのスタイル無くすため */
+  border: none;
+  background: none;
+}
+.c-button--close span {
+  position: absolute;
+  z-index: 9999;
+  right: 10px;
+  height: 3px;
+  background-color: #707070;
+  width: 30px;
+}
+.c-button--close.open {
+  display: block;
+}
+.c-button--close.open span:nth-of-type(1) {
+  top: 10px;
+  transform: translateY(20px) rotate(40deg);
+}
+.c-button--close.open span:nth-of-type(2) {
+  top: 50px;
+  transform: translateY(-20px) rotate(-40deg);
+}
+
 /* グリッドレイアウト試す場所 */
 @media screen and (min-width: 1280px) {
   .c-grid {
@@ -585,38 +619,6 @@ p {
     padding: 0;
     margin-left: 31px;
   }
-}
-
-.c-close {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 5px;
-  right: 23px;
-  cursor: pointer;
-  display: none;
-  /* buttonタグのスタイル無くすため */
-  border: none;
-  background: none;
-}
-.c-close span {
-  position: absolute;
-  z-index: 9999;
-  right: 10px;
-  height: 3px;
-  background-color: #707070;
-  width: 30px;
-}
-.c-close.open {
-  display: block;
-}
-.c-close.open span:nth-of-type(1) {
-  top: 10px;
-  transform: translateY(20px) rotate(40deg);
-}
-.c-close.open span:nth-of-type(2) {
-  top: 50px;
-  transform: translateY(-20px) rotate(-40deg);
 }
 
 .c-background-color--header {
