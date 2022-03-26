@@ -10,4 +10,9 @@ $(".c-close").click(function() {
     $(".p-nav").removeClass("open");
     $(".c-transparent-background--nav").removeClass("open");
 })
+$(".c-transparent-background--nav").click(function() {
+    $(this).removeClass("open");
+    $(".p-nav").removeClass("open");
+    $(".c-close").removeClass("open");
+})
 });
