@@ -387,18 +387,31 @@ p {
   margin: 0;
 }
 
-.l-container {
-  /* ヘッダー・メインとサイドバーを横並びにする */
-}
-@media screen and (min-width: 1280px) {
-  .l-container {
-    width: 100%;
-    display: flex;
-  }
-}
-
+/*
+.l-container { 
+    @include m.pc {
+        width: 100%;
+        display: flex;
+    }
+}*/
 .l-header {
   position: relative;
+}
+
+.header {
+  background-color: aquamarine;
+}
+
+.main {
+  background-color: yellowgreen;
+}
+
+.sidebar {
+  background-color: gold;
+}
+
+.footer {
+  background-color: palegoldenrod;
 }
 
 .l-sidebar {
@@ -408,18 +421,11 @@ p {
 
 .l-main {
   background-color: pink;
-  height: 2200px;
-}
-@media screen and (min-width: 1280px) {
-  .l-main {
-    height: 2000px;
-  }
+  height: 200px;
 }
 
 .l-footer {
   background-color: #9D8670;
-  height: auto;
-  width: 100%;
 }
 
 .p-search {
@@ -463,14 +469,12 @@ p {
   .p-header {
     display: flex;
     justify-content: space-between;
-    grid-area: header;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .p-sidebar {
     position: relative;
-    grid-area: sidebar;
   }
 }
 
@@ -480,11 +484,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-@media screen and (min-width: 1280px) {
-  .p-footer {
-    grid-area: footer;
-  }
 }
 .p-footer ul {
   padding: 0;
@@ -645,13 +644,42 @@ p {
     }
 }*/
 /* グリッドレイアウト試す場所 */
-@media screen and (min-width: 1280px) {
-  .c-grid {
-    display: grid;
-    grid-template-rows: 217px 1fr 150px;
-    grid-template-columns: 1553px 367px;
-    grid-template-areas: "header sidebar" "main   sidebar" "fotter fotter";
-  }
+.c-grid {
+  display: grid;
+  grid-template-rows: 217px 1fr 150px;
+  grid-template-columns: 1fr 367px;
+  grid-template-areas: "header side  " "main   side  " "footer footer";
+}
+.c-grid .l-header {
+  grid-area: header;
+}
+.c-grid .l-main {
+  grid-area: main;
+}
+.c-grid .l-sidebar {
+  grid-area: side;
+}
+.c-grid .l-footer {
+  grid-area: footer;
+}
+
+.c-grid-2 {
+  display: grid;
+  grid-template-rows: 217px 1fr 150px;
+  grid-template-columns: 1fr 160px;
+  grid-template-areas: "header side  " "main   side  " "footer footer";
+}
+.c-grid-2 .header {
+  grid-area: header;
+}
+.c-grid-2 .main {
+  grid-area: main;
+}
+.c-grid-2 .sidebar {
+  grid-area: side;
+}
+.c-grid-2 .footer {
+  grid-area: footer;
 }
 
 .c-header__logo {
