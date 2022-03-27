@@ -496,12 +496,12 @@ p {
   position: absolute;
   z-index: 999;
   top: 0;
-  right: -120%;
-  /* 最初は隠れてる */
+  right: 0;
   width: 90%;
   height: 338vh;
-  transition: all 0.5s;
   padding-top: 212px;
+  transition: all 0.5s;
+  display: none;
 }
 @media screen and (min-width: 960px) {
   .p-nav {
@@ -509,7 +509,7 @@ p {
   }
 }
 .p-nav.open {
-  right: 0;
+  display: block;
   /* クリックしたら表示される */
 }
 @media screen and (min-width: 1280px) {
