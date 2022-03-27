@@ -10,20 +10,6 @@
                 "header side  "
                 "main   side  "
                 "footer footer";
-           
-                .l-header {
-                        grid-area: header;
-                }     
-                .l-main {
-                        grid-area: main;
-                } 
-                .l-sidebar {
-                        grid-area: side;
-                } 
-                .l-footer {
-                        grid-area: footer;
-                } 
-        
 }
 
 .c-grid-2 {
