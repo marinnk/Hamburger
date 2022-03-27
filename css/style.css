@@ -473,19 +473,6 @@ p {
 
 .p-nav {
   /* ナビ */
-  position: absolute;
-  z-index: 999;
-  top: 0;
-  right: 0;
-  width: 90%;
-  height: 338vh;
-  padding-top: 212px;
-  transition: all 0.5s;
-}
-@media screen and (min-width: 960px) {
-  .p-nav {
-    width: 50%;
-  }
 }
 .p-nav.open {
   display: block;
@@ -624,13 +611,11 @@ p {
     }
 }*/
 /* グリッドレイアウト試す場所 */
-@media screen and (min-width: 1280px) {
-  .c-grid {
-    display: grid;
-    grid-template-rows: 217px 1fr 150px;
-    grid-template-columns: 1fr 367px;
-    grid-template-areas: "header side  " "main   side  " "footer footer";
-  }
+.c-grid {
+  display: grid;
+  grid-template-rows: 217px 1fr 150px;
+  grid-template-columns: 1fr 367px;
+  grid-template-areas: "header side  " "main   side  " "footer footer";
 }
 
 .c-header__logo {

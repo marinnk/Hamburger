@@ -1,18 +1,6 @@
 @use "../../Foundation/mixin" as m;
 
 .p-nav { /* ナビ */
-    position: absolute;
-    z-index: 999;
-    top: 0;
-    right: 0;
-    width: 90%;
-    height: 338vh;
-    padding-top: 212px;
-    transition: all .5s;
-
-    @include m.tab {
-        width: 50%;
-    }
 
     &.open {
         display: block;/* クリックしたら表示される */  
