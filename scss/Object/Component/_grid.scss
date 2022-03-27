@@ -2,37 +2,13 @@
 @use "../../Foundation/mixin" as m;
 
 .c-grid {
-        
-           display: grid;
-           grid-template-rows: 217px 1fr 150px;
-           grid-template-columns: 1fr 367px;
-           grid-template-areas: 
+        @include m.pc {
+                display: grid;
+                grid-template-rows: 217px 1fr 150px;
+                grid-template-columns: 1fr 367px;
+                grid-template-areas: 
                 "header side  "
                 "main   side  "
                 "footer footer";
-}
-
-.c-grid-2 {
-                display: grid;
-                grid-template-rows: 217px 1fr 150px;
-                grid-template-columns: 1fr 160px;
-                grid-template-areas: 
-                        "header side  "
-                        "main   side  "
-                        "footer footer";
-                
-                .header {
-                        grid-area: header;
-                }
-                .main {
-                        grid-area: main;
-                }
-                .sidebar {
-                        grid-area: side;
-                }
-                .footer {
-                        grid-area: footer;
-                }
-                
-        
+        }  
 }
