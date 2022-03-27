@@ -456,7 +456,6 @@ p {
 @media screen and (min-width: 1280px) {
   .p-sidebar {
     position: relative;
-    background-color: #F2EDE9;
   }
 }
 
@@ -482,7 +481,6 @@ p {
   height: 338vh;
   padding-top: 212px;
   transition: all 0.5s;
-  display: none;
 }
 @media screen and (min-width: 960px) {
   .p-nav {

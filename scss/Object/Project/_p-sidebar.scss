@@ -4,6 +4,5 @@
 .p-sidebar {
     @include m.pc {
         position: relative;
-        background-color: v.$color-beige;
     }
 }
