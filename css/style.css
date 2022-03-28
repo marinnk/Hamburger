@@ -542,17 +542,18 @@ p {
 .p-close {
   /* ボタンの位置や大きさ */
   position: absolute;
+  z-index: 999;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
   width: 48px;
   height: 48px;
-  border: 1px solid #fff;
+  border: none;
+  background-color: transparent;
 }
 
 .p-close__line {
-  /* 三本線・ */
+  /* 三本線・真ん中の線 */
   position: absolute;
   top: 0;
   right: 0;
@@ -560,16 +561,18 @@ p {
   left: 0;
   margin: auto;
   width: 18px;
-  height: 2px;
-  background-color: palevioletred;
+  height: 3px;
+  background-color: #707070;
 }
 .p-close__line::before, .p-close__line::after {
+  /* 三本線・上下の線 */
   content: "";
   position: absolute;
   display: block;
   width: 100%;
   height: 100%;
-  background-color: palevioletred;
+  background-color: #707070;
+  transition: all 0.5s;
 }
 .p-close__line::before {
   top: -10px;
@@ -579,6 +582,7 @@ p {
 }
 .p-close__line.open {
   background-color: transparent;
+  /* openクラスがついたとき、真ん中の線を透明に */
 }
 .p-close__line.open::before {
   top: 0;
