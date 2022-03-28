@@ -540,6 +540,7 @@ p {
 }
 
 .p-close {
+  /* ボタンの位置や大きさ */
   position: absolute;
   top: 0;
   bottom: 0;
@@ -551,6 +552,7 @@ p {
 }
 
 .p-close__line {
+  /* 三本線・ */
   position: absolute;
   top: 0;
   right: 0;
@@ -574,6 +576,17 @@ p {
 }
 .p-close__line::after {
   top: 10px;
+}
+.p-close__line.open {
+  background-color: transparent;
+}
+.p-close__line.open::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.p-close__line.open::after {
+  top: 0;
+  transform: rotate(-45deg);
 }
 
 /*.c-button--close {
