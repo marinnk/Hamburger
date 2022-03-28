@@ -611,11 +611,13 @@ p {
     }
 }*/
 /* グリッドレイアウト試す場所 */
-.c-grid {
-  display: grid;
-  grid-template-rows: 217px 1fr 150px;
-  grid-template-columns: 1fr 367px;
-  grid-template-areas: "header side  " "main   side  " "footer footer";
+@media screen and (min-width: 1280px) {
+  .c-grid {
+    display: grid;
+    grid-template-rows: 217px 1fr 150px;
+    grid-template-columns: 1fr 367px;
+    grid-template-areas: "header side  " "main   side  " "footer footer";
+  }
 }
 
 .c-header__logo {
