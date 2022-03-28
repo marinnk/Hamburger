@@ -589,6 +589,7 @@ p {
 .p-close__line.open::before {
   top: 0;
   transform: rotate(45deg);
+  transition: all 0.5s;
 }
 .p-close__line.open::after {
   top: 0;
