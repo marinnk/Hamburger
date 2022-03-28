@@ -549,7 +549,6 @@ p {
   width: 48px;
   height: 48px;
   border: none;
-  background-color: transparent;
 }
 
 .p-close__line {
@@ -565,7 +564,7 @@ p {
   background-color: #707070;
 }
 .p-close__line::before, .p-close__line::after {
-  /* 三本線・上下の線 */
+  /* 三本線・上下の線共通スタイル */
   content: "";
   position: absolute;
   display: block;
@@ -575,9 +574,11 @@ p {
   transition: all 0.5s;
 }
 .p-close__line::before {
+  /* 上線の位置 */
   top: -10px;
 }
 .p-close__line::after {
+  /* 下線の位置 */
   top: 10px;
 }
 .p-close__line.open {
