@@ -17,12 +17,14 @@ $(".c-transparent-background--nav").click(function() {
     $(".p-close__line, .p-close").removeClass("open");
 })
 
-//三本線を消すため
+//三本線を消すた
+
 $(".c-button--headermenu").click(function() {
     if($(".p-close").hasClass("open")) {
         $(".p-close").css("display", "block");
     }
 })
+/*
 $(".c-transparent-background--nav").click(function() {
     if($(".p-close").hasClass("open") == false) {
         $(".p-close").css("display", "none");
@@ -32,6 +34,10 @@ $(".p-close").click(function() {
     if($(".p-close").hasClass("open") == false) {
         $(".p-close").css("display", "none");
     }
+})*/
+$(".p-close").click(function() {
+    $(".p-close").show();
+
 })
 
 });
