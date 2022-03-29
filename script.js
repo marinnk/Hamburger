@@ -16,23 +16,4 @@ $(".c-transparent-background--nav").click(function() { //透明背景をクリ�
     $(".p-nav").removeClass("open");
     $(".p-close__line, .p-close").removeClass("open");
 })
-
-//三本線を消すた
-
-// $(".c-button--headermenu").click(function() {
-//     if($(".p-close, .p-close__line").hasClass("open")) {
-//         $(".p-close, .p-close__line").css("opacity", 1);
-//     } 
-// })
-
-// $(".c-transparent-background--nav").click(function() {
-//     if($(".p-close, .p-close__line").hasClass("open") == false) {
-//         $(".p-close, .p-close__line").css("opacity", 0);
-//     }
-// })
-// $(".p-close").click(function() {
-//     if($(".p-close, .p-close__line").hasClass("open") == false) {
-//         $(".p-close, .p-close__line").css("opacity", 0);
-//     }
-// })
 });
