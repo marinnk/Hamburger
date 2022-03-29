@@ -53,7 +53,7 @@
     height: 48px;
     border: none;
     background-color: transparent; /* ボタンの背景色を見えなくする */
-    visibility: hidden; /* ボタンの存在を最初は消す */
+    visibility: hidden; /* デフォルトではボタンを見えなくする */
 
     &.open {
         visibility: visible;
