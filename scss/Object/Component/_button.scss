@@ -1,8 +1,11 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
+.c-button { /* 共通ボタンスタイル */
+    cursor: pointer;
+}
+
 .c-button--search {
-    background-color: v.$color-beige;
     border: 1px solid v.$color-gray-dark;
     padding: 12px 0;
     height: 46px;
@@ -17,7 +20,6 @@
     right: 16px;
     background: none;
     border: none;
-    cursor: pointer;
 
     @include m.tab {
         top: 18px;
@@ -30,7 +32,6 @@
 .c-button--sidemenu {
     background: none;
     border: none;
-    cursor: pointer;
     display: none;
 
     @include m.pc {
@@ -41,7 +42,6 @@
 .c-button--close {
     position: relative;
     display: inline-block;
-    cursor: pointer;
 }
 .p-close { /* ボタンの位置や大きさ */
     position: absolute;
@@ -99,40 +99,4 @@
             transform: rotate(-45deg);
         }
     }
-
-    
-    /*.c-button--close {
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: 5px;
-        right: 23px;
-        cursor: pointer;
-        display: none;
-        buttonタグのスタイル無くすため 
-        border: none;
-        background: none;
-    
-        span{
-            position: absolute;
-            z-index: 9999;
-            right: 10px;
-            height: 3px;
-            background-color: v.$color-gray-dark;
-            width: 30px;
-        }
-    
-        &.open {
-            display: block;
-    
-            span:nth-of-type(1) {
-                top: 10px;
-                transform: translateY(20px)rotate(40deg);
-            }
-            span:nth-of-type(2) {
-                top: 50px;
-                transform: translateY(-20px)rotate(-40deg);
-            }
-        }
-    }*/
 }
