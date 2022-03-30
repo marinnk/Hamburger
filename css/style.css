@@ -478,10 +478,14 @@ p {
   top: 0;
   right: -100%;
   transition: all 0.5s;
+  padding: 212px 0 1417px 0;
 }
 .p-nav.open {
   right: 0;
   background-color: #F2EDE9;
+  height: 100vh;
+  width: 90%;
+  overflow: auto;
 }
 @media screen and (min-width: 1280px) {
   .p-nav {
@@ -554,6 +558,7 @@ p {
   width: 48px;
   height: 48px;
   border: none;
+  margin-right: 17px;
   background-color: transparent;
   /* ボタンの背景色を見えなくする */
   visibility: hidden;
@@ -616,7 +621,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: #707070;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .p-close__line::before {
   /* 上線の位置 */
