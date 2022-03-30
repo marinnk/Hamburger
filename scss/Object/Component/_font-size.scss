@@ -1,3 +1,5 @@
+@use "../../Foundation/mixin" as m;
+
 .c-font-size--14 {
     font-size: 1.4rem;
 }
@@ -12,6 +14,7 @@
 
 .c-font-size--34 {
     font-size: 3.4rem;
+    
 }
 
 .c-font-size--40 {
