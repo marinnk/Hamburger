@@ -1,10 +1,16 @@
 @use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 .p-nav { /* ナビ */
-    margin-left: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: -100%;
+    transition: all .5s;
 
     &.open {
-        margin-left: 0;
+        right: 0;
+        background-color: v.$color-beige;
     }
     @include m.pc {
         position: absolute;

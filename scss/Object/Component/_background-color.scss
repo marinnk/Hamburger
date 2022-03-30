@@ -1,9 +1,12 @@
 @use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
 
 .c-background-color--header {
     background-color: v.$header-background-color;
 }
 
 .c-background-color--sidebar {
-    background-color: v.$color-beige;
+    @include m.pc {
+        background-color: v.$color-beige;
+    }
 }

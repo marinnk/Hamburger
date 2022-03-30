@@ -473,10 +473,15 @@ p {
 
 .p-nav {
   /* ナビ */
-  margin-left: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: -100%;
+  transition: all 0.5s;
 }
 .p-nav.open {
-  margin-left: 0;
+  right: 0;
+  background-color: #F2EDE9;
 }
 @media screen and (min-width: 1280px) {
   .p-nav {
@@ -542,7 +547,7 @@ p {
 .p-close {
   /* ボタンの位置や大きさ */
   position: absolute;
-  z-index: 999;
+  z-index: 9999;
   top: 0;
   bottom: 0;
   right: 0;
@@ -660,8 +665,10 @@ p {
   background-color: #FFF7EF;
 }
 
-.c-background-color--sidebar {
-  background-color: #F2EDE9;
+@media screen and (min-width: 1280px) {
+  .c-background-color--sidebar {
+    background-color: #F2EDE9;
+  }
 }
 
 .c-input-box {
