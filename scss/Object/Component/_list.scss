@@ -1,5 +1,11 @@
+@use "../../Foundation/mixin" as m;
+
 .c-list {
     padding-left: 66px;
+
+    @include m.pc {
+        padding-left: 20px;
+    }
 }
 
 .c-list--footer { /* 横並びにするため */

@@ -1,3 +1,9 @@
+@use "../../Foundation/mixin" as m;
+
 .c-title--nav {
     padding-left: 46px;
+
+    @include m.pc {
+        padding-left: 0;
+    }
 }

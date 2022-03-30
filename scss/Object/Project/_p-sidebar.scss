@@ -1,8 +1,9 @@
 @use "../../Foundation/mixin" as m;
-@use "../../Foundation/variable" as v;
 
 .p-sidebar {
     @include m.pc {
         position: relative;
+        padding-left: 46px;
+        padding-top: 82px;
     }
 }
