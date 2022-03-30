@@ -19,6 +19,11 @@
     right: 16px;
     background: none;
     border: none;
+    visibility: none;
+
+    &.open {
+        visibility: hidden;
+    }
 
     @include m.tab {
         top: 18px;

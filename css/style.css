@@ -479,7 +479,7 @@ p {
   z-index: 999;
   top: 0;
   right: -100%;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease-in;
   padding: 212px 0 1417px 0;
 }
 .p-nav.open {
@@ -523,6 +523,10 @@ p {
   right: 16px;
   background: none;
   border: none;
+  visibility: none;
+}
+.c-button--headermenu.open {
+  visibility: hidden;
 }
 @media screen and (min-width: 960px) {
   .c-button--headermenu {
