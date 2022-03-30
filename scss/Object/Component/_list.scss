@@ -1,10 +1,12 @@
 @use "../../Foundation/mixin" as m;
 
-.c-list {
+.c-list--sidebar {
     padding-left: 66px;
 
     @include m.pc {
         padding-left: 20px;
+        margin-bottom: 49px;
+
     }
 }
 
