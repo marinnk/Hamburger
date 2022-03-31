@@ -423,7 +423,7 @@ p {
     min-width: 554px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .p-search {
     margin: 0;
   }
@@ -446,14 +446,14 @@ p {
   left: 12px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .p-header {
     display: flex;
     justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .p-sidebar {
     position: relative;
     padding-left: 46px;
@@ -491,10 +491,10 @@ p {
 }
 @media screen and (min-width: 600px) {
   .p-nav.open {
-    min-width: 30%;
+    min-width: 40%;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .p-nav {
     position: static;
     transition: none;
@@ -534,7 +534,7 @@ p {
     right: 26px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .c-button--headermenu {
     display: none;
   }
@@ -545,7 +545,7 @@ p {
   border: none;
   display: none;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .c-button--sidemenu {
     display: block;
   }
@@ -620,7 +620,7 @@ p {
 }
 
 /* グリッドレイアウト試す場所 */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .c-grid {
     display: grid;
     grid-template-rows: 217px 1fr 150px;
@@ -634,7 +634,7 @@ p {
   margin: auto;
   padding-top: 40px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .c-header__logo {
     padding: 0;
     margin-left: 31px;
@@ -645,7 +645,7 @@ p {
   background-color: #FFF7EF;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .c-background-color--sidebar {
     background-color: #F2EDE9;
   }
@@ -699,7 +699,7 @@ p {
 .c-title--nav {
   padding-left: 46px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .c-title--nav {
     padding-left: 0;
   }
@@ -713,7 +713,7 @@ p {
 .c-list--sidebar {
   padding-left: 66px;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
   .c-list--sidebar {
     padding-left: 20px;
     margin-bottom: 49px;
