@@ -418,7 +418,7 @@ p {
   display: flex;
   /* 検索フォームとボタンを横並びに */
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 600px) {
   .p-search {
     min-width: 554px;
   }
@@ -489,7 +489,7 @@ p {
   min-width: 90%;
   overflow: auto;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 600px) {
   .p-nav.open {
     min-width: 30%;
   }
@@ -528,7 +528,7 @@ p {
 .c-button--headermenu.open {
   visibility: hidden;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 600px) {
   .c-button--headermenu {
     top: 18px;
     right: 26px;
