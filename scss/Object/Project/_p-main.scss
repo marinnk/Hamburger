@@ -1,0 +1,5 @@
+@use "../../Foundation/mixin" as m;
+
+.p-main { /* 見出し〜main下部までの左右の余白 */
+    padding: 0 20px;
+}

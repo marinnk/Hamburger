@@ -455,6 +455,11 @@ p {
   }
 }
 
+.p-main {
+  /* 見出し〜main下部までの左右の余白 */
+  padding: 0 20px;
+}
+
 @media screen and (min-width: 1025px) {
   .p-sidebar {
     position: relative;
@@ -698,6 +703,7 @@ p {
 }
 @media screen and (min-width: 600px) {
   .c-title--main {
+    margin: 0;
     padding: 208px 0;
   }
 }
