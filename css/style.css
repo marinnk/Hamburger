@@ -413,14 +413,11 @@ p {
   /* 検索フォームとボタンを横並びに */
   min-width: 80%;
 }
-@media screen and (min-width: 600px) {
-  .p-search {
-    min-width: 554px;
-  }
-}
 @media screen and (min-width: 1025px) {
   .p-search {
+    min-width: 50%;
     margin: 0;
+    padding-right: 31px;
   }
 }
 

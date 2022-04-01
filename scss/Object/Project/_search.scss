@@ -5,11 +5,9 @@
     display: flex; /* 検索フォームとボタンを横並びに */
     min-width: 80%;
 
-    @include m.tab {
-        min-width: 554px;
-    }
-
     @include m.pc {
+        min-width: 50%;
         margin: 0;
+        padding-right: 31px;
     }
 }
