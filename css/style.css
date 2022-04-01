@@ -408,13 +408,10 @@ p {
 }
 
 .p-search {
-  min-width: 326px;
-  /* 326pxより小さくならないように */
-  max-width: 553px;
-  padding: 38px 24px 40px 31px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   /* 検索フォームとボタンを横並びに */
+  min-width: 80%;
 }
 @media screen and (min-width: 600px) {
   .p-search {
@@ -448,8 +445,11 @@ p {
   position: relative;
   /* menuボタンを右上に配置するため */
   background-color: #FFF7EF;
+  /* ロゴと検索フォームを縦並びに */
   display: flex;
   flex-direction: column;
+  height: 217px;
+  align-items: center;
 }
 @media screen and (min-width: 1025px) {
   .p-header {
@@ -648,9 +648,6 @@ p {
 }
 
 .c-header__logo {
-  width: 203px;
-  margin: auto;
-  padding-top: 40px;
   color: #707070;
   font-size: 4rem;
   font-family: "Roboto";

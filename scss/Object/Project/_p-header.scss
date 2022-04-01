@@ -4,8 +4,11 @@
 .p-header {
     position: relative;  /* menuボタンを右上に配置するため */
     background-color: v.$background-color--header;
+    /* ロゴと検索フォームを縦並びに */
     display: flex;
     flex-direction: column;
+    height: 217px;
+    align-items: center;
 
     @include m.pc {
         flex-direction: row;

@@ -1,11 +1,9 @@
 @use "../../Foundation/mixin" as m;
 
 .p-search {
-    min-width: 326px; /* 326pxより小さくならないように */
-    max-width: 553px;
-    padding: 38px 24px 40px 31px;
-    margin: auto;
+    margin: 0 auto;
     display: flex; /* 検索フォームとボタンを横並びに */
+    min-width: 80%;
 
     @include m.tab {
         min-width: 554px;
