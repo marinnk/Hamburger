@@ -513,12 +513,12 @@ p {
 
 .c-button--search {
   border: 1px solid #707070;
-  padding: 12px 0;
   height: 46px;
   width: 30%;
   border-radius: 10px;
   background-color: #F2EDE9;
   color: #707070;
+  font-size: 1.6rem;
 }
 
 /* menuボタン */

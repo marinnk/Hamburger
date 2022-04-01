@@ -6,12 +6,12 @@
 }
 .c-button--search {
     border: 1px solid v.$color--gray-dark;
-    padding: 12px 0;
     height: 46px;
     width: 30%;
     border-radius: 10px;
     background-color: v.$color--beige;
     color: v.$color--gray-dark;
+    font-size: v.$font-size--16;
 }
 /* menuボタン */
 .c-button--headermenu {
@@ -23,7 +23,7 @@
     border: none;
     visibility: none;
     color: v.$color--gray-dark;
-    font-size: 2rem;
+    font-size: v.$font-size--20;
     font-family: v.$font-family--roboto;
 
     &.open {
@@ -43,7 +43,7 @@
     border: none;
     display: none;
     color: v.$color--gray-dark;
-    font-size: 3.4rem;
+    font-size: v.$font-size--34;
     font-family: v.$font-family--roboto;
 
     @include m.pc {
