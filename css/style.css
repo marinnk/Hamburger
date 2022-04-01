@@ -446,11 +446,14 @@ p {
 
 .p-header {
   position: relative;
+  /* menuボタンを右上に配置するため */
   background-color: #FFF7EF;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 1025px) {
   .p-header {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 }

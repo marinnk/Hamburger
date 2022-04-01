@@ -2,11 +2,13 @@
 @use "../../Foundation/variable" as v;
 
 .p-header {
-    position: relative;
+    position: relative;  /* menuボタンを右上に配置するため */
     background-color: v.$background-color--header;
+    display: flex;
+    flex-direction: column;
 
     @include m.pc {
-        display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
 }
