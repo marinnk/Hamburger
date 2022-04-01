@@ -689,6 +689,12 @@ p {
   }
 }
 
+.c-title--main {
+  color: #fff;
+  font-size: 3.6rem;
+  margin: 0;
+}
+
 .c-border {
   border-right: 2px solid #fff;
   padding-right: 20px;
