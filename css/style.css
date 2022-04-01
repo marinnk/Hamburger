@@ -461,6 +461,7 @@ p {
     position: relative;
     padding-left: 46px;
     padding-top: 82px;
+    background-color: #F2EDE9;
   }
 }
 
@@ -516,6 +517,7 @@ p {
   height: 46px;
   width: 30%;
   border-radius: 10px;
+  background-color: #F2EDE9;
 }
 
 /* menuボタン */
@@ -642,20 +644,6 @@ p {
     padding: 0;
     margin-left: 31px;
   }
-}
-
-.c-background-color--header {
-  background-color: #FFF7EF;
-}
-
-@media screen and (min-width: 1025px) {
-  .c-background-color--sidebar {
-    background-color: #F2EDE9;
-  }
-}
-
-.c-background-color--button {
-  background-color: #F2EDE9;
 }
 
 .c-input-box {
