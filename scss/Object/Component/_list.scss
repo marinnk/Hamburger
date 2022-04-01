@@ -4,6 +4,7 @@
 .c-list--sidebar {
     padding-left: 66px;
     color: v.$color-gray-dark;
+    font-size: 2rem;
 
     @include m.pc {
         padding-left: 20px;
@@ -14,4 +15,5 @@
 
 .c-list--footer { /* 横並びにするため */
     display: flex;
+    font-size: 2rem;
 }

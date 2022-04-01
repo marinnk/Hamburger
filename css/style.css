@@ -531,6 +531,7 @@ p {
   border: none;
   visibility: none;
   color: #707070;
+  font-size: 2rem;
 }
 .c-button--headermenu.open {
   visibility: hidden;
@@ -552,6 +553,7 @@ p {
   border: none;
   display: none;
   color: #707070;
+  font-size: 3.4rem;
 }
 @media screen and (min-width: 1025px) {
   .c-button--sidemenu {
@@ -642,6 +644,7 @@ p {
   margin: auto;
   padding-top: 40px;
   color: #707070;
+  font-size: 4rem;
 }
 @media screen and (min-width: 1025px) {
   .c-header__logo {
@@ -663,26 +666,6 @@ p {
   font-family: "Roboto";
 }
 
-.c-font-size--14 {
-  font-size: 1.4rem;
-}
-
-.c-font-size--20 {
-  font-size: 2rem;
-}
-
-.c-font-size--24 {
-  font-size: 2.4rem;
-}
-
-.c-font-size--34 {
-  font-size: 3.4rem;
-}
-
-.c-font-size--40 {
-  font-size: 4rem;
-}
-
 .c-font-weight--bold {
   font-weight: bold;
 }
@@ -695,8 +678,14 @@ p {
   color: #fff;
 }
 
+.c-text--copyright {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
 .c-title--nav {
   padding-left: 46px;
+  font-size: 2.4rem;
 }
 @media screen and (min-width: 1025px) {
   .c-title--nav {
@@ -712,6 +701,7 @@ p {
 .c-list--sidebar {
   padding-left: 66px;
   color: #707070;
+  font-size: 2rem;
 }
 @media screen and (min-width: 1025px) {
   .c-list--sidebar {
@@ -723,6 +713,7 @@ p {
 .c-list--footer {
   /* 横並びにするため */
   display: flex;
+  font-size: 2rem;
 }
 
 /* 透明背景 */

@@ -23,6 +23,7 @@
     border: none;
     visibility: none;
     color: v.$color-gray-dark;
+    font-size: 2rem;
 
     &.open {
         visibility: hidden;
@@ -41,6 +42,7 @@
     border: none;
     display: none;
     color: v.$color-gray-dark;
+    font-size: 3.4rem;
 
     @include m.pc {
         display: block;
