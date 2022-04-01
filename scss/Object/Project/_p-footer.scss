@@ -1,4 +1,4 @@
-@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 .p-footer {
     padding-bottom: 30px;
@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-color: v.$backgraound-color--footer;
 
     ul {
         padding: 0;

@@ -5,13 +5,13 @@
     cursor: pointer;
 }
 .c-button--search {
-    border: 1px solid v.$color-gray-dark;
+    border: 1px solid v.$color--gray-dark;
     padding: 12px 0;
     height: 46px;
     width: 30%;
     border-radius: 10px;
-    background-color: v.$color-beige;
-    color: v.$color-gray-dark;
+    background-color: v.$color--beige;
+    color: v.$color--gray-dark;
 }
 /* menuボタン */
 .c-button--headermenu {
@@ -22,7 +22,7 @@
     background: none;
     border: none;
     visibility: none;
-    color: v.$color-gray-dark;
+    color: v.$color--gray-dark;
     font-size: 2rem;
     font-family: "Roboto";
 
@@ -42,7 +42,7 @@
     background: none;
     border: none;
     display: none;
-    color: v.$color-gray-dark;
+    color: v.$color--gray-dark;
     font-size: 3.4rem;
     font-family: "Roboto";
 
@@ -81,7 +81,7 @@
         margin: auto;
         width: 30px;
         height: 3px;
-        background-color: v.$color-gray-dark;
+        background-color: v.$color--gray-dark;
     
         &::before,&::after { /* 三本線・上下の線共通スタイル */ 
             content: "";
@@ -89,7 +89,7 @@
             display: block;
             width: 100%;
             height: 100%;
-            background-color: v.$color-gray-dark;
+            background-color: v.$color--gray-dark;
             transition: all .3s ease-in;
         }
         &::before { /* 上線の位置 */

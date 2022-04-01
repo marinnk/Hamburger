@@ -3,7 +3,7 @@
 
 .p-header {
     position: relative;
-    background-color: v.$header-background-color;
+    background-color: v.$background-color--header;
 
     @include m.pc {
         display: flex;

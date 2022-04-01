@@ -1,4 +1,6 @@
+@use "../../Foundation/variable" as v;
+
 .c-border {
-    border-right: 2px solid #fff;
+    border-right: 2px solid v.$color--white;
     padding-right: 20px;
 }

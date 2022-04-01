@@ -1,12 +1,15 @@
 //color指定
 /* 全ページで使用 */
-$header-background-color: #FFF7EF; 
-$color-beige: #F2EDE9;
-$footer-backgraound-color: #9D8670;
-$color-white: #FFFFFF;
-$color-gray-dark: #707070; 
-$color-brown: #3C2A10;
-$color-white: #fff;
+$background-color--header: #FFF7EF; 
+$backgraound-color--footer: #9D8670;
+$color--beige: #F2EDE9;
+$color--white: #FFFFFF;
+$color--gray-dark: #707070; 
+$color--brown: #3C2A10;
+$color--white: #fff;
 
 /* archive・archibe-searchで使用 */ 
 $cheeseburger: #3C2B1C;
+
+//font-family
+$font-family--robota: Robota;

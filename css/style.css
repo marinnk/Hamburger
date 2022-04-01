@@ -404,7 +404,6 @@ p {
 }
 
 .l-footer {
-  background-color: #9D8670;
   grid-area: footer;
 }
 
@@ -471,6 +470,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #9D8670;
 }
 .p-footer ul {
   padding: 0;
