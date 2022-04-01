@@ -1,3 +1,8 @@
+@use "../../Foundation/variable" as v;
+
 .c-text--nav {
     margin-bottom: 20px;
+}
+.c-text--footer {
+    color: v.$color-white;
 }

@@ -518,6 +518,7 @@ p {
   width: 30%;
   border-radius: 10px;
   background-color: #F2EDE9;
+  color: #707070;
 }
 
 /* menuボタン */
@@ -529,6 +530,7 @@ p {
   background: none;
   border: none;
   visibility: none;
+  color: #707070;
 }
 .c-button--headermenu.open {
   visibility: hidden;
@@ -549,6 +551,7 @@ p {
   background: none;
   border: none;
   display: none;
+  color: #707070;
 }
 @media screen and (min-width: 1025px) {
   .c-button--sidemenu {
@@ -638,6 +641,7 @@ p {
   width: 203px;
   margin: auto;
   padding-top: 40px;
+  color: #707070;
 }
 @media screen and (min-width: 1025px) {
   .c-header__logo {
@@ -687,6 +691,10 @@ p {
   margin-bottom: 20px;
 }
 
+.c-text--footer {
+  color: #fff;
+}
+
 .c-title--nav {
   padding-left: 46px;
 }
@@ -703,6 +711,7 @@ p {
 
 .c-list--sidebar {
   padding-left: 66px;
+  color: #707070;
 }
 @media screen and (min-width: 1025px) {
   .c-list--sidebar {
@@ -714,14 +723,6 @@ p {
 .c-list--footer {
   /* 横並びにするため */
   display: flex;
-}
-
-.c-letter-color--white {
-  color: #fff;
-}
-
-.c-letter-color--gray {
-  color: #707070;
 }
 
 /* 透明背景 */

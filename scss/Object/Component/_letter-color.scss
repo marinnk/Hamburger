@@ -1,9 +1,0 @@
-@use "../../Foundation/variable" as v;
-
-.c-letter-color--white {
-    color: #fff;
-}
-
-.c-letter-color--gray {
-    color: v.$color-gray-dark;
-}

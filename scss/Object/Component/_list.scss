@@ -1,7 +1,9 @@
 @use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 .c-list--sidebar {
     padding-left: 66px;
+    color: v.$color-gray-dark;
 
     @include m.pc {
         padding-left: 20px;

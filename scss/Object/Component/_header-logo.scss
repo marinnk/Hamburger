@@ -1,9 +1,11 @@
 @use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 .c-header__logo {
     width: 203px;
     margin: auto;
     padding-top: 40px;
+    color: v.$color-gray-dark;
 
     @include m.pc {
         padding: 0;
