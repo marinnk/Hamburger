@@ -668,10 +668,6 @@ p {
   /* 文字の入力位置を虫眼鏡マークの後ろからにする */
 }
 
-.c-font-weight--bold {
-  font-weight: bold;
-}
-
 .c-text--nav {
   margin-bottom: 20px;
 }
