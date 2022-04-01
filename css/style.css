@@ -519,6 +519,7 @@ p {
   background-color: #F2EDE9;
   color: #707070;
   font-size: 1.6rem;
+  font-weight: bold;
 }
 
 /* menuボタン */
@@ -533,6 +534,7 @@ p {
   color: #707070;
   font-size: 2rem;
   font-family: "Roboto";
+  font-weight: bold;
 }
 .c-button--headermenu.open {
   visibility: hidden;
@@ -556,6 +558,7 @@ p {
   color: #707070;
   font-size: 3.4rem;
   font-family: "Roboto";
+  font-weight: bold;
 }
 @media screen and (min-width: 1025px) {
   .c-button--sidemenu {
@@ -685,6 +688,7 @@ p {
 .c-title--nav {
   padding-left: 46px;
   font-size: 2.4rem;
+  font-weight: bold;
 }
 @media screen and (min-width: 1025px) {
   .c-title--nav {

@@ -4,6 +4,7 @@
 .c-title--nav {
     padding-left: 46px;
     font-size: v.$font-size--24;
+    font-weight: v.$font-weight--bold;
 
     @include m.pc {
         padding-left: 0;

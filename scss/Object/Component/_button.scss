@@ -12,6 +12,7 @@
     background-color: v.$color--beige;
     color: v.$color--gray-dark;
     font-size: v.$font-size--16;
+    font-weight: v.$font-weight--bold;
 }
 /* menuボタン */
 .c-button--headermenu {
@@ -25,6 +26,7 @@
     color: v.$color--gray-dark;
     font-size: v.$font-size--20;
     font-family: v.$font-family--roboto;
+    font-weight: v.$font-weight--bold;
 
     &.open {
         visibility: hidden;
@@ -45,6 +47,7 @@
     color: v.$color--gray-dark;
     font-size: v.$font-size--34;
     font-family: v.$font-family--roboto;
+    font-weight: v.$font-weight--bold;
 
     @include m.pc {
         display: block;
