@@ -388,7 +388,6 @@ p {
 }
 
 .l-header {
-  position: relative;
   grid-area: header;
 }
 
@@ -446,6 +445,10 @@ p {
   left: 12px;
 }
 
+.p-header {
+  position: relative;
+  background-color: #FFF7EF;
+}
 @media screen and (min-width: 1025px) {
   .p-header {
     display: flex;
