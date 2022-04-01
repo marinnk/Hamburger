@@ -13,5 +13,7 @@
 .c-title--main {
     color: v.$color--white;
     font-size: v.$font-size--36;
-    margin: 0;
+    margin: 0 auto;
+    width: 310px;
+    padding: 90px 0;
 }
