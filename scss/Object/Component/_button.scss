@@ -24,7 +24,7 @@
     visibility: none;
     color: v.$color--gray-dark;
     font-size: 2rem;
-    font-family: "Roboto";
+    font-family: v.$font-family--roboto;
 
     &.open {
         visibility: hidden;
@@ -44,7 +44,7 @@
     display: none;
     color: v.$color--gray-dark;
     font-size: 3.4rem;
-    font-family: "Roboto";
+    font-family: v.$font-family--roboto;
 
     @include m.pc {
         display: block;
