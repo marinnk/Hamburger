@@ -1,7 +1,13 @@
+@use "../../Foundation/mixin" as m;
+
 .c-mainvisual {
     background-image: url(../../../img/page/main-visual.png);
     background-position: center;
-    height: 224px;
-    width: 100%;
+    min-height: 224px;
+    width: auto;
     background-size: cover;
+
+    @include m.tab {
+        min-height: 500px;
+    }
 }

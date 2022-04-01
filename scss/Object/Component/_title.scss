@@ -16,4 +16,8 @@
     margin: 0 auto;
     width: 310px;
     padding: 90px 0;
+
+    @include m.tab {
+        padding: 208px 0;
+    }
 }

@@ -399,7 +399,7 @@ p {
 
 .l-main {
   background-color: pink;
-  height: 200px;
+  height: 2000px;
   grid-area: main;
 }
 
@@ -696,6 +696,11 @@ p {
   width: 310px;
   padding: 90px 0;
 }
+@media screen and (min-width: 600px) {
+  .c-title--main {
+    padding: 208px 0;
+  }
+}
 
 .c-border {
   border-right: 2px solid #fff;
@@ -723,9 +728,14 @@ p {
 .c-mainvisual {
   background-image: url(../../../img/page/main-visual.png);
   background-position: center;
-  height: 224px;
-  width: 100%;
+  min-height: 224px;
+  width: auto;
   background-size: cover;
+}
+@media screen and (min-width: 600px) {
+  .c-mainvisual {
+    min-height: 500px;
+  }
 }
 
 /* 透明背景 */
