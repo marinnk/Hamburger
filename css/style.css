@@ -718,6 +718,10 @@ p {
   font-size: 2rem;
 }
 
+.c-main-visual {
+  background-image: url(../../../img/page/main-visual.png);
+}
+
 /* 透明背景 */
 .c-transparent-background--nav {
   position: fixed;
