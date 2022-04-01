@@ -532,6 +532,7 @@ p {
   visibility: none;
   color: #707070;
   font-size: 2rem;
+  font-family: "Roboto";
 }
 .c-button--headermenu.open {
   visibility: hidden;
@@ -554,6 +555,7 @@ p {
   display: none;
   color: #707070;
   font-size: 3.4rem;
+  font-family: "Roboto";
 }
 @media screen and (min-width: 1025px) {
   .c-button--sidemenu {
@@ -645,6 +647,7 @@ p {
   padding-top: 40px;
   color: #707070;
   font-size: 4rem;
+  font-family: "Roboto";
 }
 @media screen and (min-width: 1025px) {
   .c-header__logo {
@@ -660,10 +663,6 @@ p {
   width: 100%;
   padding-left: 40px;
   /* 文字の入力位置を虫眼鏡マークの後ろからにする */
-}
-
-.c-font-family {
-  font-family: "Roboto";
 }
 
 .c-font-weight--bold {
