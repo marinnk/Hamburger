@@ -531,6 +531,7 @@ p {
 
 .c-content2 {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .c-button {
