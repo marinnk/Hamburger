@@ -15,4 +15,9 @@
 }
 .c-text--source {
     padding: 0 0 30px 20px;
+
+    a {
+        text-decoration: underline;
+        color: v.$color--blue;
+    }    
 }

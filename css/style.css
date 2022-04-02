@@ -704,6 +704,10 @@ p {
 .c-text--source {
   padding: 0 0 30px 20px;
 }
+.c-text--source a {
+  text-decoration: underline;
+  color: #4A6C9B;
+}
 
 .c-title--nav {
   padding-left: 46px;
