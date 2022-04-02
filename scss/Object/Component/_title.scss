@@ -13,12 +13,10 @@
 .c-title--main {
     color: v.$color--white;
     font-size: v.$font-size--36;
-    margin: 0 auto;
-    width: 310px;
+    margin: 0;
     padding: 90px 0;
 
     @include m.tab {
-        margin: 0;
         padding: 208px 0;
 
     }
