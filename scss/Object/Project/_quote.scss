@@ -1,0 +1,5 @@
+@use "../../Foundation/variable" as v;
+
+.p-quote {
+    background-color: v.$color--gray;
+}

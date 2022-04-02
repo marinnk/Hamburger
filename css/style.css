@@ -521,6 +521,10 @@ p {
   }
 }
 
+.p-quote {
+  background-color: #F5F5F5;
+}
+
 .c-button {
   /* 共通ボタンスタイル */
   cursor: pointer;
@@ -685,12 +689,20 @@ p {
 }
 
 .c-text--footer {
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .c-text--copyright {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 1.4rem;
+}
+
+.c-text--quote {
+  padding: 30px 16px 30px 20px;
+}
+
+.c-text--source {
+  padding: 0 0 30px 20px;
 }
 
 .c-title--nav {
@@ -705,7 +717,7 @@ p {
 }
 
 .c-title--mainvisual {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 3.6rem;
   margin: 0;
   padding: 90px 0;
@@ -717,7 +729,7 @@ p {
 }
 
 .c-border {
-  border-right: 2px solid #fff;
+  border-right: 2px solid #FFFFFF;
   padding-right: 20px;
 }
 

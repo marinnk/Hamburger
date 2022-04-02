@@ -6,8 +6,13 @@
 .c-text--footer {
     color: v.$color--white;
 }
-
 .c-text--copyright {
     color: v.$color--white;
     font-size: v.$font-size--14;
+}
+.c-text--quote {
+    padding: 30px 16px 30px 20px;
+}
+.c-text--source {
+    padding: 0 0 30px 20px;
 }
