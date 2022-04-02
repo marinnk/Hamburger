@@ -525,6 +525,14 @@ p {
   background-color: #F5F5F5;
 }
 
+.c-content1 {
+  display: flex;
+}
+
+.c-content2 {
+  display: flex;
+}
+
 .c-button {
   /* 共通ボタンスタイル */
   cursor: pointer;
