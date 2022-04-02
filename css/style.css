@@ -712,7 +712,7 @@ p {
 }
 @media screen and (min-width: 600px) {
   .c-title--main {
-    padding: 208px 0;
+    padding: 208px 0 208px 86px;
   }
 }
 
