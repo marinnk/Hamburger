@@ -533,6 +533,11 @@ p {
 .c-content2 {
   display: flex;
   flex-direction: row-reverse;
+  margin-bottom: 30px;
+}
+
+.p-gallery {
+  margin-bottom: 20px;
 }
 
 .c-button {
@@ -719,8 +724,8 @@ p {
   color: #4A6C9B;
 }
 
-.c-photo {
-  width: 50%;
+.c-text--content {
+  margin-left: 10px;
 }
 
 .c-title--nav {
