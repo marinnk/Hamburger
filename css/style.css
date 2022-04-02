@@ -704,14 +704,14 @@ p {
   }
 }
 
-.c-title--main {
+.c-title--mainvisual {
   color: #fff;
   font-size: 3.6rem;
   margin: 0;
   padding: 90px 0;
 }
 @media screen and (min-width: 600px) {
-  .c-title--main {
+  .c-title--mainvisual {
     padding: 208px 0 208px 86px;
   }
 }
