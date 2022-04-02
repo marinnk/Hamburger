@@ -6,8 +6,10 @@
     min-height: 224px;
     width: auto;
     background-size: cover;
+    text-align: center; /* 文字を真ん中に寄せるため */
 
     @include m.tab {
         min-height: 500px;
+        text-align: left;/* 文字を左寄せにするため */
     }
 }

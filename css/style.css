@@ -745,10 +745,14 @@ p {
   min-height: 224px;
   width: auto;
   background-size: cover;
+  text-align: center;
+  /* 文字を真ん中に寄せるため */
 }
 @media screen and (min-width: 600px) {
   .c-mainvisual {
     min-height: 500px;
+    text-align: left;
+    /* 文字を左寄せにするため */
   }
 }
 
