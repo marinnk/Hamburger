@@ -524,29 +524,6 @@ p {
   background-color: #F5F5F5;
 }
 
-@media screen and (min-width: 600px) {
-  .p-gallerys {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .c-item {
-    width: 49%;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .c-item {
-    width: 32%;
-  }
-}
-
-.p-gallery {
-  margin-bottom: 20px;
-}
-
 .p-gallery1 {
   margin: 60px 0;
 }
@@ -762,18 +739,18 @@ p {
   color: #3C2A10;
 }
 
-.c-photo--size {
+.c-photo {
   width: 80%;
   text-align: center;
-  margin: 30px auto;
+  margin: 30px auto 20px auto;
 }
 @media screen and (min-width: 600px) {
-  .c-photo--size {
+  .c-photo {
     margin: 61px auto 241px auto;
   }
 }
 @media screen and (min-width: 1025px) {
-  .c-photo--size {
+  .c-photo {
     margin-bottom: 60px;
   }
 }

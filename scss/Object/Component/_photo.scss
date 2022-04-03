@@ -1,10 +1,9 @@
 @use "../../Foundation/mixin" as m;
 
-
-.c-photo--size {
+.c-photo {
     width: 80%;
     text-align: center;
-    margin: 30px auto;
+    margin: 30px auto 20px auto;
 
     @include m.tab {
         margin: 61px auto 241px auto;
