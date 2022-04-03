@@ -1,3 +1,11 @@
+.p-gallerys {
+    display: flex;
+    flex-wrap: wrap;
+}
+.c-item {
+    width: 50%;
+}
+
 .p-gallery {
     margin-bottom: 20px;
 }
