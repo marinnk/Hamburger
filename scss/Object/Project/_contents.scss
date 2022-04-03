@@ -4,8 +4,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 60px;
 
     &:nth-child(odd) {/* c-contentの親divから見て、奇数番目のハンバーガーと文章の位置が入れ替わる */
         flex-direction: row-reverse;
+        padding-top: 117px;
     }
 }
