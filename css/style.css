@@ -536,6 +536,11 @@ p {
   flex-direction: row-reverse;
   padding-top: 117px;
 }
+@media screen and (min-width: 1025px) {
+  .c-content:nth-child(odd) {
+    padding-top: 60px;
+  }
+}
 
 @media screen and (min-width: 600px) {
   .p-gallerys {

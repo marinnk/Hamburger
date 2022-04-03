@@ -9,5 +9,9 @@
     &:nth-child(odd) {/* c-contentの親divから見て、奇数番目のハンバーガーと文章の位置が入れ替わる */
         flex-direction: row-reverse;
         padding-top: 117px;
+
+        @include m.pc {
+            padding-top: 60px;
+        }
     }
 }
