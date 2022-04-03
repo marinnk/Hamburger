@@ -552,6 +552,7 @@ p {
 }
 
 .p-item {
+  /* 写真と説明文のところ */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -566,6 +567,9 @@ p {
   .p-item:nth-child(odd) {
     padding-top: 60px;
   }
+}
+.p-item__photo {
+  width: 42%;
 }
 
 .c-button {
@@ -752,14 +756,10 @@ p {
   color: #4A6C9B;
 }
 
-.c-text--content {
+.c-text--item {
   text-indent: 1rem;
   width: 55%;
   color: #3C2A10;
-}
-
-.c-photo {
-  width: 42%;
 }
 
 .c-photo--size {

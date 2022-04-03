@@ -1,6 +1,6 @@
 @use "../../Foundation/mixin" as m;
 
-.p-item {
+.p-item { /* 写真と説明文のところ */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -13,5 +13,9 @@
         @include m.pc {
             padding-top: 60px;
         }
+    }
+
+    &__photo {
+        width: 42%;
     }
 }
