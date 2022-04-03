@@ -779,10 +779,9 @@ p {
 }
 
 .c-mainvisual {
-  background-image: url(../../../img/page/main-visual.png);
+  background-image: url(../../../img//main-visual--page.jpg);
   background-position: center;
   min-height: 224px;
-  width: auto;
   background-size: cover;
   text-align: center;
   /* 文字を真ん中に寄せるため */
