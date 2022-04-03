@@ -522,7 +522,6 @@ p {
 
 .p-quote {
   background-color: #F5F5F5;
-  margin-bottom: 30px;
 }
 
 .c-content {
@@ -555,9 +554,18 @@ p {
     width: 49%;
   }
 }
+@media screen and (min-width: 1025px) {
+  .c-item {
+    width: 32%;
+  }
+}
 
 .p-gallery {
   margin-bottom: 20px;
+}
+
+.p-gallery1 {
+  margin: 60px 0;
 }
 
 .c-button {
@@ -762,6 +770,11 @@ p {
 @media screen and (min-width: 600px) {
   .c-photo--size {
     margin: 61px auto 241px auto;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-photo--size {
+    margin-bottom: 60px;
   }
 }
 

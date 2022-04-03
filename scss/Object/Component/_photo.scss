@@ -11,4 +11,7 @@
     @include m.tab {
         margin: 61px auto 241px auto;
     }
+    @include m.pc {
+        margin-bottom: 60px;
+    }
 }

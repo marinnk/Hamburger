@@ -11,6 +11,9 @@
     @include m.tab {
         width: 49%;
     }
+    @include m.pc {
+        width: 32%;
+    }
 }
 
 .p-gallery {
