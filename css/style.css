@@ -539,14 +539,18 @@ p {
   width: 49%;
 }
 
-.p-gallerys {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+@media screen and (min-width: 600px) {
+  .p-gallerys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
-.c-item {
-  width: 49%;
+@media screen and (min-width: 600px) {
+  .c-item {
+    width: 49%;
+  }
 }
 
 .p-gallery {

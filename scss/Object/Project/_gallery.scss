@@ -1,10 +1,16 @@
+@use "../../Foundation/mixin" as m;
+
 .p-gallerys {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include m.tab {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 .c-item {
-    width: 49%;
+    @include m.tab {
+        width: 49%;
+    }
 }
 
 .p-gallery {
