@@ -535,10 +535,6 @@ p {
   flex-direction: row-reverse;
 }
 
-.c-item--content {
-  width: 49%;
-}
-
 @media screen and (min-width: 600px) {
   .p-gallerys {
     display: flex;
@@ -739,6 +735,15 @@ p {
 .c-text--source a {
   text-decoration: underline;
   color: #4A6C9B;
+}
+
+.c-text--content {
+  text-indent: 1rem;
+  width: 55%;
+}
+
+.c-photo {
+  width: 42%;
 }
 
 .c-photo--size {
