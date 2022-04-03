@@ -544,10 +544,11 @@ p {
 .p-gallerys {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .c-item {
-  width: 50%;
+  width: 49%;
 }
 
 .p-gallery {
