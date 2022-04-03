@@ -728,8 +728,10 @@ p {
   margin-left: 10px;
 }
 
-.c-photo-size {
-  max-width: 80%;
+.c-photo--size {
+  width: 80%;
+  text-align: center;
+  margin: 30px auto;
 }
 
 .c-title--nav {
