@@ -524,23 +524,6 @@ p {
   background-color: #F5F5F5;
 }
 
-.c-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-top: 60px;
-}
-.c-content:nth-child(odd) {
-  /* c-contentの親divから見て、奇数番目のハンバーガーと文章の位置が入れ替わる */
-  flex-direction: row-reverse;
-  padding-top: 117px;
-}
-@media screen and (min-width: 1025px) {
-  .c-content:nth-child(odd) {
-    padding-top: 60px;
-  }
-}
-
 @media screen and (min-width: 600px) {
   .p-gallerys {
     display: flex;
@@ -566,6 +549,23 @@ p {
 
 .p-gallery1 {
   margin: 60px 0;
+}
+
+.p-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+.p-item:nth-child(odd) {
+  /* c-contentの親divから見て、奇数番目のハンバーガーと文章の位置が入れ替わる */
+  flex-direction: row-reverse;
+  padding-top: 117px;
+}
+@media screen and (min-width: 1025px) {
+  .p-item:nth-child(odd) {
+    padding-top: 60px;
+  }
 }
 
 .c-button {
