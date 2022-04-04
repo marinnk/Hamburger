@@ -545,7 +545,8 @@ p {
     padding-top: 60px;
   }
 }
-.p-item__photo {
+
+.c-item__photo {
   width: 42%;
 }
 
