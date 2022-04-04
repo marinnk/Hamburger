@@ -14,6 +14,15 @@
     font-size: v.$font-size--16;
     font-weight: v.$font-weight--bold;
 }
+.c-button--main {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid v.$color--gray-dark;
+    padding:  30px 0;
+    background: linear-gradient(v.$color--beige, v.$color--beige-dark);
+    font-weight: v.$font-weight--bold;
+}
+
 /* menuボタン */
 .c-button--headermenu {
     margin: 0;
