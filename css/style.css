@@ -550,30 +550,12 @@ p {
   }
 }
 
-.c-item__photo {
-  width: 42%;
-}
-
 /* タブレット・PCで横並びにしたときの設定 */
 @media screen and (min-width: 600px) {
-  .p-photos {
+  .p-photo-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-}
-
-.c-photos__item:not(:last-child) {
-  margin-bottom: 20px;
-}
-@media screen and (min-width: 600px) {
-  .c-photos__item {
-    width: 49%;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .c-photos__item {
-    width: 32%;
   }
 }
 
@@ -780,6 +762,22 @@ p {
 @media screen and (min-width: 1025px) {
   .c-photo {
     margin-bottom: 60px;
+  }
+}
+.c-photo--item {
+  width: 42%;
+}
+.c-photo--photo-list:not(:last-child) {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 600px) {
+  .c-photo--photo-list {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-photo--photo-list {
+    width: 32%;
   }
 }
 
