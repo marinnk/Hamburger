@@ -18,11 +18,18 @@
         ol {
             padding-left: 23px;
 
+            @include m.tab {
+                padding-left: 118px;
+            }
+
             &:nth-of-type(even) {
                 padding-left: 40px;
+
+                @include m.tab {
+                    padding-left: 134px;
+                }
             }
         }
-        
     }
 
     &--code {

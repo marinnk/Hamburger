@@ -474,8 +474,18 @@ p {
 .p-main--list ol {
   padding-left: 23px;
 }
+@media screen and (min-width: 600px) {
+  .p-main--list ol {
+    padding-left: 118px;
+  }
+}
 .p-main--list ol:nth-of-type(even) {
   padding-left: 40px;
+}
+@media screen and (min-width: 600px) {
+  .p-main--list ol:nth-of-type(even) {
+    padding-left: 134px;
+  }
 }
 .p-main--code {
   background-color: #F5F5F5;
@@ -848,8 +858,28 @@ p {
 .c-list_type_none ul {
   padding-left: 0;
 }
+@media screen and (min-width: 600px) {
+  .c-list_type_none ul {
+    padding-left: 90px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-list_type_none ul {
+    padding-left: 130px;
+  }
+}
 .c-list_type_none ul:nth-of-type(even) {
   padding-left: 15px;
+}
+@media screen and (min-width: 600px) {
+  .c-list_type_none ul:nth-of-type(even) {
+    padding-left: 108px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-list_type_none ul:nth-of-type(even) {
+    padding-left: 148px;
+  }
 }
 
 .c-mainvisual {

@@ -26,8 +26,22 @@
     ul {
         padding-left: 0;
 
+        @include m.tab {
+            padding-left: 90px;
+        }
+        @include m.pc {
+            padding-left: 130px;
+        }
+
         &:nth-of-type(even) {
             padding-left: 15px;
+
+            @include m.tab {
+                padding-left: 108px;
+            }
+            @include m.pc {
+                padding-left: 148px;
+            }
         }
     }
 }
