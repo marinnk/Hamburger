@@ -583,6 +583,10 @@ p {
   }
 }
 
+.p-table {
+  width: 100%;
+}
+
 .c-button {
   /* 共通ボタンスタイル */
   cursor: pointer;
@@ -775,6 +779,15 @@ p {
 
 .c-cell {
   border: 1px solid #707070;
+  padding: 28px 0;
+}
+.c-cell--heading {
+  font-weight: 100;
+  width: 30%;
+}
+.c-cell--content {
+  width: 70%;
+  padding-left: 30px;
 }
 
 .c-photo {

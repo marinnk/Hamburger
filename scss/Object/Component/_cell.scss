@@ -1,6 +1,16 @@
-@use "../../Foundation/mixin" as m;
 @use "../../Foundation/variable" as v;
 
 .c-cell {
     border: 1px solid v.$color--gray-dark;
+    padding: 28px 0;
+
+    &--heading {
+        font-weight: 100;
+        width: 30%;
+    }
+
+    &--content {
+        width: 70%;
+        padding-left: 30px;
+    }
 }
