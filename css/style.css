@@ -612,6 +612,16 @@ p {
   background: linear-gradient(#F2EDE9, #DED8D3);
   font-weight: bold;
 }
+@media screen and (min-width: 600px) {
+  .c-button--main {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-button--main {
+    width: 50%;
+  }
+}
 
 /* menuボタン */
 .c-button--headermenu {
@@ -787,6 +797,12 @@ p {
   color: #3C2A10;
 }
 
+.c-text--main-bottom {
+  font-weight: bold;
+  margin-top: 30px;
+  padding-bottom: 336px;
+}
+
 .c-cell {
   border: 1px solid #707070;
   padding: 28px 0;
@@ -794,6 +810,13 @@ p {
 .c-cell--heading {
   font-weight: 100;
   width: 30%;
+}
+@media screen and (min-width: 1025px) {
+  .c-cell--heading {
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+  }
 }
 .c-cell--content {
   width: 70%;

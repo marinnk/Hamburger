@@ -21,6 +21,13 @@
     padding:  30px 0;
     background: linear-gradient(v.$color--beige, v.$color--beige-dark);
     font-weight: v.$font-weight--bold;
+
+    @include m.tab {
+        width: 60%;
+    }
+    @include m.pc {
+        width: 50%;
+    }
 }
 
 /* menuボタン */

@@ -1,4 +1,5 @@
 @use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
 
 .c-cell {
     border: 1px solid v.$color--gray-dark;
@@ -7,6 +8,12 @@
     &--heading {
         font-weight: 100;
         width: 30%;
+
+        @include m.pc {
+            width: 50%;
+            text-align: left;
+            padding-left: 30px;
+        }
     }
 
     &--content {
