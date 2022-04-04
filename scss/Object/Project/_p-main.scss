@@ -9,4 +9,12 @@
     @include m.pc {
         padding: 0 100px;
     }
+
+    &__list--numbers {
+        list-style-type: decimal;
+        padding: 0;
+    }
+    &--list { /* 数字付きリスト・数字なしリストの間の余白調節 */
+        margin-bottom: 60px;
+    }
 }

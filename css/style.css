@@ -467,6 +467,13 @@ p {
     padding: 0 100px;
   }
 }
+.p-main__list--numbers {
+  list-style-type: decimal;
+  padding: 0;
+}
+.p-main--list {
+  margin-bottom: 60px;
+}
 
 @media screen and (min-width: 1025px) {
   .p-sidebar {
