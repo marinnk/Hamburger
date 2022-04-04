@@ -379,8 +379,8 @@ a {
   color: #707070;
 }
 
-li {
-  list-style: none;
+ul, ol {
+  list-style-type: none;
 }
 
 p {
@@ -467,12 +467,15 @@ p {
     padding: 0 100px;
   }
 }
-.p-main__list--numbers {
-  list-style-type: decimal;
-  padding: 0;
-}
 .p-main--list {
+  /* 数字付きリスト・数字なしリストの間の余白調節 */
   margin-bottom: 60px;
+}
+.p-main--list ol {
+  padding-left: 23px;
+}
+.p-main--list ol:nth-of-type(even) {
+  padding-left: 40px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -832,6 +835,17 @@ p {
   /* 横並びにするため */
   display: flex;
   font-size: 2rem;
+}
+
+.c-list_type_decimal {
+  list-style-type: decimal;
+}
+
+.c-list_type_none ul {
+  padding-left: 0;
+}
+.c-list_type_none ul:nth-of-type(even) {
+  padding-left: 15px;
 }
 
 .c-mainvisual {
