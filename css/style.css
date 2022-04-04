@@ -773,6 +773,10 @@ p {
   color: #3C2A10;
 }
 
+.c-cell {
+  border: 1px solid #707070;
+}
+
 .c-photo {
   width: 80%;
   text-align: center;
@@ -855,6 +859,9 @@ p {
   list-style-type: decimal;
 }
 
+.c-list_type_none {
+  /* mainのリスト・数字なし部分 */
+}
 .c-list_type_none ul {
   padding-left: 0;
 }
