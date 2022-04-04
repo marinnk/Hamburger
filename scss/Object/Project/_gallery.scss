@@ -1,3 +1,9 @@
-.p-gallery1 {
-    margin: 60px 0;
+@use "../../Foundation/mixin" as m;
+
+.p-gallery {
+    margin: 30px 0;
+
+    @include m.tab {
+        margin: 60px 0;
+    }
 }

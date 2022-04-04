@@ -398,7 +398,6 @@ p {
 }
 
 .l-main {
-  height: 2000px;
   grid-area: main;
 }
 
@@ -524,8 +523,13 @@ p {
   background-color: #F5F5F5;
 }
 
-.p-gallery1 {
-  margin: 60px 0;
+.p-gallery {
+  margin: 30px 0;
+}
+@media screen and (min-width: 600px) {
+  .p-gallery {
+    margin: 60px 0;
+  }
 }
 
 .p-item {
@@ -548,6 +552,29 @@ p {
 
 .c-item__photo {
   width: 42%;
+}
+
+/* タブレット・PCで横並びにしたときの設定 */
+@media screen and (min-width: 600px) {
+  .p-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.c-photos__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 600px) {
+  .c-photos__item {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-photos__item {
+    width: 32%;
+  }
 }
 
 .c-button {

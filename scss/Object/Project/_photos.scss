@@ -1,18 +1,22 @@
 @use "../../Foundation/mixin" as m;
 
+/* タブレット・PCで横並びにしたときの設定 */
 .p-photos {
     @include m.tab {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+}
+.c-photos__item {
 
-    &__item {
-        @include m.tab {
-            width: 49%;
-        }
-        @include m.pc {
-            width: 32%;
-        }
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    @include m.tab {
+        width: 49%;
+    }
+    @include m.pc {
+        width: 32%;
     }
 }
