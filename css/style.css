@@ -869,6 +869,18 @@ p {
 .c-title--front-page {
   color: #FFFFFF;
   margin: 0;
+  font-size: 3.6rem;
+  padding: 120px 0 120px 25px;
+}
+@media screen and (min-width: 600px) {
+  .c-title--front-page {
+    padding-left: 86px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-title--front-page {
+    font-size: 4rem;
+  }
 }
 
 .c-title--page {

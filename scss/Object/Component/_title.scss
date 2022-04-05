@@ -13,6 +13,15 @@
 .c-title--front-page {
     color: v.$color--white;
     margin: 0;
+    font-size: v.$font-size--36;
+    padding: 120px 0 120px 25px;
+
+    @include m.tab {
+        padding-left: 86px;
+    }
+    @include m.pc {
+        font-size: v.$font-size--40;
+    }
 }
 .c-title--page {
     color: v.$color--white;
