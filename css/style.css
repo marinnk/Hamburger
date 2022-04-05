@@ -733,6 +733,13 @@ p {
   transform: rotate(-45deg);
 }
 
+.c-background-image {
+  background-image: url(../../../img/take-out.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 642px;
+}
+
 /* グリッドレイアウト試す場所 */
 @media screen and (min-width: 1025px) {
   .c-grid {
@@ -866,10 +873,13 @@ p {
   }
 }
 
-.c-title--front-page {
+.c-title--mainvisual {
   color: #FFFFFF;
   margin: 0;
   font-size: 3.6rem;
+}
+
+.c-title--front-page {
   padding: 120px 0 120px 25px;
 }
 @media screen and (min-width: 600px) {
@@ -884,9 +894,6 @@ p {
 }
 
 .c-title--page {
-  color: #FFFFFF;
-  font-size: 3.6rem;
-  margin: 0;
   padding: 90px 0;
 }
 @media screen and (min-width: 600px) {

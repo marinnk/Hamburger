@@ -10,10 +10,13 @@
         padding-left: 0;
     }
 }
-.c-title--front-page {
+
+.c-title--mainvisual {
     color: v.$color--white;
     margin: 0;
     font-size: v.$font-size--36;
+}
+.c-title--front-page {
     padding: 120px 0 120px 25px;
 
     @include m.tab {
@@ -24,9 +27,6 @@
     }
 }
 .c-title--page {
-    color: v.$color--white;
-    font-size: v.$font-size--36;
-    margin: 0;
     padding: 90px 0;
 
     @include m.tab {
