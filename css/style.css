@@ -782,7 +782,7 @@ p {
 .c-text--quote {
   padding: 30px 16px 30px 20px;
   background: url(../../../img/quote-left-solid.svg) no-repeat;
-  background-size: 20px;
+  background-size: 25px;
 }
 
 .c-text--source {
