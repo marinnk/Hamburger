@@ -1,6 +1,19 @@
-.c-background-image {
-    background-image: url(../../../img/take-out.jpg);
+@use "../../Foundation/mixin" as m;
+
+.c-background-image { /* 共通スタイル */
     background-position: center;
     background-size: cover;
     min-height: 642px;
+
+    @include m.tab {
+        width: 48%;
+    }
+}
+
+.c-background-image--take-out {
+    background-image: url(../../../img/take-out.jpg);
+}
+
+.c-background-image--eat-in {
+    background-image: url(../../../img/eat-in.jpg);
 }

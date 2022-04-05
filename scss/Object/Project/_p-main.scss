@@ -35,8 +35,17 @@
     &--code {
         background-color: v.$color--gray;
         margin: 30px 0;
-
-       
-    
     }
+}
+
+/* front-page.html あとでクラス名変える */
+.p-flex-box1 {
+    @include m.tab {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.c-background {
+    background-color: v.$color--white;
 }

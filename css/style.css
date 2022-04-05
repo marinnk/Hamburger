@@ -492,6 +492,18 @@ p {
   margin: 30px 0;
 }
 
+/* front-page.html あとでクラス名変える */
+@media screen and (min-width: 600px) {
+  .p-flex-box1 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.c-background {
+  background-color: #FFFFFF;
+}
+
 @media screen and (min-width: 1025px) {
   .p-sidebar {
     position: relative;
@@ -734,10 +746,23 @@ p {
 }
 
 .c-background-image {
-  background-image: url(../../../img/take-out.jpg);
+  /* 共通スタイル */
   background-position: center;
   background-size: cover;
   min-height: 642px;
+}
+@media screen and (min-width: 600px) {
+  .c-background-image {
+    width: 48%;
+  }
+}
+
+.c-background-image--take-out {
+  background-image: url(../../../img/take-out.jpg);
+}
+
+.c-background-image--eat-in {
+  background-image: url(../../../img/eat-in.jpg);
 }
 
 /* グリッドレイアウト試す場所 */
