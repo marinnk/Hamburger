@@ -13,7 +13,52 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
-     <header></header>
+    <div class="c-grid"> 
+        <header class="l-header">
+            <div class="p-header">
+                <h1 class="c-header__logo">Hamburger</h1>
+                <form class="p-search">
+                    <div class="p-search-form">
+                        <input type="search" name="search" class="c-input-box">
+                    </div>
+                    <button type="submit" class="c-button c-button--search">検索</button>
+                </form>
+                <button type="button" class="c-button--menu c-button--headermenu">Menu</button>
+            </div>
+        </header>
+        <aside class="l-sidebar p-sidebar">
+            <button class="p-close c-button c-button--close"><span class="p-close__line"></span></button>
+            <button type="button" class="c-button--menu c-button--sidemenu">Menu</button>
+            <nav class="p-nav">
+                    <p class="c-title--nav"><a href="#">バーガー</a></p>
+                    <ul class="c-list--sidebar">
+                            <li class="c-text--nav"><a href="#">ハンバーガー</a></li>
+                            <li class="c-text--nav"><a href="#">チーズバーガー</a></li>
+                            <li class="c-text--nav"><a href="#">テリヤキバーガー</a></li>
+                            <li class="c-text--nav"><a href="#">アボカドバーガー</a></li>
+                            <li class="c-text--nav"><a href="#">フィッシュバーガー</a></li>
+                            <li class="c-text--nav"><a href="#">ベーコンバーガー</a></li>
+                            <li><a href="#">チキンバーガー</a></li>
+                    </ul>
+                    <p class="c-title--nav"><a href="#">サイド</a></p>
+                    <ul class="c-list--sidebar">
+                            <li class="c-text--nav"><a href="#">ポテト</a></li>
+                            <li class="c-text--nav"><a href="#">サラダ</a></li>
+                            <li class="c-text--nav"><a href="#">ナゲット</a></li>
+                            <li><a href="#">コーン</a></li>
+                    </ul>
+                    <p class="c-title--nav"><a href="#">ドリンク</a></p>
+                    <ul class="c-list--sidebar">
+                            <li class="c-text--nav"><a href="#">コーラ</a></li>
+                            <li class="c-text--nav"><a href="#">ファンタ</a></li>
+                            <li class="c-text--nav"><a href="#">オレンジ</a></li>
+                            <li class="c-text--nav"><a href="#">アップル</a></li>
+                            <li class="c-text--nav"><a href="#">紅茶（Ice/Hot）</a></li>
+                            <li><a href="#">コーヒー（Ice/Hot）</a></li>
+                    </ul>
+            </nav>
+            <div class="c-transparent-background--nav"></div><!-- 透明背景 -->
+        </aside>
     <main class="l-main">
         <div class="c-mainvisual--front-page">
             <h2 class="c-title--mainvisual c-title--front-page">ダミーサイト</h2>
@@ -51,8 +96,17 @@
             <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
         </div>
     </main>
-    <footer>
-
+    <footer class="l-footer">
+        <div class="p-footer">
+            <ul class="c-list--footer">
+                <li class="c-border"><a href="#" class="c-text--footer">ショップ情報</a></li>
+                <li><a href="#" class="c-text--footer u-margin">ヒストリー</a></li>
+            </ul>
+            <p class="c-text--copyright">Copyright: RaiseTech</p>
+        </div>
     </footer>
+</div> 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
