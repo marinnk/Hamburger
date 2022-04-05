@@ -623,6 +623,7 @@ p {
 
 /* menuボタン */
 .c-button--menu {
+  /* menuボタンの共通スタイル */
   color: #707070;
   font-family: "Roboto";
   font-weight: bold;
@@ -865,14 +866,14 @@ p {
   }
 }
 
-.c-title--mainvisual {
+.c-title--page {
   color: #FFFFFF;
   font-size: 3.6rem;
   margin: 0;
   padding: 90px 0;
 }
 @media screen and (min-width: 600px) {
-  .c-title--mainvisual {
+  .c-title--page {
     padding: 208px 0 208px 86px;
   }
 }
@@ -934,7 +935,7 @@ p {
   }
 }
 
-.c-mainvisual {
+.c-mainvisual--page {
   background-image: url(../../../img//main-visual--page.jpg);
   background-position: center;
   min-height: 224px;
@@ -943,7 +944,7 @@ p {
   /* 文字を真ん中に寄せるため */
 }
 @media screen and (min-width: 600px) {
-  .c-mainvisual {
+  .c-mainvisual--page {
     min-height: 500px;
     text-align: left;
     /* 文字を左寄せにするため */
