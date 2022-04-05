@@ -497,11 +497,17 @@ p {
   .p-flex-box1 {
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-flex-box1 {
+    margin-top: 120px;
   }
 }
 
 .c-background {
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 0 10px;
 }
 .c-background--title {
@@ -510,6 +516,10 @@ p {
 }
 .c-background--text {
   padding: 0 14px 23px 10px;
+}
+
+.c-line {
+  border-bottom: 4px solid #FFFFFF;
 }
 
 @media screen and (min-width: 1025px) {
@@ -758,10 +768,17 @@ p {
   background-position: center;
   background-size: cover;
   min-height: 642px;
+  position: relative;
+  /* Take Out・Eat Inの文字を左上に固定させるため */
 }
 @media screen and (min-width: 600px) {
   .c-background-image {
-    width: 48%;
+    width: 47%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-background-image {
+    width: 46%;
   }
 }
 
@@ -939,7 +956,10 @@ p {
   color: #FFFFFF;
   font-size: 4.1rem;
   font-family: "Roboto";
-  padding: 11px 0 0 10px;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  margin: 0;
 }
 
 .c-border {
