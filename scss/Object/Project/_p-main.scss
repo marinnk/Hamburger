@@ -48,4 +48,9 @@
 
 .c-background {
     background-color: v.$color--white;
+    margin: 0 10px;
+
+    &:first-child {
+        margin-top: 297px;
+    }
 }

@@ -502,6 +502,10 @@ p {
 
 .c-background {
   background-color: #FFFFFF;
+  margin: 0 10px;
+}
+.c-background:first-child {
+  margin-top: 297px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -925,6 +929,13 @@ p {
   .c-title--page {
     padding: 208px 0 208px 86px;
   }
+}
+
+.c-title--take-out {
+  color: #FFFFFF;
+  font-size: 4.1rem;
+  font-family: "Roboto";
+  padding: 11px 0 0 10px;
 }
 
 .c-border {
