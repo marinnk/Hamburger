@@ -866,6 +866,11 @@ p {
   }
 }
 
+.c-title--front-page {
+  color: #FFFFFF;
+  margin: 0;
+}
+
 .c-title--page {
   color: #FFFFFF;
   font-size: 3.6rem;
@@ -933,6 +938,13 @@ p {
   .c-list_type_none ul:nth-of-type(even) {
     padding-left: 148px;
   }
+}
+
+.c-mainvisual--front-page {
+  background-image: url(../../../img/main-visual--front-page.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 285px;
 }
 
 .c-mainvisual--page {

@@ -1,5 +1,12 @@
 @use "../../Foundation/mixin" as m;
 
+.c-mainvisual--front-page {
+    background-image: url(../../../img/main-visual--front-page.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 285px;
+}
+
 .c-mainvisual--page {
     background-image: url(../../../img//main-visual--page.jpg);
     background-position: center;
