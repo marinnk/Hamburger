@@ -50,7 +50,12 @@
     background-color: v.$color--white;
     margin: 0 10px;
 
-    &:first-child {
-        margin-top: 297px;
+    &--title {
+        font-size: v.$font-size--22;
+        padding: 19px 0 19px 10px;
     }
+    &--text {
+        padding: 0 14px 23px 10px;
+    }
+
 }
