@@ -23,6 +23,8 @@
 @use "Object/Project/item";
 @use "Object/Project/photo-list";
 @use "Object/Project/table";
+@use "Object/Project/area";
+@use "Object/Project/group";
 
 //Component
 @use "Object/Component/button";
@@ -33,6 +35,7 @@
 @use "Object/Component/text";
 @use "Object/Component/cell";
 @use "Object/Component/photo";
+@use "Object/Component/box";
 @use "Object/Component/title";
 @use "Object/Component/border";
 @use "Object/Component/list";

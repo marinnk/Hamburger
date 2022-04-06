@@ -493,34 +493,6 @@ p {
 }
 
 /* front-page.html あとでクラス名変える */
-.p-flex-box1 {
-  margin-top: 20px;
-}
-@media screen and (min-width: 600px) {
-  .p-flex-box1 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .p-flex-box1 {
-    margin-top: 120px;
-  }
-}
-
-.c-background {
-  background-color: rgba(255, 255, 255, 0.8);
-  margin: 0 10px;
-}
-.c-background--title {
-  font-size: 2.2rem;
-  padding: 19px 0 19px 10px;
-}
-.c-background--text {
-  padding: 0 14px 23px 10px;
-}
-
 .c-line {
   border-bottom: 4px solid #FFFFFF;
   position: absolute;
@@ -528,11 +500,6 @@ p {
   left: 13.5px;
   width: 34px;
   height: 4px;
-}
-
-.p-box {
-  margin-bottom: 10px;
-  margin-top: 297px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -629,6 +596,29 @@ p {
 .p-table {
   width: 100%;
   margin-bottom: 29px;
+}
+
+.p-area {
+  /* Take Out・Eat Inのボックス全体 */
+  margin-top: 20px;
+}
+@media screen and (min-width: 600px) {
+  .p-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-area {
+    margin-top: 120px;
+  }
+}
+
+.p-group {
+  /* Take Out・テキストの箱2つ合わせてたもの */
+  margin-bottom: 10px;
+  margin-top: 297px;
 }
 
 .c-button {
@@ -925,6 +915,19 @@ p {
   .c-photo--photo-list {
     width: 32%;
   }
+}
+
+.c-box {
+  /* Take Out・テキストの箱1つ */
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 10px;
+}
+.c-box--title {
+  font-size: 2.2rem;
+  padding: 19px 0 19px 10px;
+}
+.c-box--text {
+  padding: 0 14px 23px 10px;
 }
 
 .c-title--nav {

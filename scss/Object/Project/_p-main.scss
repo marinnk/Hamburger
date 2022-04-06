@@ -39,34 +39,9 @@
 }
 
 /* front-page.html あとでクラス名変える */
-.p-flex-box1 {
-    margin-top: 20px;
 
-    @include m.tab {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
-    }
 
-    @include m.pc {
-        margin-top: 120px;
-    }
-}
 
-.c-background {
-    background-color: rgba(255, 255, 255, 0.8);
-    margin: 0 10px;
-    
-
-    &--title {
-        font-size: v.$font-size--22;
-        padding: 19px 0 19px 10px;
-    }
-    &--text {
-        padding: 0 14px 23px 10px;
-    }
-
-}
 .c-line {
     border-bottom: 4px solid v.$color--white;
     position: absolute;
@@ -75,7 +50,4 @@
         width: 34px;
         height: 4px;
 }
-.p-box {
-    margin-bottom: 10px;
-    margin-top: 297px;
-}
+
