@@ -520,6 +520,15 @@ p {
 
 .c-line {
   border-bottom: 4px solid #FFFFFF;
+  position: absolute;
+  top: 86px;
+  left: 13.5px;
+  width: 34px;
+  height: 4px;
+}
+
+.p-box {
+  padding-top: 297px;
 }
 
 @media screen and (min-width: 1025px) {
