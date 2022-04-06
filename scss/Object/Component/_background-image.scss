@@ -16,6 +16,8 @@
 
 .c-background-image--take-out {
     background-image: url(../../../img/take-out.jpg);
+    display: flex;
+    align-items: flex-end;
 }
 
 .c-background-image--eat-in {
