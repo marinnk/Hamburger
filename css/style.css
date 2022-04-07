@@ -492,16 +492,6 @@ p {
   margin: 30px 0;
 }
 
-/* front-page.html あとでクラス名変える */
-.c-line {
-  border-bottom: 4px solid #FFFFFF;
-  position: absolute;
-  top: 86px;
-  left: 13.5px;
-  width: 34px;
-  height: 4px;
-}
-
 @media screen and (min-width: 1025px) {
   .p-sidebar {
     position: relative;
@@ -615,7 +605,7 @@ p {
   }
 }
 
-.p-group {
+.p-group--box {
   /* Take Out・テキストの箱2つ合わせてたもの */
   margin-bottom: 10px;
   margin-top: 297px;
@@ -863,6 +853,16 @@ p {
   font-weight: bold;
   margin-top: 30px;
   padding-bottom: 336px;
+}
+
+.c-line {
+  /* Eat InとTake Outの下にある線 */
+  border-bottom: 4px solid #FFFFFF;
+  position: absolute;
+  top: 86px;
+  left: 13.5px;
+  width: 34px;
+  height: 4px;
 }
 
 .c-cell {
