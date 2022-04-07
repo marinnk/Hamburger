@@ -795,6 +795,12 @@ p {
   }
 }
 
+.c-background-image--map {
+  background-image: url(../../../img/map.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 /* グリッドレイアウト試す場所 */
 @media screen and (min-width: 1025px) {
   .c-grid {
@@ -1086,6 +1092,11 @@ p {
   width: 100%;
   height: 100vh;
   opacity: 0.5;
+}
+
+.c-transparent-background--map {
+  background-color: #000;
+  opacity: 0.6;
 }
 
 .u-margin {

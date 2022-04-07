@@ -1,9 +1,12 @@
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
 /* 透明背景 */
 .c-transparent-background--nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: v.$color--black;
     width: 0;
     height: 0;
     opacity: 0;
@@ -13,4 +16,9 @@
         height: 100vh;
         opacity: 0.5;
     }
+}
+
+.c-transparent-background--map {
+    background-color: v.$color--black;
+    opacity: 0.6;
 }
