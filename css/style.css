@@ -796,11 +796,17 @@ p {
 }
 
 .c-background-image--map {
+  /* 地図の画像 */
   background-image: url(../../../img/map.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
   margin-top: 49px;
+}
+@media screen and (min-width: 1025px) {
+  .c-background-image--map {
+    margin-bottom: 0;
+  }
 }
 
 /* グリッドレイアウト試す場所 */
@@ -1119,13 +1125,25 @@ p {
 }
 
 .c-transparent-background--map__big {
-  background-color: rgba(0, 0, 0, 0.6);
+  /* 地図を透明にするため */
+  background-color: rgba(255, 255, 255, 0.6);
+  /* 地図を透過60% */
   padding: 40px 40px 51px 40px;
 }
 @media screen and (min-width: 600px) {
   .c-transparent-background--map__big {
     padding: 40px 29px 42px 42px;
   }
+}
+
+.c-transparent-background--map__small {
+  /* 黒い透明背景 */
+  background-color: rgba(0, 0, 0, 0.29);
+  height: 415px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .u-margin {

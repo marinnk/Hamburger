@@ -18,8 +18,9 @@
     }
 }
 
-.c-transparent-background--map__big {
-    background-color: rgba(0, 0, 0, 0.6); 
+.c-transparent-background--map__big { /* 地図を透明にするため */
+    //background-color: v.$color--black;
+    background-color: rgba(255, 255, 255, 0.6); /* 地図を透過60% */
     padding: 40px 40px 51px 40px;
 
     @include m.tab {
@@ -28,7 +29,11 @@
 
 }
 
-// .c-transparent-background--map__small {
-//     background-color: rgba(0, 0, 0, 0.29);
-//     min-height: 415px;
-// }
+.c-transparent-background--map__small { /* 黒い透明背景 */
+    background-color: rgba(0, 0, 0, 0.29);
+    height: 415px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}

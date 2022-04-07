@@ -34,10 +34,14 @@
     }
 }
 
-.c-background-image--map {
+.c-background-image--map { /* 地図の画像 */
     background-image: url(../../../img/map.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     margin-top: 49px;
+
+    @include m.pc {
+        margin-bottom: 0;
+    }
 }
