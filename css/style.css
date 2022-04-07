@@ -876,6 +876,8 @@ p {
 .c-text--map {
   color: #FFFFFF;
   font-size: 1.4rem;
+  line-height: 2;
+  font-weight: bold;
 }
 
 .c-line {
@@ -891,7 +893,7 @@ p {
 .c-line--map {
   border-bottom: 2px solid #FFFFFF;
   position: absolute;
-  top: 142px;
+  top: 102px;
   width: 75px;
   height: 2px;
 }
@@ -1017,6 +1019,7 @@ p {
   color: #FFFFFF;
   font-size: 3rem;
   padding-bottom: 40px;
+  margin: 0;
 }
 
 .c-border {
@@ -1119,6 +1122,12 @@ p {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 40px 40px 51px 40px;
 }
+@media screen and (min-width: 600px) {
+  .c-transparent-background--map__big {
+    padding: 40px 29px 42px 42px;
+  }
+}
+
 .u-margin {
   margin-left: 20px;
   /* フッター余白調整に使用 */
