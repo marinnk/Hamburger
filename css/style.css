@@ -871,6 +871,11 @@ p {
   padding-bottom: 336px;
 }
 
+.c-text--map {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
+
 .c-line {
   /* Eat InとTake Outの下にある線 */
   border-bottom: 4px solid #FFFFFF;
@@ -996,6 +1001,11 @@ p {
   top: 11px;
   left: 10px;
   margin: 0;
+}
+
+.c-title--map {
+  color: #FFFFFF;
+  font-size: 3rem;
 }
 
 .c-border {
