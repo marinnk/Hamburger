@@ -19,12 +19,14 @@
     background-image: url(../../../img/take-out.jpg);
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
 .c-background-image--eat-in {
     background-image: url(../../../img/eat-in.jpg);
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     margin-top: 20px;
 
     @include m.tab {
