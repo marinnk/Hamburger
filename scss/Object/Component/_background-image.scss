@@ -5,6 +5,7 @@
     background-size: cover;
     min-height: 642px;
     position: relative;/* Take Out・Eat Inの文字を左上に固定させるため */
+    
 
     @include m.tab {
         width: 47%;
@@ -17,9 +18,16 @@
 .c-background-image--take-out {
     background-image: url(../../../img/take-out.jpg);
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
 }
 
 .c-background-image--eat-in {
     background-image: url(../../../img/eat-in.jpg);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    @include m.tab {
+        margin-top: 0;
+    }
 }

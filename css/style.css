@@ -607,7 +607,6 @@ p {
 
 .p-group--box {
   /* Take Out・テキストの箱2つ合わせてたもの */
-  margin-bottom: 10px;
   margin-top: 297px;
 }
 
@@ -778,11 +777,19 @@ p {
 .c-background-image--take-out {
   background-image: url(../../../img/take-out.jpg);
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
 }
 
 .c-background-image--eat-in {
   background-image: url(../../../img/eat-in.jpg);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+@media screen and (min-width: 600px) {
+  .c-background-image--eat-in {
+    margin-top: 0;
+  }
 }
 
 /* グリッドレイアウト試す場所 */
