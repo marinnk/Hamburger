@@ -799,6 +799,7 @@ p {
   background-image: url(../../../img/map.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 /* グリッドレイアウト試す場所 */
@@ -884,6 +885,12 @@ p {
   left: 13.5px;
   width: 34px;
   height: 4px;
+}
+
+.c-line--map {
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+  top: 102px;
 }
 
 .c-cell {
@@ -1104,9 +1111,14 @@ p {
   opacity: 0.5;
 }
 
-.c-transparent-background--map {
-  background-color: #000;
-  opacity: 0.6;
+.c-transparent-background--map__big {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+.c-transparent-background--map__small {
+  background-color: rgba(0, 0, 0, 0.29);
+  min-height: 415px;
 }
 
 .u-margin {
