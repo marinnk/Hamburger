@@ -2,11 +2,13 @@
 
 .p-access {
     background: url(../../../img/map.jpg) no-repeat center / cover;
-    min-height: 691px;
     position: relative;
     
     @include m.tab {
         margin-left: 0;
         margin-right: 0;
     }
+}
+.c-map {
+    opacity: 0.1;
 }
