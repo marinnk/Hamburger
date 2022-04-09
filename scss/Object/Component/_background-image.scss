@@ -1,4 +1,5 @@
 @use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 .c-background-image { /* 共通スタイル */
     background-position: center;
@@ -34,6 +35,14 @@
     }
 }
 
+.c-background-image--map {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 // .c-background-image--map { /* 地図の画像 */
 //     background-image: url(../../../img/map.jpg);
 //     background-size: cover;

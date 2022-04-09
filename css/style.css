@@ -611,6 +611,18 @@ p {
   margin-bottom: 9px;
 }
 
+.p-access {
+  background: url(../../../img/map.jpg) no-repeat center/cover;
+  min-height: 691px;
+  position: relative;
+}
+@media screen and (min-width: 600px) {
+  .p-access {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .c-button {
   /* 共通ボタンスタイル */
   cursor: pointer;
@@ -793,6 +805,15 @@ p {
   .c-background-image--eat-in {
     margin-top: 0;
   }
+}
+
+.c-background-image--map {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 /* グリッドレイアウト試す場所 */
@@ -1106,6 +1127,16 @@ p {
   width: 100%;
   height: 100vh;
   opacity: 0.5;
+}
+
+.c-transparent-background--first {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 60%;
+}
+@media screen and (min-width: 600px) {
+  .c-transparent-background--first {
+    height: 100%;
+  }
 }
 
 .u-margin {

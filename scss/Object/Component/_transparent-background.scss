@@ -17,7 +17,14 @@
         opacity: 0.5;
     }
 }
+.c-transparent-background--first {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 60%;
 
+    @include m.tab {
+        height: 100%;
+    }
+}
 // .c-transparent-background--map__big { /* 地図を透明にするため */
 //     //background-color: v.$color--black;
 //     background-color: rgba(255, 255, 255, 0.6); /* 地図を透過60% */
