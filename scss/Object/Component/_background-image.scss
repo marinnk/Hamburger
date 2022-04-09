@@ -34,15 +34,21 @@
     }
 }
 
-.c-background-image--map { /* 地図の画像 */
-    background-image: url(../../../img/map.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    margin-top: 49px;
-    z-index: 10;
+// .c-background-image--map { /* 地図の画像 */
+//     background-image: url(../../../img/map.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     // position: relative;
+//     margin-top: 49px;
+//     // padding: 40px 40px 51px 40px;
+//     z-index: 10;
 
-    @include m.pc {
-        margin-bottom: 0;
-    }
-}
+//     @include m.tab {
+//     //     padding: 40px 29px 42px 42px;
+//         display: flex;
+//     }
+
+//     @include m.pc {
+//         margin-bottom: 0;
+//     }
+// }
