@@ -2,13 +2,22 @@
 
 .p-access {
     background: url(../../../img/map.jpg) no-repeat center / cover;
-    position: relative;
-    
+    position: relative; //見出し下のborderのため
+    margin-top: 49px;
+
     @include m.tab {
-        margin-left: 0;
-        margin-right: 0;
+        margin-top: 40px;
     }
+    @include m.pc {
+        margin-top: 134px;
+    }
+    
 }
 .c-map {
-    opacity: 0.1;
+    padding: 40px;
+
+    @include m.pc {
+        width: 55%;
+        padding: 83px 0 76px 112px;
+    }
 }

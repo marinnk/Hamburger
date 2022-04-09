@@ -44,8 +44,12 @@
     margin: 0;
 }
 .c-title--map {
-    // color: v.$color--white;
+    color: v.$color--white;
     font-size: v.$font-size--30;
     padding-bottom: 40px;
     margin: 0;
+
+    @include m.pc {
+        padding-bottom: 119px;
+    }
 }

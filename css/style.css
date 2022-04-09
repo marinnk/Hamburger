@@ -614,16 +614,27 @@ p {
 .p-access {
   background: url(../../../img/map.jpg) no-repeat center/cover;
   position: relative;
+  margin-top: 49px;
 }
 @media screen and (min-width: 600px) {
   .p-access {
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-access {
+    margin-top: 134px;
   }
 }
 
 .c-map {
-  opacity: 0.1;
+  padding: 40px;
+}
+@media screen and (min-width: 1025px) {
+  .c-map {
+    width: 55%;
+    padding: 83px 0 76px 112px;
+  }
 }
 
 .c-button {
@@ -881,6 +892,7 @@ p {
 }
 
 .c-text--map {
+  color: #FFFFFF;
   font-size: 1.4rem;
   line-height: 2;
   font-weight: bold;
@@ -902,6 +914,11 @@ p {
   top: 102px;
   width: 75px;
   height: 2px;
+}
+@media screen and (min-width: 1025px) {
+  .c-line--map {
+    top: 189px;
+  }
 }
 
 .c-cell {
@@ -1022,9 +1039,15 @@ p {
 }
 
 .c-title--map {
+  color: #FFFFFF;
   font-size: 3rem;
   padding-bottom: 40px;
   margin: 0;
+}
+@media screen and (min-width: 1025px) {
+  .c-title--map {
+    padding-bottom: 119px;
+  }
 }
 
 .c-border {
@@ -1126,11 +1149,38 @@ p {
 .c-transparent-background {
   /* 透明背景(大) */
   background-color: rgba(0, 0, 0, 0.4);
+  min-height: 692px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+@media screen and (min-width: 600px) {
+  .c-transparent-background {
+    min-height: 415px;
+  }
 }
 
 .c-transparent-background--first {
   /* 透明画像(小) */
   background-color: rgba(0, 0, 0, 0.3);
+  height: 450px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (min-width: 600px) {
+  .c-transparent-background--first {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-transparent-background--first {
+    width: 63%;
+  }
 }
 
 .u-margin {

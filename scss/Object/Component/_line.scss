@@ -15,4 +15,8 @@
     top: 102px;
     width: 75px;
     height: 2px;
+
+    @include m.pc {
+        top: 189px;
+    }
 }
