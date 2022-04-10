@@ -639,6 +639,7 @@ p {
   background: url(../../../img/map.jpg) no-repeat center/cover;
   position: relative;
   margin-top: 49px;
+  z-index: 0;
 }
 @media screen and (min-width: 600px) {
   .p-access {
@@ -1153,7 +1154,7 @@ p {
   right: 0;
   left: 0;
   bottom: 0;
-  z-index: 3;
+  z-index: -2;
 }
 @media screen and (min-width: 600px) {
   .c-transparent-background {
@@ -1169,7 +1170,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 4;
+  z-index: -1;
 }
 @media screen and (min-width: 600px) {
   .c-transparent-background--first {
