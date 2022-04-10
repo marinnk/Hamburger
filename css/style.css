@@ -671,6 +671,18 @@ p {
     padding-bottom: 119px;
   }
 }
+.p-access__line {
+  border-bottom: 2px solid #FFFFFF;
+  position: absolute;
+  top: 102px;
+  width: 75px;
+  height: 2px;
+}
+@media screen and (min-width: 1025px) {
+  .p-access__line {
+    top: 189px;
+  }
+}
 .p-access__text {
   color: #FFFFFF;
   font-size: 1.4rem;
@@ -936,19 +948,6 @@ p {
   left: 13.5px;
   width: 34px;
   height: 4px;
-}
-
-.c-line--map {
-  border-bottom: 2px solid #FFFFFF;
-  position: absolute;
-  top: 102px;
-  width: 75px;
-  height: 2px;
-}
-@media screen and (min-width: 1025px) {
-  .c-line--map {
-    top: 189px;
-  }
 }
 
 .c-cell {

@@ -32,6 +32,17 @@
             padding-bottom: 119px;
         }
     }
+    &__line {
+        border-bottom: 2px solid v.$color--white;
+        position: absolute;
+        top: 102px;
+        width: 75px;
+        height: 2px;
+    
+        @include m.pc {
+            top: 189px;
+        }
+    }
     &__text {
         color: v.$color--white;
         font-size: v.$font-size--14;
