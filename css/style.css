@@ -635,16 +635,6 @@ p {
   margin-bottom: 9px;
 }
 
-.p-group--access {
-  padding: 40px;
-}
-@media screen and (min-width: 1025px) {
-  .p-group--access {
-    width: 55%;
-    padding: 83px 0 76px 112px;
-  }
-}
-
 .p-access {
   background: url(../../../img/map.jpg) no-repeat center/cover;
   position: relative;
@@ -660,6 +650,32 @@ p {
   .p-access {
     margin-top: 134px;
   }
+}
+.p-access__group {
+  padding: 40px;
+}
+@media screen and (min-width: 1025px) {
+  .p-access__group {
+    width: 55%;
+    padding: 83px 0 76px 112px;
+  }
+}
+.p-access__heading {
+  color: #FFFFFF;
+  font-size: 3rem;
+  padding-bottom: 40px;
+  margin: 0;
+}
+@media screen and (min-width: 1025px) {
+  .p-access__heading {
+    padding-bottom: 119px;
+  }
+}
+.p-access__text {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  line-height: 2;
+  font-weight: bold;
 }
 
 .p-close {
@@ -912,13 +928,6 @@ p {
   padding-bottom: 336px;
 }
 
-.c-text--map {
-  color: #FFFFFF;
-  font-size: 1.4rem;
-  line-height: 2;
-  font-weight: bold;
-}
-
 .c-line {
   /* Eat InとTake Outの下にある線 */
   border-bottom: 4px solid #FFFFFF;
@@ -1046,18 +1055,6 @@ p {
   top: 11px;
   left: 10px;
   margin: 0;
-}
-
-.c-title--map {
-  color: #FFFFFF;
-  font-size: 3rem;
-  padding-bottom: 40px;
-  margin: 0;
-}
-@media screen and (min-width: 1025px) {
-  .c-title--map {
-    padding-bottom: 119px;
-  }
 }
 
 .c-border {

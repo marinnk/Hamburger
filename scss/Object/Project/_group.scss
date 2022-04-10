@@ -1,15 +1,5 @@
-@use "../../Foundation/mixin" as m;
-
 .p-group--box { /* Take Out・テキストの箱2つ合わせてたもの */
         margin-top: 297px;
         margin-bottom: 9px;
 }
 
-.p-group--access {
-        padding: 40px;
-    
-        @include m.pc {
-            width: 55%;
-            padding: 83px 0 76px 112px;
-        }
-    }
