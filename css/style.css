@@ -542,6 +542,16 @@ p {
     padding-top: 86px;
   }
 }
+.p-nav__menu {
+  padding-left: 46px;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+@media screen and (min-width: 1025px) {
+  .p-nav__menu {
+    padding-left: 0;
+  }
+}
 .p-nav__menu-list {
   padding-left: 66px;
   color: #707070;
@@ -551,16 +561,6 @@ p {
   .p-nav__menu-list {
     padding-left: 20px;
     margin-bottom: 49px;
-  }
-}
-.p-nav__menu {
-  padding-left: 46px;
-  font-size: 2.4rem;
-  font-weight: bold;
-}
-@media screen and (min-width: 1025px) {
-  .p-nav__menu {
-    padding-left: 0;
   }
 }
 .p-nav__menu-item {
@@ -661,6 +661,68 @@ p {
   }
 }
 
+.p-close {
+  /* ボタンの位置や大きさ */
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  border: none;
+  margin-right: 17px;
+  background-color: transparent;
+  /* ボタンの背景色を見えなくする */
+  visibility: hidden;
+  /* デフォルトではボタンを見えなくする */
+}
+.p-close.open {
+  visibility: visible;
+}
+.p-close__line {
+  /* 三本線・真ん中の線 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 30px;
+  height: 3px;
+  background-color: #707070;
+}
+.p-close__line::before, .p-close__line::after {
+  /* 三本線・上下の線共通スタイル */
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #707070;
+  transition: all 0.3s ease-in;
+}
+.p-close__line::before {
+  /* 上線の位置 */
+  top: -10px;
+}
+.p-close__line::after {
+  /* 下線の位置 */
+  top: 10px;
+}
+.p-close__line.open {
+  background-color: transparent;
+  /* openクラスがついたとき、真ん中の線を透明に */
+}
+.p-close__line.open::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.p-close__line.open::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
 .c-button {
   /* 共通ボタンスタイル */
   cursor: pointer;
@@ -742,68 +804,6 @@ p {
 .c-button--close {
   position: relative;
   display: inline-block;
-}
-
-.p-close {
-  /* ボタンの位置や大きさ */
-  position: absolute;
-  z-index: 9999;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 48px;
-  height: 48px;
-  border: none;
-  margin-right: 17px;
-  background-color: transparent;
-  /* ボタンの背景色を見えなくする */
-  visibility: hidden;
-  /* デフォルトではボタンを見えなくする */
-}
-.p-close.open {
-  visibility: visible;
-}
-.p-close__line {
-  /* 三本線・真ん中の線 */
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 30px;
-  height: 3px;
-  background-color: #707070;
-}
-.p-close__line::before, .p-close__line::after {
-  /* 三本線・上下の線共通スタイル */
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: #707070;
-  transition: all 0.3s ease-in;
-}
-.p-close__line::before {
-  /* 上線の位置 */
-  top: -10px;
-}
-.p-close__line::after {
-  /* 下線の位置 */
-  top: 10px;
-}
-.p-close__line.open {
-  background-color: transparent;
-  /* openクラスがついたとき、真ん中の線を透明に */
-}
-.p-close__line.open::before {
-  top: 0;
-  transform: rotate(45deg);
-}
-.p-close__line.open::after {
-  top: 0;
-  transform: rotate(-45deg);
 }
 
 .c-background-image {
