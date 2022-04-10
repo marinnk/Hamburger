@@ -1153,6 +1153,7 @@ p {
   right: 0;
   left: 0;
   bottom: 0;
+  z-index: 3;
 }
 @media screen and (min-width: 600px) {
   .c-transparent-background {
@@ -1168,6 +1169,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 4;
 }
 @media screen and (min-width: 600px) {
   .c-transparent-background--first {
