@@ -1137,6 +1137,7 @@ p {
   width: 0;
   height: 0;
   opacity: 0;
+  z-index: 3;
 }
 .c-transparent-background--nav.open {
   width: 100%;
