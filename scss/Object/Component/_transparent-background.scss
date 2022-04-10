@@ -19,34 +19,36 @@
     }
 }
 
-.c-transparent-background { /* 透明背景(大) */
-    background-color: rgba(0, 0, 0, 0.4);
-    min-height: 692px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -2;
-    
-    @include m.tab {
-        min-height: 415px;
-    }
-}
-.c-transparent-background--first { /* 透明画像(小) */
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 450px;
-    width: 100%;
+.c-transparent-background--access {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    width: 100%;
 
-    @include m.tab {
-        height: 100%;
+
+    &-first { /* 透明背景(大) */
+        background-color: rgba(0, 0, 0, 0.4);
+        min-height: 692px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -2;
+        
+        @include m.tab {
+            min-height: 415px;
+        }
     }
-    @include m.pc {
-        width: 63%;
+    &-second { /* 透明画像(小) */
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 450px;
+        width: 100%;
+        z-index: -1;
+
+        @include m.tab {
+            height: 100%;
+        }
+        @include m.pc {
+            width: 63%;
+        }
     }
 }

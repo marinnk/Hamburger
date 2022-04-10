@@ -13,11 +13,3 @@
         margin-top: 134px;
     }
 }
-.c-map {
-    padding: 40px;
-
-    @include m.pc {
-        width: 55%;
-        padding: 83px 0 76px 112px;
-    }
-}

@@ -635,6 +635,16 @@ p {
   margin-bottom: 9px;
 }
 
+.p-group--access {
+  padding: 40px;
+}
+@media screen and (min-width: 1025px) {
+  .p-group--access {
+    width: 55%;
+    padding: 83px 0 76px 112px;
+  }
+}
+
 .p-access {
   background: url(../../../img/map.jpg) no-repeat center/cover;
   position: relative;
@@ -649,16 +659,6 @@ p {
 @media screen and (min-width: 1025px) {
   .p-access {
     margin-top: 134px;
-  }
-}
-
-.c-map {
-  padding: 40px;
-}
-@media screen and (min-width: 1025px) {
-  .c-map {
-    width: 55%;
-    padding: 83px 0 76px 112px;
   }
 }
 
@@ -1145,41 +1145,40 @@ p {
   opacity: 0.5;
 }
 
-.c-transparent-background {
+.c-transparent-background--access {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.c-transparent-background--access-first {
   /* 透明背景(大) */
   background-color: rgba(0, 0, 0, 0.4);
   min-height: 692px;
-  width: 100%;
-  position: absolute;
-  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   z-index: -2;
 }
 @media screen and (min-width: 600px) {
-  .c-transparent-background {
+  .c-transparent-background--access-first {
     min-height: 415px;
   }
 }
-
-.c-transparent-background--first {
+.c-transparent-background--access-second {
   /* 透明画像(小) */
   background-color: rgba(0, 0, 0, 0.3);
   height: 450px;
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: -1;
 }
 @media screen and (min-width: 600px) {
-  .c-transparent-background--first {
+  .c-transparent-background--access-second {
     height: 100%;
   }
 }
 @media screen and (min-width: 1025px) {
-  .c-transparent-background--first {
+  .c-transparent-background--access-second {
     width: 63%;
   }
 }
