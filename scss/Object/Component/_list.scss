@@ -1,18 +1,6 @@
 @use "../../Foundation/mixin" as m;
 @use "../../Foundation/variable" as v;
 
-.c-list--sidebar {
-    padding-left: 66px;
-    color: v.$color--gray-dark;
-    font-size: v.$font-size--20;
-
-    @include m.pc {
-        padding-left: 20px;
-        margin-bottom: 49px;
-
-    }
-}
-
 .c-list--footer { /* 横並びにするため */
     display: flex;
     font-size: v.$font-size--20;

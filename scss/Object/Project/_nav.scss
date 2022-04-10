@@ -21,10 +21,33 @@
         }
     }
     
-
     @include m.pc {
         position: static;
         transition: none;
         padding-top: 86px;
+    }
+    
+    &__menu {
+        padding-left: 46px;
+        font-size: v.$font-size--24;
+        font-weight: v.$font-weight--bold;
+    
+        @include m.pc {
+            padding-left: 0;
+        }
+    }
+    &__menu-list {
+        padding-left: 66px;
+        color: v.$color--gray-dark;
+        font-size: v.$font-size--20;
+    
+        @include m.pc {
+            padding-left: 20px;
+            margin-bottom: 49px;
+    
+        }
+    }
+    &__menu-item {
+        margin-bottom: 20px;
     }
 }
