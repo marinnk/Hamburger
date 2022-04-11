@@ -8,6 +8,10 @@
 
     &--archive {
         font-family: v.$font-family--roboto;
+
+        @include m.tab {
+            font-size: v.$font-size--60;
+        }
     }
 }
 .c-title--front-page {

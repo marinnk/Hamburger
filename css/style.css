@@ -1045,6 +1045,11 @@ p {
 .c-title--mainvisual--archive {
   font-family: "Roboto";
 }
+@media screen and (min-width: 600px) {
+  .c-title--mainvisual--archive {
+    font-size: 6rem;
+  }
+}
 
 .c-title--front-page {
   padding: 120px 0 120px 25px;
