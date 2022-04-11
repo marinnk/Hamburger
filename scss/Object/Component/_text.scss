@@ -34,5 +34,9 @@
 .c-text--mainvisual {
     color: v.$color--white;
     font-weight: v.$font-weight--bold;
+
+    @include m.tab {
+        padding: 10px 0 0 20px;
+    }
 }
 

@@ -959,6 +959,11 @@ p {
   color: #FFFFFF;
   font-weight: bold;
 }
+@media screen and (min-width: 600px) {
+  .c-text--mainvisual {
+    padding: 10px 0 0 20px;
+  }
+}
 
 .c-line {
   /* Eat InとTake Outの下にある線 */
@@ -1140,6 +1145,8 @@ p {
   background-image: url(../../../img/archive.jpg);
   background-position: center;
   min-height: 283px;
+  position: relative;
+  z-index: 0;
 }
 
 .c-mainvisual--page {
@@ -1211,6 +1218,18 @@ p {
   .c-transparent-background--access-second {
     width: 63%;
   }
+}
+
+.c-transparent-background--archive {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 283px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .u-margin {
