@@ -1108,6 +1108,12 @@ p {
   min-height: 285px;
 }
 
+.c-mainvisual--archive {
+  background-image: url(../../../img/take-out.jpg);
+  background-position: center left;
+  min-height: 283px;
+}
+
 .c-mainvisual--page {
   background-image: url(../../../img//main-visual--page.jpg);
   background-position: center;
