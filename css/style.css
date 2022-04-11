@@ -635,6 +635,21 @@ p {
   margin-bottom: 9px;
 }
 
+.p-group--mainvisual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 37px;
+}
+@media screen and (min-width: 600px) {
+  .p-group--mainvisual {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 87px;
+  }
+}
+
 .p-access {
   background: url(../../../img/map.jpg) no-repeat center/cover;
   position: relative;
@@ -940,6 +955,11 @@ p {
   padding-bottom: 336px;
 }
 
+.c-text--mainvisual {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
 .c-line {
   /* Eat InとTake Outの下にある線 */
   border-bottom: 4px solid #FFFFFF;
@@ -1021,6 +1041,9 @@ p {
   color: #FFFFFF;
   margin: 0;
   font-size: 3.6rem;
+}
+.c-title--mainvisual--archive {
+  font-family: "Roboto";
 }
 
 .c-title--front-page {
@@ -1109,8 +1132,8 @@ p {
 }
 
 .c-mainvisual--archive {
-  background-image: url(../../../img/take-out.jpg);
-  background-position: center left;
+  background-image: url(../../../img/archive.jpg);
+  background-position: center;
   min-height: 283px;
 }
 

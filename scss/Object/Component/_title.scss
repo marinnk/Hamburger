@@ -5,6 +5,10 @@
     color: v.$color--white;
     margin: 0;
     font-size: v.$font-size--36;
+
+    &--archive {
+        font-family: v.$font-family--roboto;
+    }
 }
 .c-title--front-page {
     padding: 120px 0 120px 25px;

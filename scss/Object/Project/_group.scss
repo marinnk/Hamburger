@@ -1,5 +1,20 @@
+@use "../../Foundation/mixin" as m;
+
 .p-group--box { /* Take Out・テキストの箱2つ合わせてたもの */
         margin-top: 297px;
         margin-bottom: 9px;
 }
 
+.p-group--mainvisual {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 37px;
+
+    @include m.tab {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 87px;
+    }
+}
