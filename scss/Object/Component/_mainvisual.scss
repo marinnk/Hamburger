@@ -1,17 +1,17 @@
 @use "../../Foundation/mixin" as m;
 
-
+.c-mainvisual {
+    background-position: center;
+}
 
 .c-mainvisual--front-page {
     background-image: url(../../../img/main-visual--front-page.jpg);
-    background-position: center;
     background-size: cover;
     min-height: 285px;
 }
 
 .c-mainvisual--archive {
     background-image: url(../../../img/archive.jpg);
-    background-position: center;
     min-height: 283px;
     position: relative;
     z-index: 0;
@@ -19,7 +19,6 @@
 
 .c-mainvisual--page {
     background-image: url(../../../img//main-visual--page.jpg);
-    background-position: center;
     min-height: 224px;
     background-size: cover;
     text-align: center; /* 文字を真ん中に寄せるため */
