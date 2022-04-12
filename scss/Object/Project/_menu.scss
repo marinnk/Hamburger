@@ -1,5 +1,36 @@
 @use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 .p-menu {
+    @include m.tab {
+        display: flex;
+    }
+    &__photo {
 
+        @include m.tab {
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    &__text-box {
+        background-color: v.$cheeseburger;
+        color: v.$color--white;
+        padding: 32px 73px 44px 17px;
+
+        @include m.tab {
+            width: 50%;
+        }
+    }
+    &__title {
+        font-size: v.$font-size--20;
+        margin: 0;
+    }
+    &__heading {
+        margin: 24px 0 10px 0;
+
+    }
+    &__text {
+        margin-bottom: 40px;
+    }
 }
