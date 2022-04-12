@@ -1,15 +1,22 @@
 @use "../../Foundation/mixin" as m;
 
 .p-area {/* Take Out・Eat Inのボックス全体 */
-        margin-top: 20px;
+    margin-top: 20px;
     
-        @include m.tab {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 40px;
-        }
+    @include m.tab {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
     
-        @include m.pc {
-            margin-top: 120px;
-        }
+    @include m.pc {
+        margin-top: 120px;
+    }
+}
+
+.p-area--menu {
+
+    @include m.tab {
+        display: flex;
+    }
 }

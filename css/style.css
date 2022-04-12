@@ -629,6 +629,12 @@ p {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .p-area--menu {
+    display: flex;
+  }
+}
+
 .p-group--box {
   /* Take Out・テキストの箱2つ合わせてたもの */
   margin-top: 297px;
@@ -1091,6 +1097,7 @@ p {
 
 .c-title--heading {
   margin: 30px 0;
+  font-size: 2.8rem;
 }
 
 .c-border {
