@@ -9,7 +9,7 @@
 
         @include m.tab {
             width: 50%;
-            height: auto;
+            min-height: 345px;
         }
     }
 
@@ -20,6 +20,7 @@
 
         @include m.tab {
             width: 50%;
+            padding: 30px 59px 40px 35px;
         }
     }
     &__title {
