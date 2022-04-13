@@ -629,15 +629,6 @@ p {
   }
 }
 
-.p-area--menu {
-  margin: 19px 0 60px 0;
-}
-@media screen and (min-width: 600px) {
-  .p-area--menu {
-    margin: 37px 0 105px 0;
-  }
-}
-
 .p-group--box {
   /* Take Out・テキストの箱2つ合わせてたもの */
   margin-top: 297px;
@@ -776,9 +767,20 @@ p {
   transform: rotate(-45deg);
 }
 
+.p-menu {
+  margin-top: 19px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 @media screen and (min-width: 600px) {
   .p-menu {
-    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 600px) {
+  .p-menu__photo {
+    width: 50%;
   }
 }
 @media screen and (min-width: 600px) {
@@ -788,27 +790,40 @@ p {
     height: 354px;
   }
 }
+@media screen and (min-width: 1025px) {
+  .p-menu__photo img {
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+}
 .p-menu__text-box {
   background-color: #3C2B1C;
   color: #FFFFFF;
-  padding: 32px 73px 44px 17px;
+  padding-left: 17px;
+  padding-top: 32px;
+  padding-bottom: 40px;
 }
 @media screen and (min-width: 600px) {
   .p-menu__text-box {
-    width: 60%;
-    padding: 30px 59px 0 35px;
-    height: 354px;
+    width: 50%;
+    padding-bottom: 0;
   }
 }
 .p-menu__title {
   font-size: 2rem;
   margin: 0;
+  text-align: left;
 }
 .p-menu__heading {
   margin: 24px 0 10px 0;
+  text-align: left;
 }
 .p-menu__text {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  margin-right: 73px;
+  height: 114px;
+  overflow: hidden;
+  text-align: left;
 }
 
 .c-button {
@@ -898,12 +913,11 @@ p {
   background-color: #FFFFFF;
   color: #707070;
   cursor: pointer;
-  width: 50%;
+  min-width: 50%;
   padding: 10px 0;
-  border-radius: 50px;
+  border-radius: 40px;
   font-size: 1.6rem;
   font-weight: bold;
-  margin-left: 80px;
 }
 
 .c-background-image {
