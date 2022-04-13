@@ -629,6 +629,15 @@ p {
   }
 }
 
+.p-area--menu {
+  margin: 19px 0 60px 0;
+}
+@media screen and (min-width: 600px) {
+  .p-area--menu {
+    margin: 37px 0 105px 0;
+  }
+}
+
 .p-group--box {
   /* Take Out・テキストの箱2つ合わせてたもの */
   margin-top: 297px;
