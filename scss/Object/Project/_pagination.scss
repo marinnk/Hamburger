@@ -1,0 +1,11 @@
+.p-pagination {
+    display: flex;
+
+    &__page-number {
+        display: none;
+    }
+
+    &__number {
+        display: none;
+    }
+}

@@ -826,6 +826,16 @@ p {
   text-align: left;
 }
 
+.p-pagination {
+  display: flex;
+}
+.p-pagination__page-number {
+  display: none;
+}
+.p-pagination__number {
+  display: none;
+}
+
 .c-button {
   /* 共通ボタンスタイル */
   cursor: pointer;
