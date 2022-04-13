@@ -773,9 +773,10 @@ p {
   }
 }
 @media screen and (min-width: 600px) {
-  .p-menu__photo {
-    width: 50%;
-    min-height: 345px;
+  .p-menu__photo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 354px;
   }
 }
 .p-menu__text-box {
@@ -785,8 +786,9 @@ p {
 }
 @media screen and (min-width: 600px) {
   .p-menu__text-box {
-    width: 50%;
-    padding: 30px 59px 40px 35px;
+    width: 60%;
+    padding: 30px 59px 0 35px;
+    height: 354px;
   }
 }
 .p-menu__title {

@@ -7,20 +7,23 @@
     }
     &__photo {
 
-        @include m.tab {
-            width: 50%;
-            min-height: 345px;
+        img {
+            @include m.tab {
+                object-fit: cover;
+                height: 354px;
+            }
         }
-    }
 
+    }
     &__text-box {
         background-color: v.$cheeseburger;
         color: v.$color--white;
         padding: 32px 73px 44px 17px;
 
         @include m.tab {
-            width: 50%;
-            padding: 30px 59px 40px 35px;
+            width: 60%;
+            padding: 30px 59px 0 35px;
+            height: 354px;
         }
     }
     &__title {
