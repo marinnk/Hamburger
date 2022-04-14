@@ -1,15 +1,28 @@
 .p-pagination {
     display: flex;
     justify-content: space-between;
-    
+    padding: 0;
+    position: relative;
+    margin: 60px 0 31px 0;
 
-    &__button--front::before {
-        content: "";
-        background: url(../../../img/before.svg);
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        background-repeat: no-repeat;
+    &__button--front {
+        padding-left: 28px;
+
+        &::before {
+            content: "";
+            background: url(../../../img/before.svg);
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 3px;
+            left: 0;
+        }
+    }
+
+    &__button--next {
+        padding-right: 28px;
     }
     &__button--next::after {
         content: "";
@@ -18,6 +31,9 @@
         height: 20px;
         display: inline-block;
         background-repeat: no-repeat;
+        position: absolute;
+        top: 3px;
+        right: 0;
     }
 
     &__page-number {
