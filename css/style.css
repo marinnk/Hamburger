@@ -833,10 +833,14 @@ p {
 .p-pagination__button--front::before {
   content: "";
   background: url(../../../img/before.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
 }
 .p-pagination__button--next::after {
   content: "";
-  background: url(../../../img/before.svg);
+  background: url(../../../img/next.svg);
   width: 20px;
   height: 20px;
   display: inline-block;
