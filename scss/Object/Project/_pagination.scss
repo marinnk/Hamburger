@@ -11,8 +11,6 @@
     @include m.tab {
         align-items: center;
         justify-content: center;
-        margin-left: 122px;
-        margin-right: 113px;
     }
 
     &__button--front {
@@ -63,6 +61,7 @@
             display: block;
             font-family: v.$font-family--roboto;
             color: v.$color--gray-dark;
+            margin-right: 19px;
         }
     }
 
@@ -74,6 +73,7 @@
             font-family: v.$font-family--roboto;
             border: 1px solid v.$color--gray-dark;
             padding: 7px 13px;
+            margin-left: 15px;
         }        
     }
     &__mark {
@@ -83,11 +83,6 @@
             display: block;   
         }
         
-        &--front {
-            @include m.tab {
-                margin-right: 17px;
-            }
-        }
         &--next {
             @include m.tab {
                 margin-left: 17px;

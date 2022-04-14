@@ -837,8 +837,6 @@ p {
   .p-pagination {
     align-items: center;
     justify-content: center;
-    margin-left: 122px;
-    margin-right: 113px;
   }
 }
 .p-pagination__button--front {
@@ -887,6 +885,7 @@ p {
     display: block;
     font-family: "Roboto";
     color: #707070;
+    margin-right: 19px;
   }
 }
 .p-pagination__number {
@@ -898,6 +897,7 @@ p {
     font-family: "Roboto";
     border: 1px solid #707070;
     padding: 7px 13px;
+    margin-left: 15px;
   }
 }
 .p-pagination__mark {
@@ -906,11 +906,6 @@ p {
 @media screen and (min-width: 600px) {
   .p-pagination__mark {
     display: block;
-  }
-}
-@media screen and (min-width: 600px) {
-  .p-pagination__mark--front {
-    margin-right: 17px;
   }
 }
 @media screen and (min-width: 600px) {
