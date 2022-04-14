@@ -1,3 +1,6 @@
+@use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
+
 .p-pagination {
     display: flex;
     justify-content: space-between;
@@ -5,8 +8,17 @@
     position: relative;
     margin: 60px 0 31px 0;
 
+    @include m.tab {
+        align-items: center;
+        justify-content: space-around;
+    }
+
     &__button--front {
         padding-left: 28px;
+
+        @include m.tab {
+            display: none;
+        }
 
         &::before {
             content: "";
@@ -23,24 +35,48 @@
 
     &__button--next {
         padding-right: 28px;
+
+        @include m.tab {
+            display: none;
+        }
+
+        &::after {
+            content: "";
+            background: url(../../../img/next.svg);
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 3px;
+            right: 0;
+        }
     }
-    &__button--next::after {
-        content: "";
-        background: url(../../../img/next.svg);
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 3px;
-        right: 0;
-    }
+   
 
     &__page-number {
         display: none;
+
+        @include m.tab {
+            display: block;
+            font-family: v.$font-family--roboto;
+            color: v.$color--gray-dark;
+        }
     }
 
     &__number {
         display: none;
+
+        @include m.tab {
+            display: block;
+            font-family: v.$font-family--roboto;
+        }        
+    }
+    &__mark {
+        display: none;
+
+        @include m.tab {
+            display: block;
+        }
     }
 }

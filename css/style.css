@@ -833,8 +833,19 @@ p {
   position: relative;
   margin: 60px 0 31px 0;
 }
+@media screen and (min-width: 600px) {
+  .p-pagination {
+    align-items: center;
+    justify-content: space-around;
+  }
+}
 .p-pagination__button--front {
   padding-left: 28px;
+}
+@media screen and (min-width: 600px) {
+  .p-pagination__button--front {
+    display: none;
+  }
 }
 .p-pagination__button--front::before {
   content: "";
@@ -850,6 +861,11 @@ p {
 .p-pagination__button--next {
   padding-right: 28px;
 }
+@media screen and (min-width: 600px) {
+  .p-pagination__button--next {
+    display: none;
+  }
+}
 .p-pagination__button--next::after {
   content: "";
   background: url(../../../img/next.svg);
@@ -864,8 +880,29 @@ p {
 .p-pagination__page-number {
   display: none;
 }
+@media screen and (min-width: 600px) {
+  .p-pagination__page-number {
+    display: block;
+    font-family: "Roboto";
+    color: #707070;
+  }
+}
 .p-pagination__number {
   display: none;
+}
+@media screen and (min-width: 600px) {
+  .p-pagination__number {
+    display: block;
+    font-family: "Roboto";
+  }
+}
+.p-pagination__mark {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .p-pagination__mark {
+    display: block;
+  }
 }
 
 .c-button {
