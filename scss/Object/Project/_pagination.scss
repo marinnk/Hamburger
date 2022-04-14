@@ -1,5 +1,19 @@
 .p-pagination {
     display: flex;
+    justify-content: space-between;
+
+    &__button--front::before {
+        content: "";
+        background: url(../../../img/before.svg);
+    }
+    &__button--next::after {
+        content: "";
+        background: url(../../../img/before.svg);
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-repeat: no-repeat;
+    }
 
     &__page-number {
         display: none;
