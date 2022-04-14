@@ -836,7 +836,9 @@ p {
 @media screen and (min-width: 600px) {
   .p-pagination {
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 122px;
+    margin-right: 113px;
   }
 }
 .p-pagination__button--front {
@@ -894,6 +896,8 @@ p {
   .p-pagination__number {
     display: block;
     font-family: "Roboto";
+    border: 1px solid #707070;
+    padding: 7px 13px;
   }
 }
 .p-pagination__mark {
@@ -902,6 +906,16 @@ p {
 @media screen and (min-width: 600px) {
   .p-pagination__mark {
     display: block;
+  }
+}
+@media screen and (min-width: 600px) {
+  .p-pagination__mark--front {
+    margin-right: 17px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .p-pagination__mark--next {
+    margin-left: 17px;
   }
 }
 
