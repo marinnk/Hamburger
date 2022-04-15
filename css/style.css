@@ -819,6 +819,11 @@ p {
     padding-bottom: 0;
   }
 }
+@media screen and (min-width: 1025px) {
+  .p-menu__text-box {
+    padding: 53px 0 60px 63px;
+  }
+}
 .p-menu__title {
   font-size: 2rem;
   margin: 0;
@@ -831,9 +836,16 @@ p {
 .p-menu__text {
   margin-bottom: 40px;
   margin-right: 73px;
-  height: 114px;
   overflow: hidden;
   text-align: left;
+  line-height: 1.4;
+  height: 11.2rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-menu__text {
+    line-height: 1.4;
+    height: 6.72rem;
+  }
 }
 
 .p-pagination {

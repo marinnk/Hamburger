@@ -45,7 +45,9 @@
         @include m.tab {
             width: 50%;
             padding-bottom: 0;
-            
+        }
+        @include m.pc {
+            padding: 53px 0 60px 63px;
         }
     }
     &__title {
@@ -61,8 +63,15 @@
     &__text {
         margin-bottom: 40px;
         margin-right: 73px;
-        height: 114px;
         overflow: hidden;
         text-align: left;
+        line-height: 1.4;
+        height: calc(1.4 * 1.6rem * 5);
+
+
+        @include m.pc {
+            line-height: 1.4;
+            height: calc(1.4 * 1.6rem * 3);
+        }
     }
 }
