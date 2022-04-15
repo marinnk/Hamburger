@@ -839,9 +839,6 @@ p {
     justify-content: center;
   }
 }
-.p-pagination__button--front {
-  padding-left: 28px;
-}
 @media screen and (min-width: 600px) {
   .p-pagination__button--front {
     display: none;
@@ -849,7 +846,7 @@ p {
 }
 .p-pagination__button--front::before {
   content: "";
-  background: url(../../../img/before.svg);
+  background: url(../img/before.svg);
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -858,9 +855,6 @@ p {
   top: 3px;
   left: 0;
 }
-.p-pagination__button--next {
-  padding-right: 28px;
-}
 @media screen and (min-width: 600px) {
   .p-pagination__button--next {
     display: none;
@@ -868,7 +862,7 @@ p {
 }
 .p-pagination__button--next::after {
   content: "";
-  background: url(../../../img/next.svg);
+  background: url(../img/next.svg);
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -906,6 +900,16 @@ p {
 @media screen and (min-width: 600px) {
   .p-pagination__mark {
     display: block;
+  }
+}
+.p-pagination__mark--tab {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .p-pagination__mark--tab {
+    display: block;
+    min-width: 20px;
+    min-height: 20px;
   }
 }
 @media screen and (min-width: 600px) {

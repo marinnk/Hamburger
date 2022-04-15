@@ -14,15 +14,13 @@
     }
 
     &__button--front {
-        padding-left: 28px;
-
         @include m.tab {
             display: none;
         }
 
         &::before {
             content: "";
-            background: url(../../../img/before.svg);
+            background: url(../img/before.svg);
             width: 20px;
             height: 20px;
             display: inline-block;
@@ -34,15 +32,13 @@
     }
 
     &__button--next {
-        padding-right: 28px;
-
         @include m.tab {
             display: none;
         }
 
         &::after {
             content: "";
-            background: url(../../../img/next.svg);
+            background: url(../img/next.svg);
             width: 20px;
             height: 20px;
             display: inline-block;
@@ -81,6 +77,15 @@
 
         @include m.tab {
             display: block;   
+        }
+        &--tab {
+            display: none;
+
+            @include m.tab {
+                display: block;
+                min-width: 20px;
+                min-height: 20px;
+            }
         }
         
         &--next {
