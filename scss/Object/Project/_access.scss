@@ -2,7 +2,7 @@
 @use "../../Foundation/variable" as v;
 
 .p-access {
-    background: url(../../../img/map.jpg) no-repeat center / cover;
+    background: url(../img/map.jpg) no-repeat center / cover;
     position: relative; //見出し下のborderのため
     margin-top: 49px;
     z-index: 0;
