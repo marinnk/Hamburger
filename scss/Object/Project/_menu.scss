@@ -10,8 +10,16 @@
     @include m.tab {
         flex-direction: row;
     }
+    
+    &:first-child {
+        @include m.tab {
+            margin-top: 37px;
+        }
+        @include m.pc {
+            margin-top: 70px;
+        }
+    }
     &__photo {
-
         @include m.tab {
             width: 50%;
         }

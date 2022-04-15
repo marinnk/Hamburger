@@ -779,6 +779,16 @@ p {
   }
 }
 @media screen and (min-width: 600px) {
+  .p-menu:first-child {
+    margin-top: 37px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-menu:first-child {
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 600px) {
   .p-menu__photo {
     width: 50%;
   }
