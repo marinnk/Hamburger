@@ -47,17 +47,25 @@
             padding-bottom: 0;
         }
         @include m.pc {
-            padding: 53px 0 60px 63px;
+            padding: 53px 0 0 63px;
         }
     }
     &__title {
         font-size: v.$font-size--20;
         margin: 0;
         text-align: left;
+
+        @include m.pc {
+            font-size: v.$font-size--36;
+        }
     }
     &__heading {
         margin: 24px 0 10px 0;
         text-align: left;
+
+        @include m.pc {
+            font-size: v.$font-size--24;
+        }
 
     }
     &__text {

@@ -75,7 +75,7 @@
     background-color: v.$color--white;
     color: v.$color--gray-dark;
     cursor: pointer;
-    max-width: 50%;
+    width: 50%;
     padding: 10px 0;
     border-radius: 40px;
     font-size: v.$font-size--16;
@@ -83,6 +83,6 @@
 
     @include m.pc {
         height: 76px;
-        
+
     }
 }

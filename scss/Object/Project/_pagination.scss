@@ -70,6 +70,10 @@
             border: 1px solid v.$color--gray-dark;
             padding: 7px 13px;
             margin-left: 15px;
+        }
+        &:hover {
+            background-color: v.$cheeseburger;
+            color: v.$color--white;
         }        
     }
     &__mark {

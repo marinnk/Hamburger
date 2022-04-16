@@ -821,7 +821,7 @@ p {
 }
 @media screen and (min-width: 1025px) {
   .p-menu__text-box {
-    padding: 53px 0 60px 63px;
+    padding: 53px 0 0 63px;
   }
 }
 .p-menu__title {
@@ -829,9 +829,19 @@ p {
   margin: 0;
   text-align: left;
 }
+@media screen and (min-width: 1025px) {
+  .p-menu__title {
+    font-size: 3.6rem;
+  }
+}
 .p-menu__heading {
   margin: 24px 0 10px 0;
   text-align: left;
+}
+@media screen and (min-width: 1025px) {
+  .p-menu__heading {
+    font-size: 2.4rem;
+  }
 }
 .p-menu__text {
   margin-bottom: 40px;
@@ -915,6 +925,10 @@ p {
     padding: 7px 13px;
     margin-left: 15px;
   }
+}
+.p-pagination__number:hover {
+  background-color: #3C2B1C;
+  color: #FFFFFF;
 }
 .p-pagination__mark {
   display: none;
@@ -1027,7 +1041,7 @@ p {
   background-color: #FFFFFF;
   color: #707070;
   cursor: pointer;
-  max-width: 50%;
+  width: 50%;
   padding: 10px 0;
   border-radius: 40px;
   font-size: 1.6rem;
