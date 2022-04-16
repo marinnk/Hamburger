@@ -81,8 +81,12 @@
     font-size: v.$font-size--16;
     font-weight: v.$font-weight--bold;
 
+    @include m.tab {
+        margin-bottom: 40px;
+    }
+
     @include m.pc {
-        height: 76px;
+        padding: 27px 0;
 
     }
 }
