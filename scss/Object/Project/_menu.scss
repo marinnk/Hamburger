@@ -35,30 +35,29 @@
     &__text-box {
         background-color: v.$cheeseburger;
         color: v.$color--white;
-        padding-left: 17px;
-        padding-top: 32px;
-        padding-bottom: 40px;
+        padding: 32px 0 0 17px;
+        //ボタンを真ん中に設置するため
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         @include m.tab {
             width: 50%;
-            padding-bottom: 0;
-        }
-        @include m.pc {
-            padding: 53px 0 0 63px;
+            padding: 30px 0 0 35px;
         }
     }
-    &__title {
+    &__title { //ハンバーガー名
         font-size: v.$font-size--20;
         margin: 0;
-        text-align: left;
+        margin-right: auto;//flexで中央寄せを左寄せにするため
 
         @include m.pc {
             font-size: v.$font-size--36;
         }
     }
-    &__heading {
+    &__heading { //小見出し
         margin: 24px 0 10px 0;
-        text-align: left;
+        margin-right: auto;//flexで中央寄せを左寄せにするため
 
         @include m.pc {
             font-size: v.$font-size--24;
@@ -74,10 +73,15 @@
         line-height: 1.4;
         height: calc(1.4 * 1.6rem * 5);
 
+        @include m.tab {
+            margin-right: 59px;
+        }
+
 
         @include m.pc {
             height: calc(1.4 * 1.6rem * 3);
             margin-bottom: 60px;
+            margin-right: 104px;
         }
     }
 }

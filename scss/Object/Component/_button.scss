@@ -80,13 +80,10 @@
     border-radius: 40px;
     font-size: v.$font-size--16;
     font-weight: v.$font-weight--bold;
-
-    @include m.tab {
-        margin-bottom: 40px;
-    }
+    margin-bottom: 40px;
 
     @include m.pc {
         padding: 27px 0;
-
+        margin-bottom: 60px;
     }
 }

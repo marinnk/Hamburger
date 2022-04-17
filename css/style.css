@@ -803,25 +803,21 @@ p {
 .p-menu__text-box {
   background-color: #3C2B1C;
   color: #FFFFFF;
-  padding-left: 17px;
-  padding-top: 32px;
-  padding-bottom: 40px;
+  padding: 32px 0 0 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media screen and (min-width: 600px) {
   .p-menu__text-box {
     width: 50%;
-    padding-bottom: 0;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .p-menu__text-box {
-    padding: 53px 0 0 63px;
+    padding: 30px 0 0 35px;
   }
 }
 .p-menu__title {
   font-size: 2rem;
   margin: 0;
-  text-align: left;
+  margin-right: auto;
 }
 @media screen and (min-width: 1025px) {
   .p-menu__title {
@@ -830,7 +826,7 @@ p {
 }
 .p-menu__heading {
   margin: 24px 0 10px 0;
-  text-align: left;
+  margin-right: auto;
 }
 @media screen and (min-width: 1025px) {
   .p-menu__heading {
@@ -846,10 +842,16 @@ p {
   line-height: 1.4;
   height: 11.2rem;
 }
+@media screen and (min-width: 600px) {
+  .p-menu__text {
+    margin-right: 59px;
+  }
+}
 @media screen and (min-width: 1025px) {
   .p-menu__text {
     height: 6.72rem;
     margin-bottom: 60px;
+    margin-right: 104px;
   }
 }
 
@@ -1041,15 +1043,12 @@ p {
   border-radius: 40px;
   font-size: 1.6rem;
   font-weight: bold;
-}
-@media screen and (min-width: 600px) {
-  .c-button--detail {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 1025px) {
   .c-button--detail {
     padding: 27px 0;
+    margin-bottom: 60px;
   }
 }
 

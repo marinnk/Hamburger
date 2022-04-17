@@ -1,12 +1,12 @@
 @use "../../Foundation/mixin" as m;
 
 .p-group--box { /* Take Out・テキストの箱2つ合わせてたもの */
-        margin-top: 297px;
-        margin-bottom: 9px;
+    margin-top: 297px;
+    margin-bottom: 9px;
 }
 
 .p-group--mainvisual {
-        display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 37px;
