@@ -768,10 +768,10 @@ p {
 }
 
 .p-menu {
-  margin-top: 19px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 19px 0 0 0;
 }
 @media screen and (min-width: 600px) {
   .p-menu {
@@ -780,12 +780,12 @@ p {
 }
 @media screen and (min-width: 600px) {
   .p-menu:first-child {
-    margin-top: 37px;
+    margin: 37px 0 0 0;
   }
 }
 @media screen and (min-width: 1025px) {
   .p-menu:first-child {
-    margin-top: 70px;
+    margin: 70px 0 0 0;
   }
 }
 @media screen and (min-width: 600px) {

@@ -2,10 +2,10 @@
 @use "../../Foundation/variable" as v;
 
 .p-menu {
-    margin-top: 19px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 19px 0 0 0;
 
     @include m.tab {
         flex-direction: row;
@@ -13,10 +13,10 @@
     
     &:first-child {
         @include m.tab {
-            margin-top: 37px;
+            margin: 37px 0 0 0;
         }
         @include m.pc {
-            margin-top: 70px;
+            margin: 70px 0 0 0;
         }
     }
     &__photo {
