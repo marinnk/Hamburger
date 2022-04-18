@@ -513,6 +513,20 @@ p {
   padding: 0;
   margin: 40px 0 34px 0;
 }
+.p-footer__list {
+  display: flex;
+  font-size: 2rem;
+}
+.p-footer__list li:not(:first-child) {
+  margin-left: 20px;
+}
+.p-footer__list-item {
+  color: #FFFFFF;
+}
+.p-footer__copyright {
+  color: #FFFFFF;
+  font-size: 1.4rem;
+}
 
 .p-nav {
   /* ナビ */
@@ -1132,15 +1146,6 @@ p {
   /* 文字の入力位置を虫眼鏡マークの後ろからにする */
 }
 
-.c-text--footer {
-  color: #FFFFFF;
-}
-
-.c-text--copyright {
-  color: #FFFFFF;
-  font-size: 1.4rem;
-}
-
 .c-text--quote {
   padding: 30px 16px 30px 20px;
   background: url(../../../img/quote-left-solid.svg) no-repeat;
@@ -1311,12 +1316,6 @@ p {
   padding-right: 20px;
 }
 
-.c-list--footer {
-  /* 横並びにするため */
-  display: flex;
-  font-size: 2rem;
-}
-
 .c-list_type_decimal {
   list-style-type: decimal;
 }
@@ -1448,10 +1447,5 @@ p {
   right: 0;
   bottom: 0;
   z-index: -1;
-}
-
-.u-margin {
-  margin-left: 20px;
-  /* フッター余白調整に使用 */
 }
 /*# sourceMappingURL=style.css.map */

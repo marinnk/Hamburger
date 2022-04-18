@@ -12,4 +12,20 @@
         padding: 0;
         margin: 40px 0 34px 0;
     }
+    &__list { 
+        display: flex; //ショップ情報・ヒストリーを横並びにするため
+        font-size: v.$font-size--20;
+
+        li:not(:first-child) {
+            margin-left: 20px; //ヒストリーの左の余白調整
+        }
+    }
+
+    &__list-item {
+        color: v.$color--white;
+    }
+    &__copyright {
+        color: v.$color--white;
+        font-size: v.$font-size--14;
+    }
 }

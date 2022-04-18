@@ -1,13 +1,6 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
-.c-text--footer {
-    color: v.$color--white;
-}
-.c-text--copyright {
-    color: v.$color--white;
-    font-size: v.$font-size--14;
-}
 .c-text--quote {
     padding: 30px 16px 30px 20px;
     background: url(../../../img/quote-left-solid.svg) no-repeat;
