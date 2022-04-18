@@ -28,4 +28,8 @@
         color: v.$color--white;
         font-size: v.$font-size--14;
     }
+    &__border {
+        border-right: 2px solid v.$color--white;
+        padding-right: 20px;
+    }
 }
