@@ -12,44 +12,7 @@
         align-items: center;
         justify-content: center;
     }
-
-    &__button--front {
-        @include m.tab {
-            display: none;
-        }
-
-        &::before {
-            content: "";
-            background: url(../img/before.svg);
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 3px;
-            left: 0;
-        }
-    }
-
-    &__button--next {
-        @include m.tab {
-            display: none;
-        }
-
-        &::after {
-            content: "";
-            background: url(../img/next.svg);
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 3px;
-            right: 0;
-        }
-    }
    
-
     &__page-number {
         display: none;
 
@@ -76,15 +39,50 @@
             color: v.$color--white;
         }        
     }
-    &__mark {
+
+    &__button--front { //前へ
+        @include m.tab {
+            display: none;
+        }
+
+        &::before { //前への左にあるマーク(SP版だけ表示される)
+            content: "";
+            background: url(../img/before.svg);
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 3px;
+            left: 0;
+        }
+    }
+
+    &__button--next { //次へ
+        @include m.tab {
+            display: none;
+        }
+
+        &::after { //次への右にあるマーク(SP版だけ表示される)
+            content: "";
+            background: url(../img/next.svg);
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 3px;
+            right: 0;
+        }
+    }
+
+    &__mark { //tab・PC版で表示されるマーク
         display: none;
 
         @include m.tab {
             display: block;   
         }
         &--tab {
-            display: none;
-
             @include m.tab {
                 display: block;
                 min-width: 20px;
