@@ -615,6 +615,14 @@ p {
     padding-top: 60px;
   }
 }
+.p-item__photo {
+  width: 42%;
+}
+.p-item__text {
+  text-indent: 1rem;
+  width: 55%;
+  color: #3C2A10;
+}
 
 /* タブレット・PCで横並びにしたときの設定 */
 @media screen and (min-width: 600px) {
@@ -1180,12 +1188,6 @@ p {
   color: #4A6C9B;
 }
 
-.c-text--item {
-  text-indent: 1rem;
-  width: 55%;
-  color: #3C2A10;
-}
-
 .c-text--main-bottom {
   font-weight: bold;
   margin-top: 30px;
@@ -1226,9 +1228,6 @@ p {
   .c-photo {
     margin-bottom: 60px;
   }
-}
-.c-photo--item {
-  width: 42%;
 }
 .c-photo--photo-list:not(:last-child) {
   margin-bottom: 20px;

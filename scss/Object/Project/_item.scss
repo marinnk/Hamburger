@@ -1,4 +1,5 @@
 @use "../../Foundation/mixin" as m;
+@use "../../Foundation/variable" as v;
 
 .p-item { /* 写真と説明文のところ */
     display: flex;
@@ -13,5 +14,13 @@
         @include m.pc {
             padding-top: 60px;
         }
+    }
+    &__photo {
+        width: 42%;
+    }
+    &__text {
+        text-indent: 1rem;
+        width: 55%;
+        color: v.$color--brown;
     }
 }
