@@ -15,4 +15,9 @@
         background-color: v.$color--gray;
         margin: 30px 0;
     }
+    &__text--page {
+        font-weight: v.$font-weight--bold;
+        margin-top: 30px;
+        padding-bottom: 336px;
+    }
 }
