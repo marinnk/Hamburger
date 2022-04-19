@@ -11,27 +11,6 @@
         padding: 0 100px;
     }
 
-    
-    &--list { /* 数字付きリスト・数字なしリストの間の余白調節 */
-        margin-bottom: 60px;
-
-        ol {
-            padding-left: 23px;
-
-            @include m.tab {
-                padding-left: 118px;
-            }
-
-            &:nth-of-type(even) {
-                padding-left: 40px;
-
-                @include m.tab {
-                    padding-left: 134px;
-                }
-            }
-        }
-    }
-
     &--code {
         background-color: v.$color--gray;
         margin: 30px 0;

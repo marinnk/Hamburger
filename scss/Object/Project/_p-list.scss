@@ -1,0 +1,49 @@
+@use "../../Foundation/mixin" as m;
+
+.p-list { /* 数字付きリスト・数字なしリストの間の余白調節 */
+    margin-bottom: 60px;
+
+    ol {
+        padding-left: 23px;
+
+        @include m.tab {
+            padding-left: 118px;
+        }
+
+        &:nth-of-type(even) {
+            padding-left: 40px;
+
+            @include m.tab {
+                padding-left: 134px;
+            }
+        }
+    }
+
+    &_type_decimal {
+        list-style-type: decimal;
+    
+    }
+    &_type_none { /* mainのリスト・数字なし部分 */
+        ul {
+            padding-left: 0;
+    
+            @include m.tab {
+                padding-left: 90px;
+            }
+            @include m.pc {
+                padding-left: 130px;
+            }
+    
+            &:nth-of-type(even) {
+                padding-left: 15px;
+    
+                @include m.tab {
+                    padding-left: 108px;
+                }
+                @include m.pc {
+                    padding-left: 148px;
+                }
+            }
+        }
+    }
+}
