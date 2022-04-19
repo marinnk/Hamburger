@@ -629,6 +629,25 @@ p {
   width: 100%;
   margin-bottom: 29px;
 }
+.p-table__cell {
+  border: 1px solid #707070;
+  padding: 28px 0;
+}
+.p-table__cell--heading {
+  font-weight: 100;
+  width: 30%;
+}
+@media screen and (min-width: 1025px) {
+  .p-table__cell--heading {
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+.p-table__cell--content {
+  width: 70%;
+  padding-left: 30px;
+}
 
 .p-area {
   /* Take Out・Eat Inのボックス全体 */
@@ -1191,26 +1210,6 @@ p {
   left: 13.5px;
   width: 34px;
   height: 4px;
-}
-
-.c-cell {
-  border: 1px solid #707070;
-  padding: 28px 0;
-}
-.c-cell--heading {
-  font-weight: 100;
-  width: 30%;
-}
-@media screen and (min-width: 1025px) {
-  .c-cell--heading {
-    width: 50%;
-    text-align: left;
-    padding-left: 30px;
-  }
-}
-.c-cell--content {
-  width: 70%;
-  padding-left: 30px;
 }
 
 .c-photo {

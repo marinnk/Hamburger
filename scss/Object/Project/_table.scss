@@ -1,4 +1,28 @@
+@use "../../Foundation/variable" as v;
+@use "../../Foundation/mixin" as m;
+
 .p-table {
     width: 100%;
     margin-bottom: 29px;
+
+&__cell {
+    border: 1px solid v.$color--gray-dark;
+    padding: 28px 0;
+
+    &--heading {
+        font-weight: 100;
+        width: 30%;
+
+        @include m.pc {
+            width: 50%;
+            text-align: left;
+            padding-left: 30px;
+        }
+    }
+
+    &--content {
+        width: 70%;
+        padding-left: 30px;
+    }
+}
 }
