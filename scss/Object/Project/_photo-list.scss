@@ -1,10 +1,2 @@
 @use "../../Foundation/mixin" as m;
 
-/* タブレット・PCで横並びにしたときの設定 */
-.p-photo-list {
-    @include m.tab {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-}

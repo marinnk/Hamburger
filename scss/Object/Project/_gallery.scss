@@ -6,4 +6,39 @@
     @include m.tab {
         margin: 60px 0;
     }
+
+    &__photo {
+        width: 80%;
+        text-align: center;
+        margin: 30px auto 20px auto;
+    
+        @include m.tab {
+            margin: 61px auto 241px auto;
+        }
+        @include m.pc {
+            margin-bottom: 60px;
+        }
+        /* タブレット・PCで横並びにしたときの設定 */
+        &-list {
+            @include m.tab {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            &__item {
+
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+                @include m.tab {
+                    width: 49%;
+                }
+                @include m.pc {
+                    width: 32%;
+                }
+            }
+        }
+
+    }
 }
