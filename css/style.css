@@ -467,7 +467,7 @@ p {
     padding: 0 100px;
   }
 }
-.p-main--code {
+.p-main__code {
   background-color: #F5F5F5;
   margin: 30px 0;
 }
