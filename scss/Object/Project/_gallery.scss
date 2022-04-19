@@ -25,20 +25,18 @@
                 flex-wrap: wrap;
                 justify-content: space-between;
             }
-            
-            &__item {
+        }
+        &-item {
 
-                &:not(:last-child) {
-                    margin-bottom: 20px;
-                }
-                @include m.tab {
-                    width: 49%;
-                }
-                @include m.pc {
-                    width: 32%;
-                }
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+            @include m.tab {
+                width: 49%;
+            }
+            @include m.pc {
+                width: 32%;
             }
         }
-
     }
 }

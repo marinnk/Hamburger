@@ -600,16 +600,16 @@ p {
     justify-content: space-between;
   }
 }
-.p-gallery__photo-list__item:not(:last-child) {
+.p-gallery__photo-item:not(:last-child) {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 600px) {
-  .p-gallery__photo-list__item {
+  .p-gallery__photo-item {
     width: 49%;
   }
 }
 @media screen and (min-width: 1025px) {
-  .p-gallery__photo-list__item {
+  .p-gallery__photo-item {
     width: 32%;
   }
 }
