@@ -19,6 +19,10 @@
         @include m.tab {
             min-width: 40%;
         }
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
     }
     
     @include m.pc {

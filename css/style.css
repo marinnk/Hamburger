@@ -538,6 +538,9 @@ p {
     min-width: 40%;
   }
 }
+.p-nav.open::-webkit-scrollbar {
+  display: none;
+}
 @media screen and (min-width: 1025px) {
   .p-nav {
     position: static;
