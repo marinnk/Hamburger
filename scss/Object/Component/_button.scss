@@ -5,31 +5,32 @@
     cursor: pointer;
     border: 1px solid v.$color--gray-dark;
     font-weight: v.$font-weight--bold;
-}
-.c-button--search {
-    height: 46px;
-    width: 30%;
-    border-radius: 10px;
-    background-color: v.$color--beige;
-    color: v.$color--gray-dark;
-    font-size: v.$font-size--16;
-}
-.c-button--main {
-    width: 100%;
-    border-radius: 20px;
-    padding:  30px 0;
-    background: linear-gradient(v.$color--beige, v.$color--beige-dark);
 
-    @include m.tab {
-        width: 60%;
+    &--search {
+        height: 46px;
+        width: 30%;
+        border-radius: 10px;
+        background-color: v.$color--beige;
+        color: v.$color--gray-dark;
+        font-size: v.$font-size--16;
     }
-    @include m.pc {
-        width: 50%;
-    }
-}
 
-/* menuボタン */
-.c-button--menu { /* menuボタンの共通スタイル */
+    &--main {
+        width: 100%;
+        border-radius: 20px;
+        padding:  30px 0;
+        background: linear-gradient(v.$color--beige, v.$color--beige-dark);
+    
+        @include m.tab {
+            width: 60%;
+        }
+        @include m.pc {
+            width: 50%;
+        }
+    }
+
+    /* menuボタン */
+&--menu { /* menuボタンの共通スタイル */
     color: v.$color--gray-dark;
     font-family: v.$font-family--roboto;
     font-weight: v.$font-weight--bold;
@@ -37,7 +38,7 @@
     border: none;
     cursor: pointer;
 }
-.c-button--headermenu {
+&--headermenu {
     margin: 0;
     position: absolute;
     top: 14px;
@@ -57,7 +58,7 @@
         display: none;
     }   
 }
-.c-button--sidemenu {
+&--sidemenu {
     display: none;
     font-size: v.$font-size--34;
 
@@ -66,12 +67,12 @@
     }
 }
 /* ×ボタン */
-.c-button--close {
+&--close {
     display: inline-block;
     cursor: pointer;
 }
 
-.c-button--detail {
+&--detail {
     background-color: v.$color--white;
     color: v.$color--gray-dark;
     cursor: pointer;
@@ -86,4 +87,5 @@
         padding: 27px 0;
         margin-bottom: 60px;
     }
+}
 }

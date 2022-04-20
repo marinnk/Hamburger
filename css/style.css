@@ -1073,8 +1073,9 @@ p {
   cursor: pointer;
   border: 1px solid #707070;
   font-weight: bold;
+  /* menuボタン */
+  /* ×ボタン */
 }
-
 .c-button--search {
   height: 46px;
   width: 30%;
@@ -1083,7 +1084,6 @@ p {
   color: #707070;
   font-size: 1.6rem;
 }
-
 .c-button--main {
   width: 100%;
   border-radius: 20px;
@@ -1100,8 +1100,6 @@ p {
     width: 50%;
   }
 }
-
-/* menuボタン */
 .c-button--menu {
   /* menuボタンの共通スタイル */
   color: #707070;
@@ -1111,7 +1109,6 @@ p {
   border: none;
   cursor: pointer;
 }
-
 .c-button--headermenu {
   margin: 0;
   position: absolute;
@@ -1134,7 +1131,6 @@ p {
     display: none;
   }
 }
-
 .c-button--sidemenu {
   display: none;
   font-size: 3.4rem;
@@ -1144,13 +1140,10 @@ p {
     display: block;
   }
 }
-
-/* ×ボタン */
 .c-button--close {
   display: inline-block;
   cursor: pointer;
 }
-
 .c-button--detail {
   background-color: #FFFFFF;
   color: #707070;
