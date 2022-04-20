@@ -539,6 +539,7 @@ p {
   }
 }
 .p-nav.open::-webkit-scrollbar {
+  /* スクロールバー非表示 */
   display: none;
 }
 @media screen and (min-width: 1025px) {

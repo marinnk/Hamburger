@@ -20,7 +20,7 @@
             min-width: 40%;
         }
 
-        &::-webkit-scrollbar {
+        &::-webkit-scrollbar { /* スクロールバー非表示 */
             display: none;
         }
     }
