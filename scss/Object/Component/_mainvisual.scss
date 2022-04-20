@@ -45,8 +45,5 @@
         @include m.tab {
             min-height: 500px;
         }
-        @include m.pc {
-            background-size: cover;
-        }
     }
 }

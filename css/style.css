@@ -1311,6 +1311,7 @@ p {
 @media screen and (min-width: 600px) {
   .c-title--single {
     font-size: 6rem;
+    padding-left: 86px;
   }
 }
 
@@ -1374,11 +1375,6 @@ p {
 @media screen and (min-width: 600px) {
   .c-mainvisual--single {
     min-height: 500px;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .c-mainvisual--single {
-    background-size: cover;
   }
 }
 
