@@ -1334,22 +1334,19 @@ p {
 .c-mainvisual {
   background-position: center;
 }
-
 .c-mainvisual--front-page {
   background-image: url(../img/main-visual--front-page.jpg);
   background-size: cover;
   min-height: 285px;
 }
-
 .c-mainvisual--archive {
   background-image: url(../img/archive.jpg);
   min-height: 283px;
   position: relative;
   z-index: 0;
 }
-
 .c-mainvisual--page {
-  background-image: url(../img//main-visual--page.jpg);
+  background-image: url(../img/main-visual--page.jpg);
   min-height: 224px;
   background-size: cover;
   text-align: center;
@@ -1360,6 +1357,20 @@ p {
     min-height: 500px;
     text-align: left;
     /* 文字を左寄せにするため */
+  }
+}
+.c-mainvisual--single {
+  background-image: url(../img/main-visual--single.jpg);
+  min-height: 224px;
+}
+@media screen and (min-width: 600px) {
+  .c-mainvisual--single {
+    min-height: 500px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-mainvisual--single {
+    background-size: cover;
   }
 }
 
