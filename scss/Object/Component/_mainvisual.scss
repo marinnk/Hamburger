@@ -2,6 +2,8 @@
 
 .c-mainvisual {
     background-position: center;
+    display: flex;
+    align-items: center;
 
     &--front-page {
         background-image: url(../img/main-visual--front-page.jpg);
@@ -14,23 +16,31 @@
         min-height: 283px;
         position: relative;
         z-index: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        @include m.tab {
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+        }
     }
     
     &--page {
         background-image: url(../img/main-visual--page.jpg);
         min-height: 224px;
         background-size: cover;
-        text-align: center; /* 文字を真ん中に寄せるため */
+        justify-content: center;
     
         @include m.tab {
             min-height: 500px;
-            text-align: left;/* 文字を左寄せにするため */
+            justify-content: left;
         }
     }
     &--single {
         background-image: url(../img/main-visual--single.jpg);
         min-height: 224px;
-        
     
         @include m.tab {
             min-height: 500px;

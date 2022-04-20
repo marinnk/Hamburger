@@ -704,21 +704,6 @@ p {
   margin-bottom: 9px;
 }
 
-.p-group--mainvisual {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 37px;
-}
-@media screen and (min-width: 600px) {
-  .p-group--mainvisual {
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 87px;
-  }
-}
-
 .p-access {
   background: url(../img/map.jpg) no-repeat center/cover;
   position: relative;
@@ -1247,10 +1232,11 @@ p {
 .c-text--mainvisual {
   color: #FFFFFF;
   font-weight: bold;
+  padding-left: 37px;
 }
 @media screen and (min-width: 600px) {
   .c-text--mainvisual {
-    padding: 10px 0 0 20px;
+    padding-left: 20px;
   }
 }
 
@@ -1286,15 +1272,17 @@ p {
 }
 .c-title--mainvisual--archive {
   font-family: "Roboto";
+  padding-left: 37px;
 }
 @media screen and (min-width: 600px) {
   .c-title--mainvisual--archive {
     font-size: 6rem;
+    padding-left: 86px;
   }
 }
 
 .c-title--front-page {
-  padding: 120px 0 120px 25px;
+  padding-left: 25px;
 }
 @media screen and (min-width: 600px) {
   .c-title--front-page {
@@ -1307,21 +1295,17 @@ p {
   }
 }
 
-.c-title--page {
-  padding: 90px 0;
-}
 @media screen and (min-width: 600px) {
   .c-title--page {
-    padding: 208px 0 208px 86px;
+    padding-left: 86px;
   }
 }
 
 .c-title--single {
-  padding: 91px 0 91px 26px;
+  padding-left: 26px;
 }
 @media screen and (min-width: 600px) {
   .c-title--single {
-    padding: 209px 0 208px 86px;
     font-size: 6rem;
   }
 }
@@ -1343,6 +1327,8 @@ p {
 
 .c-mainvisual {
   background-position: center;
+  display: flex;
+  align-items: center;
 }
 .c-mainvisual--front-page {
   background-image: url(../img/main-visual--front-page.jpg);
@@ -1354,19 +1340,27 @@ p {
   min-height: 283px;
   position: relative;
   z-index: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media screen and (min-width: 600px) {
+  .c-mainvisual--archive {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 .c-mainvisual--page {
   background-image: url(../img/main-visual--page.jpg);
   min-height: 224px;
   background-size: cover;
-  text-align: center;
-  /* 文字を真ん中に寄せるため */
+  justify-content: center;
 }
 @media screen and (min-width: 600px) {
   .c-mainvisual--page {
     min-height: 500px;
-    text-align: left;
-    /* 文字を左寄せにするため */
+    justify-content: left;
   }
 }
 .c-mainvisual--single {

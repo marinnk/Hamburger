@@ -8,14 +8,16 @@
 
     &--archive {
         font-family: v.$font-family--roboto;
+        padding-left: 37px;
 
         @include m.tab {
             font-size: v.$font-size--60;
+            padding-left: 86px;
         }
     }
 }
 .c-title--front-page {
-    padding: 120px 0 120px 25px;
+    padding-left: 25px;
 
     @include m.tab {
         padding-left: 86px;
@@ -25,17 +27,14 @@
     }
 }
 .c-title--page {
-    padding: 90px 0;
-
     @include m.tab {
-        padding: 208px 0 208px 86px;
+        padding-left: 86px;
     }
 }
 .c-title--single {
-    padding: 91px 0 91px 26px;
+    padding-left: 26px;
 
     @include m.tab {
-        padding: 209px 0 208px 86px;
         font-size: v.$font-size--60;
     }
     
