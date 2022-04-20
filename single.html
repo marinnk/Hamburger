@@ -8,19 +8,173 @@
     <!-- reset.css読み込み -->
     <link rel="stylesheet" href="scss/foundation/_reset.scss">
     <!-- style.min.css読み込み -->
-    <link rel="stylesheet" href="scss/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- fontawesome読み込み -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        
-    </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
+    <div class="c-grid"> 
+                <header class="l-header">
+                    <div class="p-header">
+                        <h1 class="c-header__logo">Hamburger</h1>
+                        <form class="p-search">
+                            <div class="p-search-form">
+                                <input type="search" name="search" class="c-input-box">
+                            </div>
+                            <button type="submit" class="c-button c-button--search">検索</button>
+                        </form>
+                        <button type="button" class="c-button--menu c-button--headermenu">Menu</button>
+                    </div>
+                </header>
+                <aside class="l-sidebar p-sidebar">
+                    <button class="p-close c-button--close"><span class="p-close__line"></span></button>
+                    <button type="button" class="c-button--menu c-button--sidemenu">Menu</button>
+                    <nav class="p-nav">
+                        <p class="p-nav__menu"><a href="#">バーガー</a></p>
+                        <ul class="p-nav__menu-list">
+                                <li class="p-nav__menu-item"><a href="#">ハンバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">チーズバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">テリヤキバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">アボカドバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">フィッシュバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">ベーコンバーガー</a></li>
+                                <li><a href="#">チキンバーガー</a></li>
+                        </ul>
+                        <p class="p-nav__menu"><a href="#">サイド</a></p>
+                        <ul class="p-nav__menu-list">
+                                <li class="p-nav__menu-item"><a href="#">ポテト</a></li>
+                                <li class="p-nav__menu-item"><a href="#">サラダ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">ナゲット</a></li>
+                                <li><a href="#">コーン</a></li>
+                        </ul>
+                        <p class="p-nav__menu"><a href="#">ドリンク</a></p>
+                        <ul class="p-nav__menu-list">
+                                <li class="p-nav__menu-item"><a href="#">コーラ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">ファンタ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">オレンジ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">アップル</a></li>
+                                <li class="p-nav__menu-item"><a href="#">紅茶（Ice/Hot）</a></li>
+                                <li><a href="#">コーヒー（Ice/Hot）</a></li>
+                        </ul>
+                </nav>
+                    <div class="c-transparent-background--nav"></div><!-- 透明背景 -->
+                </aside>
+                <main class="l-main">
+                        <div class="c-mainvisual c-mainvisual--page">
+                            <h2 class="c-title--mainvisual c-title--page">ショップについて</h2>
+                        </div>
+                    <div class="p-main">  
+                        <section>
+                            <article>
+                                <h2 class="c-title--heading">見出しh2</h2>
+                                <p>pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。</p>
+                            </article>
+                            <h3>見出しh3</h3>
+                            <h4>見出しh4</h4>
+                            <h5>見出しh5</h5>
+                            <h6>見出しh6</h6>
+                        </section>
+                        <div class="p-quote">
+                            <p class="p-quote__text">引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ</p>
+                            <p class="p-quote__source">出典元：<a href="#">○○○○○○○○</a></p>
+                        </div>
+                        <div class="p-gallery">
+                            <p><img src="img/hamburger.jpg" alt="ハンバーガーの写真"></p>
+                            <div class="p-item">
+                                <p class="p-item__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-item__text">テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります </p>
+                            </div>
+                            <div class="p-item">
+                                <p class="p-item__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-item__text">テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります </p>
+                            </div>
+                            <p class="p-gallery__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                            <div class="p-gallery__photo-list">
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                            </div>
+                        </div>
+                        <div class="p-list">
+                            <ol class="p-list_type_decimal">
+                                <li>リストリストリスト</li>
+                                <li>リストリストリスト</li>
+                            </ol>
+                            <ol class="p-list_type_decimal">
+                                <li >リスト2リスト2リスト2</li>
+                                <li>リスト2リスト2リスト2</li>
+                            </ol>
+                            <ol class="p-list_type_decimal">
+                                <li>リストリストリスト</li>
+                                <li>リストリストリスト</li>
+                            </ol>
+                        </div>
+                        <div class="p-list_type_none">
+                            <ul>
+                                <li>リストリストリスト</li>
+                                <li>リストリストリスト</li>
+                                <li>リストリストリスト</li>
+                            </ul>
+                            <ul>
+                                <li>リスト2リスト2リスト2</li>
+                                <li>リスト2リスト2リスト2</li>
+                                <li>リスト2リスト2リスト2</li>
+                            </ul>
+                            <ul>
+                                <li>リストリストリスト</li>
+                                <li>リストリストリスト</li>
+                                <li>リストリストリスト</li>
+                            </ul>
+                        </div>
+                        <pre class="p-main__code">
+                            <code>
+            &lt;html&gt;
+                    &lt;head&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;/body&gt;
+            &lt;/html&gt;
+                            </code>
+                        </pre>
+                        <table class="p-table">
+                            <tr>
+                                <th class="p-table__cell p-table__cell--heading">テーブル</th>
+                                <td class="p-table__cell p-table__cell--content">テーブル</td>
+                            </tr>
+                            <tr>
+                                <th class="p-table__cell p-table__cell--heading">テーブル</th>
+                                <td class="p-table__cell p-table__cell--content">テーブル</td>
+                            </tr>
+                            <tr>
+                                <th class="p-table__cell p-table__cell--heading">テーブル</th>
+                                <td class="p-table__cell p-table__cell--content">テーブル</td>
+                            </tr>
+                            <tr>
+                                <th class="p-table__cell p-table__cell--heading">テーブル</th>
+                                <td class="p-table__cell p-table__cell--content">テーブル</td>
+                            </tr>
+                        </table>
+                        <button class="c-button c-button--main">ボタン</button>
+                        <p class="p-main__text--page">boldboldboldboldboldboldboldboldbold</p>
+                    </div>
+                </main>
+                <footer class="l-footer">
+                    <div class="p-footer">
+                        <ul class="p-footer__list">
+                            <li class="p-footer__border"><a href="#" class="p-footer__list-item">ショップ情報</a></li>
+                            <li><a href="#" class="p-footer__list-item">ヒストリー</a></li>
+                        </ul>
+                        <p class="p-footer__copyright">Copyright: RaiseTech</p>
+                    </div>
+                </footer>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
