@@ -1316,6 +1316,16 @@ p {
   }
 }
 
+.c-title--single {
+  padding: 91px 0 91px 26px;
+}
+@media screen and (min-width: 600px) {
+  .c-title--single {
+    padding: 209px 0 208px 86px;
+    font-size: 6rem;
+  }
+}
+
 .c-title--take-out {
   color: #FFFFFF;
   font-size: 4.1rem;

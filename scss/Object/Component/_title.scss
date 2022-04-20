@@ -31,6 +31,15 @@
         padding: 208px 0 208px 86px;
     }
 }
+.c-title--single {
+    padding: 91px 0 91px 26px;
+
+    @include m.tab {
+        padding: 209px 0 208px 86px;
+        font-size: v.$font-size--60;
+    }
+    
+}
 
 .c-title--take-out {
     color: v.$color--white;
