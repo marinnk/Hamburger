@@ -16,7 +16,7 @@
     <div class="c-grid"> 
         <header class="l-header">
             <div class="p-header">
-                <h1 class="c-header__logo">Hamburger</h1>
+                <h1 class="c-header__logo" <?php bloginfo('name'); ?>>Hamburger</h1>
                 <form class="p-search">
                     <div class="p-search-form">
                         <input type="search" name="search" class="c-input-box">
