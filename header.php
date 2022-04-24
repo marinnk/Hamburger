@@ -8,7 +8,7 @@
     <!-- reset.css読み込み -->
     <link rel="stylesheet" href="scss/foundation/_reset.scss">
     <!-- style.min.css読み込み -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo esc_url( home_url( '/' ) ); ?>css/style.css">
     <!-- fontawesome読み込み -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
