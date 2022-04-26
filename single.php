@@ -6,8 +6,11 @@
                         while( have_posts() ) : // 2.表示する投稿データがあれば繰り返し処理開始
                             the_post();
                 ?>
-                        <div class="c-mainvisual c-mainvisual--single">
-                            <h2 class="c-title--mainvisual c-title--single"><?php the_title(); ?></h2>
+                <?php 
+                    $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+                ?>
+                        <div class="c-mainvisual c-mainvisual--single" style="background-image: url( '<?php echo $url; ?>' );>
+                            <h2 class="c-title--mainvisual c-title--single"><?php the_title(); ?></h2> 
                         </div>
                     <div class="p-main">
                         <section>
