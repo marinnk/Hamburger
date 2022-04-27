@@ -6,6 +6,7 @@
     }
     add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
+    //jQueryを動かすため
     function load_google_cdn() {
         if ( !is_admin() ){
           //jQueryを登録解除
