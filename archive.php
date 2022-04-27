@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- fontawesome読み込み -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <?php wp_head(); ?>
 </head>
 <body>
     <div class="c-grid"> 
@@ -129,5 +130,6 @@
     </div> 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    </body>
-    </html>
+    <?php wp_footer(); ?>
+</body>
+</html>
