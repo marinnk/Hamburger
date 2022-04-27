@@ -14,12 +14,7 @@
         <header class="l-header">
             <div class="p-header">
                 <h1 class="c-header__logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Hamburger</a></h1>
-                <form class="p-search">
-                    <div class="p-search-form">
-                        <input type="search" name="search" class="c-input-box">
-                    </div>
-                    <button type="submit" class="c-button c-button--search">検索</button>
-                </form>
+                <?php get_search_form(); ?>
                 <button type="button" class="c-button--menu c-button--headermenu">Menu</button>
             </div>
         </header>
