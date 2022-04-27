@@ -6,7 +6,7 @@
             </ul>
             <p class="p-footer__copyright">Copyright: RaiseTech</p>
         </div>
-    </footer>
+</footer>
 </div> 
 <?php wp_footer(); ?>
 </body>
