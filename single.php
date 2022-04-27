@@ -1,27 +1,78 @@
-<?php get_header(); ?>
-<?php get_sidebar(); ?>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハンバーガーサイト</title>
+    <!-- reset.css読み込み -->
+    <link rel="stylesheet" href="scss/foundation/_reset.scss">
+    <!-- style.min.css読み込み -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome読み込み -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="c-grid"> 
+                <header class="l-header">
+                    <div class="p-header">
+                        <h1 class="c-header__logo">Hamburger</h1>
+                        <form class="p-search">
+                            <div class="p-search-form">
+                                <input type="search" name="search" class="c-input-box">
+                            </div>
+                            <button type="submit" class="c-button c-button--search">検索</button>
+                        </form>
+                        <button type="button" class="c-button--menu c-button--headermenu">Menu</button>
+                    </div>
+                </header>
+                <aside class="l-sidebar p-sidebar">
+                    <button class="p-close c-button--close"><span class="p-close__line"></span></button>
+                    <button type="button" class="c-button--menu c-button--sidemenu">Menu</button>
+                    <nav class="p-nav">
+                        <p class="p-nav__menu"><a href="#">バーガー</a></p>
+                        <ul class="p-nav__menu-list">
+                                <li class="p-nav__menu-item"><a href="#">ハンバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">チーズバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">テリヤキバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">アボカドバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">フィッシュバーガー</a></li>
+                                <li class="p-nav__menu-item"><a href="#">ベーコンバーガー</a></li>
+                                <li><a href="#">チキンバーガー</a></li>
+                        </ul>
+                        <p class="p-nav__menu"><a href="#">サイド</a></p>
+                        <ul class="p-nav__menu-list">
+                                <li class="p-nav__menu-item"><a href="#">ポテト</a></li>
+                                <li class="p-nav__menu-item"><a href="#">サラダ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">ナゲット</a></li>
+                                <li><a href="#">コーン</a></li>
+                        </ul>
+                        <p class="p-nav__menu"><a href="#">ドリンク</a></p>
+                        <ul class="p-nav__menu-list">
+                                <li class="p-nav__menu-item"><a href="#">コーラ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">ファンタ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">オレンジ</a></li>
+                                <li class="p-nav__menu-item"><a href="#">アップル</a></li>
+                                <li class="p-nav__menu-item"><a href="#">紅茶（Ice/Hot）</a></li>
+                                <li><a href="#">コーヒー（Ice/Hot）</a></li>
+                        </ul>
+                </nav>
+                    <div class="c-transparent-background--nav"></div><!-- 透明背景 -->
+                </aside>
                 <main class="l-main">
-                <?php
-                    if( have_posts() ) : //1.投稿データがあるかの条件分岐。
-                        while( have_posts() ) : // 2.表示する投稿データがあれば繰り返し処理開始
-                            the_post();
-                ?>
-                <?php 
-                    $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-                ?>
-                        <div class="c-mainvisual c-mainvisual--single" style="background-image: url( '<?php echo $url; ?>' );>
-                            <h2 class="c-title--mainvisual c-title--single"><?php the_title(); ?></h2> 
+                        <div class="c-mainvisual c-mainvisual--single">
+                            <h2 class="c-title--mainvisual c-title--single">h1 チーズバーガー</h2>
                         </div>
-                    <div class="p-main">
+                    <div class="p-main">  
                         <section>
                             <article>
-                                <h2 class="c-title--heading"><?php the_title(); ?></h2>
-                                <p><?php the_content(); ?></p>
+                                <h2 class="c-title--heading">見出しh2</h2>
+                                <p>pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。</p>
                             </article>
-                            <h3><?php the_title(); ?></h3>
-                            <h4><?php the_title(); ?></h4>
-                            <h5><?php the_title(); ?></h5>
-                            <h6><?php the_title(); ?></h6>
+                            <h3>見出しh3</h3>
+                            <h4>見出しh4</h4>
+                            <h5>見出しh5</h5>
+                            <h6>見出しh6</h6>
                         </section>
                         <div class="p-quote">
                             <p class="p-quote__text">引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ引用タグ</p>
@@ -31,11 +82,11 @@
                             <p><img src="img/hamburger.jpg" alt="ハンバーガーの写真"></p>
                             <div class="p-item">
                                 <p class="p-item__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-item__text"><?php the_content(); ?></p>
+                                <p class="p-item__text">テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります </p>
                             </div>
                             <div class="p-item">
                                 <p class="p-item__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-item__text"><?php the_content(); ?></p>
+                                <p class="p-item__text">テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります </p>
                             </div>
                             <p class="p-gallery__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
                             <div class="p-gallery__photo-list">
@@ -112,10 +163,18 @@
                         <button class="c-button c-button--main">ボタン</button>
                         <p class="p-main__text--page">boldboldboldboldboldboldboldboldbold</p>
                     </div>
-                    endwhile; // 5.繰り返し処理ここまで。投稿データがまだあればwhileに戻る。なければ終了
-                        else : //6.投稿データがなければ
-                            ?><p>表示する記事がありません</p><?php //7.ない時の処理
-                        endif; ?> 
-                ?>  
                 </main>
-                <?php get_footer(); ?>
+                <footer class="l-footer">
+                    <div class="p-footer">
+                        <ul class="p-footer__list">
+                            <li class="p-footer__border"><a href="#" class="p-footer__list-item">ショップ情報</a></li>
+                            <li><a href="#" class="p-footer__list-item">ヒストリー</a></li>
+                        </ul>
+                        <p class="p-footer__copyright">Copyright: RaiseTech</p>
+                    </div>
+                </footer>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
