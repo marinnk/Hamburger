@@ -24,8 +24,9 @@
       }
       add_action( 'init', 'load_google_cdn' );
 
+      //ナビゲーション
       register_nav_menus( array(
-        'nav' => 'サイドバー',
+        'cateogrymenu' => 'サイドバー',
         'footer-menu' => 'フッター'
       ) );
 ?>
