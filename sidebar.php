@@ -1,7 +1,8 @@
 <aside class="l-sidebar p-sidebar">
             <button class="p-close c-button--close"><span class="p-close__line"></span></button>
             <button type="button" class="c-button--menu c-button--sidemenu">Menu</button>
-            <nav class="p-nav">
+            <?php wp_nav_menu(); ?>
+            <!-- <nav class="p-nav">
                     <p class="p-nav__menu"><a href="#">バーガー</a></p>
                     <ul class="p-nav__menu-list">
                             <li class="p-nav__menu-item"><a href="#">ハンバーガー</a></li>
@@ -28,6 +29,6 @@
                             <li class="p-nav__menu-item"><a href="#">紅茶（Ice/Hot）</a></li>
                             <li><a href="#">コーヒー（Ice/Hot）</a></li>
                     </ul>
-            </nav>
+            </nav> -->
             <div class="c-transparent-background--nav"></div><!-- 透明背景 -->
         </aside>

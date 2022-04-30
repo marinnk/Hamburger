@@ -1,5 +1,4 @@
 <?php 
-
     function my_setup() {
       add_theme_support('post-thumbnails');
       add_theme_support( 'title-tag' );
@@ -24,4 +23,9 @@
         }
       }
       add_action( 'init', 'load_google_cdn' );
+
+      register_nav_menus( array(
+        'nav' => 'サイドバー',
+        'footer-menu' => 'フッター'
+      ) );
 ?>
