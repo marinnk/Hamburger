@@ -559,13 +559,13 @@ p {
     padding-left: 0;
   }
 }
-.p-nav__menu-list {
+.sub-menu {
   padding-left: 66px;
   color: #707070;
   font-size: 2rem;
 }
 @media screen and (min-width: 1025px) {
-  .p-nav__menu-list {
+  .sub-menu {
     padding-left: 20px;
     margin-bottom: 49px;
   }
