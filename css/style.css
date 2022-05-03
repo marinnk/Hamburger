@@ -485,7 +485,7 @@ p {
     background-color: #F2EDE9;
   }
 }
-
+/* フッター */
 .p-footer {
   padding-bottom: 30px;
   /* フッターリスト・コピーライトを縦並びに */
@@ -497,24 +497,22 @@ p {
 .p-footer ul {
   padding: 0;
   margin: 40px 0 34px 0;
-}
-.p-footer__list {
   display: flex;
   font-size: 2rem;
 }
-.p-footer__list li:not(:first-child) {
+.p-footer ul li:first-child {
+  border-right: 2px solid #FFFFFF;
+  padding-right: 20px;
+}
+.p-footer ul li:not(:first-child) {
   margin-left: 20px;
 }
-.p-footer__list-item {
+.p-footer li a {
   color: #FFFFFF;
 }
 .p-footer__copyright {
   color: #FFFFFF;
   font-size: 1.4rem;
-}
-.p-footer__border {
-  border-right: 2px solid #FFFFFF;
-  padding-right: 20px;
 }
 
 .p-nav {
