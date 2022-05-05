@@ -658,29 +658,27 @@ p {
   width: 55%;
   color: #3C2A10;
 }
-
-.p-table {
+.wp-block-table {
   width: 100%;
   margin-bottom: 29px;
 }
-.p-table__cell {
+.wp-block-table td {
   border: 1px solid #707070;
   padding: 28px 0;
+  width: 70%;
+  padding-left: 30px;
 }
-.p-table__cell--heading {
+.wp-block-table td:first-child {
   font-weight: 100;
   width: 30%;
 }
+
 @media screen and (min-width: 1025px) {
-  .p-table__cell--heading {
+  .wp-block-table td:first-child {
     width: 50%;
     text-align: left;
     padding-left: 30px;
   }
-}
-.p-table__cell--content {
-  width: 70%;
-  padding-left: 30px;
 }
 
 .p-area {

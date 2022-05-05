@@ -2,10 +2,12 @@
 <?php get_sidebar( ); ?>   
                 <main class="l-main">
                         <div class="c-mainvisual c-mainvisual--single">
-                            <h2 class="c-title--mainvisual c-title--single">h1 チーズバーガー</h2>
+                            <h2 class="c-title--mainvisual c-title--single"><?php the_title() ?></h2><!-- キジタイトル -->
                         </div>
                     <div class="p-main">  
-                        <section>
+                        <?php while(have_posts()): the_post(); ?>
+                        <?php the_content(); ?>
+                        <!-- <section>
                             <article>
                                 <h2 class="c-title--heading">見出しh2</h2>
                                 <p>pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。</p>
@@ -20,26 +22,26 @@
                             <p class="p-quote__source">出典元：<a href="#">○○○○○○○○</a></p>
                         </div>
                         <div class="p-gallery">
-                            <p><img src="img/hamburger.jpg" alt="ハンバーガーの写真"></p>
+                            <p><img src="<?php echo get_theme_file_uri('img/hamburger.jpg'); ?>" alt="ハンバーガーの写真"></p>
                             <div class="p-item">
-                                <p class="p-item__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-item__photo"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
                                 <p class="p-item__text">テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります </p>
                             </div>
                             <div class="p-item">
-                                <p class="p-item__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-item__photo"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
                                 <p class="p-item__text">テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります テキストが入ります </p>
                             </div>
-                            <p class="p-gallery__photo"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                            <p class="p-gallery__photo"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
                             <div class="p-gallery__photo-list">
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
-                                <p class="p-gallery__photo-item"><img src="img/hamburger2.jpg" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
+                                <p class="p-gallery__photo-item"><img src="<?php echo get_theme_file_uri('img/hamburger2.jpg'); ?>" alt="ハンバーガーの写真"></p>
                             </div>
                         </div>
                         <div class="p-list">
@@ -102,7 +104,8 @@
                             </tr>
                         </table>
                         <button class="c-button c-button--main">ボタン</button>
-                        <p class="p-main__text--page">boldboldboldboldboldboldboldboldbold</p>
+                        <p class="p-main__text--page">boldboldboldboldboldboldboldboldbold</p> -->
+                        <?php endwhile; ?>
                     </div>
                 </main>
                 <?php get_footer( ); ?> 
