@@ -7,6 +7,7 @@
                     <div class="p-main">  
                         <?php while(have_posts()): the_post(); ?>
                         <?php the_content(); ?>
+               
                         <!-- <section>
                             <article>
                                 <h2 class="c-title--heading">見出しh2</h2>

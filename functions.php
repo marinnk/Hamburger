@@ -29,4 +29,12 @@
         'cateogrymenu' => 'サイドバー',
         'footer-menu' => 'フッター'
       ) );
+
+      function post_images() {
+        global $post, $posts;
+        ob_start();
+        ob_end_clean();
+        preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+        return $matches[1];
+      }
 ?>
