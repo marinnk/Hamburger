@@ -4,25 +4,25 @@
             <div class="c-mainvisual c-mainvisual--archive p-group--mainvisual">
                 <div class="c-transparent-background--archive"></div>
                 <h2 class="c-title--mainvisual c-title--mainvisual--archive">Menu:</h2>
-                <p class="c-text--mainvisual">チーズバーガー</p>
+                <p class="c-text--mainvisual"><?php the_category(); ?></p>
             </div>
             <div class="p-main">
-                <?php if(have_posts()): while(have_posts()) : the_post(); ?>
                 <article>
                     <h2 class="c-title--heading">小見出しが入ります</h2>
                     <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                 </article>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <article>
                     <figure class="p-menu">
                         <p class="p-menu__photo" ><img src="img/hamburger3.jpg" alt="ハンバーガーの写真"></p>
                         <figcaption class="p-menu__text-box">
-                            <h3 class="p-menu__title"><? php the_title(); ?>チーズバーガー</h3>
-                            <h4 class="p-menu__heading"><? php the_title(); ?>小見出しが入ります</h4>
+                            <h3 class="p-menu__title"><?php the_title(); ?></h3>
+                            <h4 class="p-menu__heading">小見出しが入ります</h4>
                             <p class="p-menu__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            <button class="c-button--detail">詳しく見る</button>
+                            <a href="<?php the_permalink(); ?>" class="c-button--detail">詳しく見る</a>
                         </figcaption>
                     </figure>
-                    <figure class="p-menu">
+                    <!-- <figure class="p-menu">
                         <p class="p-menu__photo"><img src="img/hamburger3.jpg" alt="ハンバーガーの写真"></p>
                         <figcaption class="p-menu__text-box">
                             <h3 class="p-menu__title">ダブルチーズバーガー</h3>
@@ -39,8 +39,9 @@
                             <p class="p-menu__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
                             <button class="c-button--detail">詳しく見る</button>
                         </figcaption>
-                    </figure>
+                    </figure> -->
                 </article>  
+                <?php endwhile; endif; ?>
                 <ul class="p-pagination">
                     <li class="p-pagination__page-number">page 1/10</li>
                     <li class="p-pagination__mark--front"><a href="#"><img class="p-pagination__mark p-pagination__mark--tab" src="img/before.svg" alt="前へ"></a></li>
@@ -59,4 +60,4 @@
                 </ul>
             </div>
         </main>
-        <?php get_footer( ); ?>
+        <?php get_footer(); ?>
