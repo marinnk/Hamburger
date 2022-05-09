@@ -15,20 +15,20 @@
         font-size: v.$font-size--20;
 
         li {
-            color: v.$color--white;
-
             &:not(:first-child) {
                 margin-left: 20px; //ヒストリーの左の余白調整
             }
+            a {
+                color: v.$color--white;
+            }
         }
-
+    }
+    #menu-item-139 { //ボーダー
+        border-right: 2px solid v.$color--white;
+        padding-right: 20px;
     }
     &__copyright {
         color: v.$color--white;
         font-size: v.$font-size--14;
-    }
-    #menu-item-139 {
-        border-right: 2px solid v.$color--white;
-        padding-right: 20px;
     }
 }

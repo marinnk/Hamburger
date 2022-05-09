@@ -500,19 +500,19 @@ p {
   display: flex;
   font-size: 2rem;
 }
-.p-footer ul li {
-  color: #FFFFFF;
-}
 .p-footer ul li:not(:first-child) {
   margin-left: 20px;
 }
-.p-footer__copyright {
+.p-footer ul li a {
   color: #FFFFFF;
-  font-size: 1.4rem;
 }
 .p-footer #menu-item-139 {
   border-right: 2px solid #FFFFFF;
   padding-right: 20px;
+}
+.p-footer__copyright {
+  color: #FFFFFF;
+  font-size: 1.4rem;
 }
 
 .p-nav {
