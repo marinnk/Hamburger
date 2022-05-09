@@ -485,7 +485,7 @@ p {
     background-color: #F2EDE9;
   }
 }
-
+/* フッター */
 .p-footer {
   padding-bottom: 30px;
   /* フッターリスト・コピーライトを縦並びに */
@@ -500,19 +500,19 @@ p {
   display: flex;
   font-size: 2rem;
 }
-.p-footer ul li {
-  color: #FFFFFF;
+.p-footer ul li:first-child {
+  border-right: 2px solid #FFFFFF;
+  padding-right: 20px;
 }
 .p-footer ul li:not(:first-child) {
   margin-left: 20px;
 }
+.p-footer li a {
+  color: #FFFFFF;
+}
 .p-footer__copyright {
   color: #FFFFFF;
   font-size: 1.4rem;
-}
-.p-footer #menu-item-139 {
-  border-right: 2px solid #FFFFFF;
-  padding-right: 20px;
 }
 
 .p-nav {
@@ -557,13 +557,13 @@ p {
     padding-left: 0;
   }
 }
-.p-nav__menu-list {
+.sub-menu {
   padding-left: 66px;
   color: #707070;
   font-size: 2rem;
 }
 @media screen and (min-width: 1025px) {
-  .p-nav__menu-list {
+  .sub-menu {
     padding-left: 20px;
     margin-bottom: 49px;
   }
@@ -571,23 +571,22 @@ p {
 .p-nav__menu-item {
   margin-bottom: 20px;
 }
-
-.p-quote {
+/* 引用文 */
+.wp-block-quote {
   background-color: #F5F5F5;
 }
-.p-quote__text {
+.wp-block-quote p {
   padding: 30px 16px 30px 20px;
   background: url(../img/quote-left-solid.svg) no-repeat;
   background-size: 25px;
 }
-.p-quote__source {
+.wp-block-quote cite {
   padding: 0 0 30px 20px;
 }
 .p-quote__source a {
   text-decoration: underline;
   color: #4A6C9B;
 }
-
 .p-gallery {
   margin: 30px 0;
 }
@@ -658,29 +657,27 @@ p {
   width: 55%;
   color: #3C2A10;
 }
-
-.p-table {
+.wp-block-table {
   width: 100%;
   margin-bottom: 29px;
 }
-.p-table__cell {
+.wp-block-table td {
   border: 1px solid #707070;
   padding: 28px 0;
+  width: 70%;
+  padding-left: 30px;
 }
-.p-table__cell--heading {
+.wp-block-table td:first-child {
   font-weight: 100;
   width: 30%;
 }
+
 @media screen and (min-width: 1025px) {
-  .p-table__cell--heading {
+  .wp-block-table td:first-child {
     width: 50%;
     text-align: left;
     padding-left: 30px;
   }
-}
-.p-table__cell--content {
-  width: 70%;
-  padding-left: 30px;
 }
 
 .p-area {
