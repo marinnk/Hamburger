@@ -573,20 +573,18 @@ p {
   margin-bottom: 20px;
 }
 
-.p-quote {
+.wp-block-quote {
   background-color: #F5F5F5;
+  margin: 0;
+  display: inline-block;
 }
-.p-quote__text {
+.wp-block-quote p {
   padding: 30px 16px 30px 20px;
   background: url(../img/quote-left-solid.svg) no-repeat;
   background-size: 25px;
 }
-.p-quote__source {
+.wp-block-quote cite {
   padding: 0 0 30px 20px;
-}
-.p-quote__source a {
-  text-decoration: underline;
-  color: #4A6C9B;
 }
 
 .p-gallery {
