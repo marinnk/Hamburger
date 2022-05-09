@@ -31,7 +31,7 @@
         padding-top: 86px;
     }
     
-    &__menu {
+    .menu-item-type-taxonomy > a {
         padding-left: 46px;
         font-size: v.$font-size--24;
         font-weight: v.$font-weight--bold;
@@ -40,18 +40,20 @@
             padding-left: 0;
         }
     }
-    &__menu-list {
+    .sub-menu {
         padding-left: 66px;
         color: v.$color--gray-dark;
         font-size: v.$font-size--20;
+        margin: 20px 0;
     
         @include m.pc {
             padding-left: 20px;
             margin-bottom: 49px;
     
         }
-    }
-    &__menu-item {
-        margin-bottom: 20px;
+
+        li:not(:last-child){
+            margin-bottom: 20px;
+        }
     }
 }
