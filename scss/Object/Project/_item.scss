@@ -1,21 +1,9 @@
 @use "../../Foundation/mixin" as m;
 @use "../../Foundation/variable" as v;
 
-.wp-block-media-text {
+.wp-block-media-text {/* 写真と説明文のところ */
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 60px;
-
-    @include m.pc {
-        padding-top: 60px;
-    }
-}
-
-.p-item { /* 写真と説明文のところ */
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     padding-top: 60px;
 
     &:nth-child(odd) {/* c-contentの親divから見て、奇数番目のハンバーガーと文章の位置が入れ替わる */
@@ -26,12 +14,13 @@
             padding-top: 60px;
         }
     }
-    &__photo {
+    .wp-block-media-text__media {
         width: 42%;
     }
-    &__text {
+    .wp-block-media-text__content {
         text-indent: 1rem;
         width: 55%;
         color: v.$color--brown;
+        padding: 0;
     }
 }
