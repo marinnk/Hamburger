@@ -1,6 +1,17 @@
 @use "../../Foundation/mixin" as m;
 @use "../../Foundation/variable" as v;
 
+.wp-block-media-text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+
+    @include m.pc {
+        padding-top: 60px;
+    }
+}
+
 .p-item { /* 写真と説明文のところ */
     display: flex;
     justify-content: space-between;
