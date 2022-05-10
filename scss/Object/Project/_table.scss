@@ -1,6 +1,38 @@
 @use "../../Foundation/variable" as v;
 @use "../../Foundation/mixin" as m;
 
+.wp-block-table {
+    width: 100%;
+    margin-bottom: 29px;
+
+    table {
+        tbody {
+            tr {
+                td {
+                    border: 1px solid v.$color--gray-dark;
+                    padding: 28px 0;
+
+                    &:first-child {
+                        font-weight: 100;
+                        width: 30%;
+                        text-align: center;
+
+                        @include m.pc {
+                            width: 50%;
+                            text-align: left;
+                            padding-left: 30px;
+                        }
+                    }
+                    &:last-child {
+                        width: 70%;
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .p-table {
     width: 100%;
     margin-bottom: 29px;

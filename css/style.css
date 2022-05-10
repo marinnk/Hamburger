@@ -675,6 +675,31 @@ p {
   color: #3C2A10;
 }
 
+.wp-block-table {
+  width: 100%;
+  margin-bottom: 29px;
+}
+.wp-block-table table tbody tr td {
+  border: 1px solid #707070;
+  padding: 28px 0;
+}
+.wp-block-table table tbody tr td:first-child {
+  font-weight: 100;
+  width: 30%;
+  text-align: center;
+}
+@media screen and (min-width: 1025px) {
+  .wp-block-table table tbody tr td:first-child {
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+.wp-block-table table tbody tr td:last-child {
+  width: 70%;
+  padding-left: 30px;
+}
+
 .p-table {
   width: 100%;
   margin-bottom: 29px;
