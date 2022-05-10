@@ -1,42 +1,82 @@
 @use "../../Foundation/mixin" as m;
 
-.p-gallery {
+.wp-block-gallery {
     margin: 30px 0;
 
     @include m.tab {
         margin: 60px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
-    &__photo {
+    .has-nested-images {
+        display: block;
         width: 80%;
         text-align: center;
         margin: 30px auto 20px auto;
-    
+
         @include m.tab {
             margin: 61px auto 241px auto;
         }
         @include m.pc {
             margin-bottom: 60px;
         }
-        /* タブレット・PCで横並びにしたときの設定 */
-        &-list {
-            @include m.tab {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-        }
-        &-item {
-
-            &:not(:last-child) {
-                margin-bottom: 20px;
-            }
-            @include m.tab {
-                width: 49%;
-            }
-            @include m.pc {
-                width: 32%;
-            }
-        }
     }
+
+    .size-large {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
 }
+
+.wp-block-gallery.has-nested-images {
+    display: block;
+}
+.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+// .p-gallery {
+//     margin: 30px 0;
+
+//     @include m.tab {
+//         margin: 60px 0;
+//     }
+
+//     &__photo {
+//         width: 80%;
+//         text-align: center;
+//         margin: 30px auto 20px auto;
+    
+//         @include m.tab {
+//             margin: 61px auto 241px auto;
+//         }
+//         @include m.pc {
+//             margin-bottom: 60px;
+//         }
+//         /* タブレット・PCで横並びにしたときの設定 */
+//         &-list {
+//             @include m.tab {
+//                 display: flex;
+//                 flex-wrap: wrap;
+//                 justify-content: space-between;
+//             }
+//         }
+//         &-item {
+
+//             &:not(:last-child) {
+//                 margin-bottom: 20px;
+//             }
+//             @include m.tab {
+//                 width: 49%;
+//             }
+//             @include m.pc {
+//                 width: 32%;
+//             }
+//         }
+//     }
+// }

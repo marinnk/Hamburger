@@ -592,49 +592,46 @@ p {
   padding: 0 0 30px 20px;
 }
 
-.p-gallery {
+.wp-block-gallery {
   margin: 30px 0;
 }
 @media screen and (min-width: 600px) {
-  .p-gallery {
+  .wp-block-gallery {
     margin: 60px 0;
-  }
-}
-.p-gallery__photo {
-  width: 80%;
-  text-align: center;
-  margin: 30px auto 20px auto;
-  /* タブレット・PCで横並びにしたときの設定 */
-}
-@media screen and (min-width: 600px) {
-  .p-gallery__photo {
-    margin: 61px auto 241px auto;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .p-gallery__photo {
-    margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 600px) {
-  .p-gallery__photo-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 }
-.p-gallery__photo-item:not(:last-child) {
-  margin-bottom: 20px;
+.wp-block-gallery .has-nested-images {
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: 30px auto 20px auto;
 }
 @media screen and (min-width: 600px) {
-  .p-gallery__photo-item {
-    width: 49%;
+  .wp-block-gallery .has-nested-images {
+    margin: 61px auto 241px auto;
   }
 }
 @media screen and (min-width: 1025px) {
-  .p-gallery__photo-item {
-    width: 32%;
+  .wp-block-gallery .has-nested-images {
+    margin-bottom: 60px;
   }
+}
+.wp-block-gallery .size-large {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.wp-block-gallery.has-nested-images {
+  display: block;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .wp-block-media-text {
