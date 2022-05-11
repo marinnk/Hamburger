@@ -4,7 +4,7 @@
             <div class="c-mainvisual c-mainvisual--archive p-group--mainvisual">
                 <div class="c-transparent-background--archive"></div>
                 <h2 class="c-title--mainvisual c-title--mainvisual--archive">Menu:</h2>
-                <p class="c-text--mainvisual"><?php the_category(); ?>
+                <?php the_category(); ?>
             </div>
             <div class="p-main">
                 <article>

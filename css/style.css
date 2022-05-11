@@ -1253,15 +1253,12 @@ p {
   /* 文字の入力位置を虫眼鏡マークの後ろからにする */
 }
 
-.c-text--mainvisual {
+.post-categories {
+  margin: 0;
+}
+.post-categories a {
   color: #FFFFFF;
   font-weight: bold;
-  padding-left: 37px;
-}
-@media screen and (min-width: 600px) {
-  .c-text--mainvisual {
-    padding-left: 20px;
-  }
 }
 
 .c-line {
