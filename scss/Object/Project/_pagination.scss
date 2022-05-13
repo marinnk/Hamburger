@@ -1,7 +1,7 @@
 @use "../../Foundation/mixin" as m;
 @use "../../Foundation/variable" as v;
 
-.p-pagination {
+.wp-pagenavi {
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -13,7 +13,7 @@
         justify-content: center;
     }
    
-    &__page-number {
+    .pages {
         display: none;
 
         @include m.tab {
@@ -24,7 +24,7 @@
         }
     }
 
-    &__number {
+    .page {
         display: none;
 
         @include m.tab {
@@ -37,26 +37,34 @@
         &:hover {
             background-color: v.$cheeseburger;
             color: v.$color--white;
-        }        
+        }
+            
     }
+    .current {
+        display: none;
 
-    &__button--front { //前へ
         @include m.tab {
-            display: none;
+            display: block;
+            font-family: v.$font-family--roboto;
+            border: 1px solid v.$color--gray-dark;
+            padding: 7px 13px;
+            margin-left: 15px;
+            background-color: v.$cheeseburger;
+            color: v.$color--white;
         }
-
-        &::before { //前への左にあるマーク(SP版だけ表示される)
-            content: "";
-            background: url(../img/before.svg);
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 3px;
-            left: 0;
+        &:hover {
+            background-color: v.$cheeseburger;
+            color: v.$color--white;
         }
     }
+
+    .previouspostslink::after { //前へ
+        content: "前へ";
+        position: absolute;
+        left: 20px;
+    }
+        
+
 
     &__button--next { //次へ
         @include m.tab {
@@ -76,6 +84,20 @@
         }
     }
 
+    .nextpostslink {
+        @include m.tab {
+            display: block;
+            min-width: 20px;
+            min-height: 20px;
+            margin-left: 15px;
+        }
+
+        &::before {
+            content: "次へ";
+            position: absolute;
+            right: 20px;
+        }
+    }
     &__mark { //tab・PC版で表示されるマーク
         display: none;
 
