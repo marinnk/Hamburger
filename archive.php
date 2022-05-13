@@ -42,10 +42,25 @@
                     </figure> -->
                 </article>  
                 <?php endwhile; endif; ?>
-                <ul class="p-pagination">
+                <?php if ( $wp_query -> max_num_pages > 1 ) : ?>
+                <?php
+                    $args = array (
+                        'prev_text' => '« 前へ',
+                        'next_text' => '次へ »',
+                        'show_all' => false,
+                        'mid_size' => 3,
+                        'type' => 'list',
+                    );
+                    $pagination = get_the_posts_pagination( $args );
+                    $pagination = preg_replace( "/<h2[^>]*?>.*?<\/h2>/i", '', $pagination);
+                    $pagination = preg_replace( array("/<div[^>]*?>/i", "/<\/div>/i") , array('', ''), $pagination);
+                    echo $pagination;
+                ?>
+
+                <!-- <ul class="p-pagination">
                     <li class="p-pagination__page-number">page 1/10</li>
                     <li class="p-pagination__mark--front"><a href="#"><img class="p-pagination__mark p-pagination__mark--tab" src="<?php echo esc_url(get_theme_file_uri('img/before.svg')); ?>" alt="前へ"></a></li>
-                    <li><a href="#" class="p-pagination__button--front">前へ</a></li>
+                    <li><a href="#" class="p-pagination__button--front"><?php next_posts_link('前へ') ?></a></li>
                     <li><a href="#" class="p-pagination__number">1</a></li>
                     <li><a href="#" class="p-pagination__number">2</a></li>
                     <li><a href="#" class="p-pagination__number">3</a></li>
@@ -54,10 +69,11 @@
                     <li><a href="#" class="p-pagination__number">6</a></li>
                     <li><a href="#" class="p-pagination__number">7</a></li>
                     <li><a href="#" class="p-pagination__number">8</a></li>
-                    <li><a href="#" class="p-pagination__number">9</a></li>
-                    <li><a href="#" class="p-pagination__button--next">次へ</a></li>
-                    <li class="p-pagination__mark--next"><a href="#"><img class="p-pagination__mark p-pagination__mark--tab" src="<?php echo esc_url(get_theme_file_uri('img/next.svg')); ?>" alt="次へ"></a></li>
-                </ul>
+                    <li><a href="#" class="p-pagination__number">9</a></li> -->
+                    <!-- <li><a href="#" class="p-pagination__button--next"><?php previous_posts_link('次へ'); ?></a></li>
+                    <li class="p-pagination__mark--next"><a href="#"><img class="p-pagination__mark p-pagination__mark--tab" src="<?php echo esc_url(get_theme_file_uri('img/next.svg')); ?>" alt="次へ"></a></li> -->
+                </ul> -->
+                <?php endif; ?>
             </div>
         </main>
         <?php get_footer(); ?>
