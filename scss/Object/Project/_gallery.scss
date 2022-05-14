@@ -1,7 +1,7 @@
 @use "../../Foundation/mixin" as m;
 
 .wp-block-gallery {
-    margin: 30px 0;
+    // margin: 30px 0;
 
     @include m.tab {
         margin: 60px 0;
