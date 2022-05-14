@@ -586,6 +586,7 @@ p {
 }
 .wp-block-quote cite {
   padding: 0 0 30px 20px;
+  display: block;
 }
 
 .wp-block-gallery {
