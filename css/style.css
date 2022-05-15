@@ -591,7 +591,6 @@ p {
 
 @media screen and (min-width: 600px) {
   .wp-block-gallery {
-    margin: 60px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -599,7 +598,7 @@ p {
 }
 @media screen and (min-width: 600px) {
   .wp-block-gallery .wp-block-image {
-    width: 48%;
+    width: 45%;
   }
 }
 .wp-block-gallery .size-large {
@@ -613,13 +612,15 @@ p {
   margin-bottom: 20px;
 }
 
-.wp-block-image:nth-child(2) {
-  margin: 0 0 1em;
+.wp-block-image {
+  margin: 0;
+}
+.wp-block-image:nth-child(10) {
   margin: 30px auto 20px auto;
   width: 80%;
 }
 @media screen and (min-width: 600px) {
-  .wp-block-image:nth-child(2) {
+  .wp-block-image:nth-child(10) {
     margin: 61px auto 241px auto;
   }
 }

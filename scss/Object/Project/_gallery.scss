@@ -4,15 +4,16 @@
     // margin: 30px 0;
 
     @include m.tab {
-        margin: 60px 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
     .wp-block-image {
+
         @include m.tab {
-            width: 48%;
+            width: 45%;
+            
         }
     }
 
@@ -43,14 +44,17 @@
     margin: 0;
     margin-bottom: 20px;
 }
-.wp-block-image:nth-child(2) {
-    margin: 0 0 1em;
-    margin: 30px auto 20px auto;
-    width: 80%;
+.wp-block-image {
+    margin: 0;
 
-    @include m.tab {
-        margin: 61px auto 241px auto;
-        
+    &:nth-child(10) {
+        margin: 30px auto 20px auto;
+        width: 80%;
+
+        @include m.tab {
+            margin: 61px auto 241px auto;
+            
+        }
     }
     
 }
