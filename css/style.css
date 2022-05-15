@@ -1022,6 +1022,10 @@ p {
   top: 3px;
   right: 0;
 }
+.wp-pagenavi .nextpostslink {
+  position: absolute;
+  right: 0;
+}
 @media screen and (min-width: 600px) {
   .wp-pagenavi .nextpostslink {
     margin-left: 15px;
@@ -1030,31 +1034,11 @@ p {
 .wp-pagenavi .nextpostslink::before {
   content: "次へ";
   position: absolute;
-  right: 20px;
+  right: 40px;
 }
 @media screen and (min-width: 600px) {
   .wp-pagenavi .nextpostslink::before {
     display: none;
-  }
-}
-.wp-pagenavi__mark {
-  display: none;
-}
-@media screen and (min-width: 600px) {
-  .wp-pagenavi__mark {
-    display: block;
-  }
-}
-@media screen and (min-width: 600px) {
-  .wp-pagenavi__mark--tab {
-    display: block;
-    min-width: 20px;
-    min-height: 20px;
-  }
-}
-@media screen and (min-width: 600px) {
-  .wp-pagenavi__mark--next {
-    margin-left: 17px;
   }
 }
 

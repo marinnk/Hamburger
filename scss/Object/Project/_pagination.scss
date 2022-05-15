@@ -89,6 +89,9 @@
     }
 
     .nextpostslink {
+        position: absolute;
+        right: 0;
+
         @include m.tab {
             margin-left: 15px;
         }
@@ -96,31 +99,31 @@
         &::before {
             content: "次へ";
             position: absolute;
-            right: 20px;
+            right: 40px;
 
             @include m.tab {
                 display: none;
             }
         }
     }
-    &__mark { //tab・PC版で表示されるマーク
-        display: none;
+    // &__mark { //tab・PC版で表示されるマーク
+    //     display: none;
 
-        @include m.tab {
-            display: block;   
-        }
-        &--tab {
-            @include m.tab {
-                display: block;
-                min-width: 20px;
-                min-height: 20px;
-            }
-        }
+    //     @include m.tab {
+    //         display: block;   
+    //     }
+    //     &--tab {
+    //         @include m.tab {
+    //             display: block;
+    //             min-width: 20px;
+    //             min-height: 20px;
+    //         }
+    //     }
         
-        &--next {
-            @include m.tab {
-                margin-left: 17px;
-            }
-        }
-    }
+    //     &--next {
+    //         @include m.tab {
+    //             margin-left: 17px;
+    //         }
+    //     }
+    // }
 }
