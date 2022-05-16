@@ -1007,34 +1007,16 @@ p {
   }
 }
 @media screen and (min-width: 600px) {
-  .wp-pagenavi__button--next {
-    display: none;
-  }
-}
-.wp-pagenavi__button--next::after {
-  content: "";
-  background: url(../img/next.svg);
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 3px;
-  right: 0;
-}
-.wp-pagenavi .nextpostslink {
-  position: absolute;
-  right: 0;
-}
-@media screen and (min-width: 600px) {
   .wp-pagenavi .nextpostslink {
     margin-left: 15px;
+    position: inherit;
   }
 }
 .wp-pagenavi .nextpostslink::before {
   content: "次へ";
   position: absolute;
-  right: 40px;
+  right: 16px;
+  width: 35px;
 }
 @media screen and (min-width: 600px) {
   .wp-pagenavi .nextpostslink::before {

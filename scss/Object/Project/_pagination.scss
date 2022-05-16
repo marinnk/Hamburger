@@ -70,36 +70,38 @@
         
 
 
-    &__button--next { //次へ
-        @include m.tab {
-            display: none;
-        }
+    // &__button--next { //次へ
+    //     @include m.tab {
+    //         display: none;
+    //     }
 
-        &::after { //次への右にあるマーク(SP版だけ表示される)
-            content: "";
-            background: url(../img/next.svg);
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-            background-repeat: no-repeat;
-            position: absolute;
-            top: 3px;
-            right: 0;
-        }
-    }
+    //     &::after { //次への右にあるマーク(SP版だけ表示される)
+    //         content: "";
+    //         background: url(../img/next.svg);
+    //         width: 20px;
+    //         height: 20px;
+    //         display: inline-block;
+    //         background-repeat: no-repeat;
+    //         position: absolute;
+    //         top: 3px;
+    //         right: 0;
+    //     }
+    // }
 
     .nextpostslink {
-        position: absolute;
-        right: 0;
+        // position: absolute;
+        // right: 0;
 
         @include m.tab {
             margin-left: 15px;
+            position: inherit;
         }
 
         &::before {
             content: "次へ";
             position: absolute;
-            right: 40px;
+            right: 16px;
+            width: 35px;
 
             @include m.tab {
                 display: none;
