@@ -47,4 +47,10 @@
           return $args;
       }
       add_filter('register_post_type_args', 'post_has_archive', 10, 2);
+
+      function mytheme_enqueue() { //勝手に作られるcssを無効に
+        wp_dequeue_style( 'wp-block-library' );
+    }
+    add_action( 'wp_enqueue_scripts', 'mytheme_enqueue' );
+    
 ?>
