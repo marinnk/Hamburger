@@ -604,10 +604,6 @@ p {
   width: 100%;
 }
 
-.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image) {
-  width: 48%;
-}
-
 .wp-block-image {
   margin: 0;
 }
