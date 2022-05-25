@@ -52,5 +52,13 @@
         wp_dequeue_style( 'wp-block-library' );
     }
     add_action( 'wp_enqueue_scripts', 'mytheme_enqueue' );
+
+   //トップページから特定のカテゴリの除外
+function exclude_category( $query ) {
+  if ( $query->is_home() && $query->is_main_query() ) {
+  $query->set('cat','-4,-5');//マイナスをつけてカテゴリIDを除外する
+  }
+  }
+  add_action( 'pre_get_posts', 'exclude_category' );
     
 ?>
