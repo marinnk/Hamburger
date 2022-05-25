@@ -600,9 +600,16 @@ p {
   }
 }
 .wp-block-gallery .wp-block-image {
+  width: 100%;
   margin: 0;
   margin-bottom: 20px;
-  width: 49%;
+}
+@media screen and (min-width: 600px) {
+  .wp-block-gallery .wp-block-image {
+    margin: 0;
+    margin-bottom: 20px;
+    width: 49%;
+  }
 }
 @media screen and (min-width: 600px) {
   .wp-block-gallery .wp-block-image:nth-child(10) {

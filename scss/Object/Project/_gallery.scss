@@ -11,9 +11,15 @@
     }
 
     .wp-block-image {
+        width: 100%;
         margin: 0;
         margin-bottom: 20px;
-        width: 49%;
+
+        @include m.tab {
+            margin: 0;
+            margin-bottom: 20px;
+            width: 49%;
+        }
 
        &:nth-child(10) {
            @include m.tab {
