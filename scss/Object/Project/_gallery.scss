@@ -1,7 +1,6 @@
 @use "../../Foundation/mixin" as m;
 
 .wp-block-gallery {
-    // margin: 30px 0;
     margin: 0;
 
     @include m.tab {
@@ -21,11 +20,13 @@
             width: 49%;
         }
 
-       &:nth-child(10) {
-           @include m.tab {
-                margin-bottom: 100px;
-           }    
-       }
+        @include m.pc {
+            width: 32%;
+        }
+
+        .aligncenter {
+            margin-bottom: 70px;
+        }
 
     } 
 }

@@ -611,10 +611,13 @@ p {
     width: 49%;
   }
 }
-@media screen and (min-width: 600px) {
-  .wp-block-gallery .wp-block-image:nth-child(10) {
-    margin-bottom: 100px;
+@media screen and (min-width: 1025px) {
+  .wp-block-gallery .wp-block-image {
+    width: 32%;
   }
+}
+.wp-block-gallery .wp-block-image .aligncenter {
+  margin-bottom: 70px;
 }
 
 .wp-block-media-text {
