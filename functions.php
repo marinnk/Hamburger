@@ -61,4 +61,9 @@ function exclude_category( $query ) {
   }
   add_action( 'pre_get_posts', 'exclude_category' );
     
+  // function exclude_widget_categories($args){
+  //   $args['exclude'] = '4,5';
+  //   return $args;
+  // }
+  // add_filter( 'widget_categories_args', 'exclude_widget_categories');
 ?>

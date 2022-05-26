@@ -3,8 +3,7 @@
         <main class="l-main">
             <div class="c-mainvisual c-mainvisual--archive p-group--mainvisual">
                 <div class="c-transparent-background--archive"></div>
-                <h2 class="c-title--mainvisual c-title--mainvisual--archive">Menu:</h2>
-                <?php the_category(); ?>
+                <h2 class="c-title--mainvisual c-title--mainvisual--archive">Menu:<?php single_cat_title(); ?></h2>
             </div>
             <div class="p-main">
                 <article>
