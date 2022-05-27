@@ -1367,6 +1367,16 @@ ul {
     justify-content: flex-start;
   }
 }
+.c-mainvisual--archive p {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-left: 37px;
+}
+@media screen and (min-width: 600px) {
+  .c-mainvisual--archive p {
+    padding-left: 20px;
+  }
+}
 .c-mainvisual--page {
   background-image: url(../img/main-visual--page.jpg);
   min-height: 224px;
