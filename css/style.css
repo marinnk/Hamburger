@@ -950,7 +950,7 @@ p {
   }
 }
 .wp-pagenavi .page {
-  display: none;
+  visibility: hidden;
 }
 @media screen and (min-width: 600px) {
   .wp-pagenavi .page {
@@ -966,7 +966,7 @@ p {
   color: #FFFFFF;
 }
 .wp-pagenavi .current {
-  display: none;
+  visibility: hidden;
 }
 @media screen and (min-width: 600px) {
   .wp-pagenavi .current {

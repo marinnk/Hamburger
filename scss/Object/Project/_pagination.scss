@@ -25,7 +25,7 @@
     }
 
     .page {
-        display: none;
+        visibility: hidden;
 
         @include m.tab {
             display: block;
@@ -41,7 +41,7 @@
             
     }
     .current {
-        display: none;
+        visibility: hidden;
 
         @include m.tab {
             display: block;
