@@ -1,6 +1,6 @@
-<form class="p-search" method="get" action="<?php echo home_url('/'); ?>">
+<form class="p-search" method="GET" action="<?php echo home_url('/'); ?>">
     <div class="p-search-form">
-        <input type="search" name="search" class="c-input-box" name="s" id="s">
+        <input type="text" name="s" class="c-input-box">
     </div>
-    <button type="submit" class="c-button c-button--search">検索</button>
+    <input type="submit" class="c-button c-button--search" value="検索">
 </form>
