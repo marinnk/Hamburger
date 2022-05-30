@@ -954,7 +954,7 @@ p {
 }
 @media screen and (min-width: 600px) {
   .wp-pagenavi .page {
-    display: block;
+    visibility: visible;
     font-family: "Roboto";
     border: 1px solid #707070;
     padding: 7px 13px;
@@ -970,7 +970,7 @@ p {
 }
 @media screen and (min-width: 600px) {
   .wp-pagenavi .current {
-    display: block;
+    visibility: visible;
     font-family: "Roboto";
     border: 1px solid #707070;
     padding: 7px 13px;

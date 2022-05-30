@@ -28,7 +28,7 @@
         visibility: hidden;
 
         @include m.tab {
-            display: block;
+            visibility: visible;
             font-family: v.$font-family--roboto;
             border: 1px solid v.$color--gray-dark;
             padding: 7px 13px;
@@ -44,7 +44,7 @@
         visibility: hidden;
 
         @include m.tab {
-            display: block;
+            visibility: visible;
             font-family: v.$font-family--roboto;
             border: 1px solid v.$color--gray-dark;
             padding: 7px 13px;
