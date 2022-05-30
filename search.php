@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_sidebar(); ?>
 
 <h2>検索結果</h2>
 <p>「<?php echo the_search_query() ?>」の検索結果は<?php echo $wp_query->found_posts; ?>件です。</p>
