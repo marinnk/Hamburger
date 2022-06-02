@@ -9,8 +9,7 @@
 </div>
 <div class="p-main">
     <article>
-        <h2 class="c-title--heading">検索結果</h2>
-        <p>「<?php echo the_search_query() ?>」の検索結果は<?php echo $wp_query->found_posts; ?>件です。</p>      
+        <h2 class="c-title--heading">「<?php echo the_search_query() ?>」の検索結果：<?php echo $wp_query->found_posts; ?>件</h2>
     </article>
 
 <!-- 検索結果の記事表示 -->
@@ -27,11 +26,13 @@
     </figure>
 </article>      
 <?php endwhile; else: ?>
-<p>検索結果は見つかりませんでした。</p>
+<p class="p-search__text">検索結果は見つかりませんでした。</p>
 <?php endif; ?>  
 
 <!-- ページネーション -->
+<?php if ( $wp_query -> max_num_pages >= 1 ) : //ページ数が1を超える場合に処理 ?>
 <?php wp_pagenavi(); ?>
+<?php endif; ?>
 </div>
 </main>
 <?php get_footer(); ?>

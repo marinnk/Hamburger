@@ -418,6 +418,9 @@ p {
     padding-right: 31px;
   }
 }
+.p-search__text {
+  margin-bottom: 30px;
+}
 
 .p-search-form {
   position: relative;
