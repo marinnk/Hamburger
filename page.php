@@ -2,10 +2,12 @@
 <?php get_sidebar( ); ?>   
                 <main class="l-main">
                         <div class="c-mainvisual c-mainvisual--page">
-                            <h2 class="c-title--mainvisual c-title--page">ショップについて</h2>
+                            <h2 class="c-title--mainvisual c-title--page"><?php the_title() ?></h2>
                         </div>
                     <div class="p-main">  
-                        <section>
+                    <?php while(have_posts()): the_post(); ?>
+                        <?php the_content(); ?>
+                        <!-- <section>
                             <article>
                                 <h2 class="c-title--heading">見出しh2</h2>
                                 <p>pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。pタグテキスト。</p>
@@ -102,7 +104,8 @@
                             </tr>
                         </table>
                         <button class="c-button c-button--main">ボタン</button>
-                        <p class="p-main__text--page">boldboldboldboldboldboldboldboldbold</p>
+                        <p class="p-main__text--page">boldboldboldboldboldboldboldboldbold</p> -->
+                        <?php endwhile; ?>
                     </div>
                 </main>
                 <?php get_footer( ); ?>
