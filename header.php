@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="<?php language_attributes(); ?>">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,8 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
-<body>
+<body<?php body_class(); ?>>
+<?php wp_body_open(); ?>
     <div class="c-grid"> 
         <header class="l-header">
             <div class="p-header">
