@@ -988,12 +988,6 @@ p {
   background-color: #3C2B1C;
   color: #FFFFFF;
 }
-.wp-pagenavi .first {
-  display: none;
-}
-.wp-pagenavi .last {
-  display: none;
-}
 .wp-pagenavi .previouspostslink::after {
   content: "前へ";
   position: absolute;

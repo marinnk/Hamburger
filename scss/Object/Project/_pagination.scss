@@ -62,12 +62,7 @@
             color: v.$color--white;
         }
     }
-    .first {
-        display: none;
-    }
-    .last {
-        display: none;
-    }
+    
     .previouspostslink::after { //前へ
         content: "前へ";
         position: absolute;
