@@ -887,6 +887,18 @@ p {
     padding: 30px 0 0 35px;
   }
 }
+.p-menu__text-box h2 {
+  margin-right: auto;
+}
+.p-menu__text-box p {
+  text-align: left;
+  margin: 24px 17px 40px 0;
+}
+@media screen and (min-width: 600px) {
+  .p-menu__text-box p {
+    margin: 47px 35px 60px 0;
+  }
+}
 .p-menu__title {
   font-size: 2rem;
   margin: 0;

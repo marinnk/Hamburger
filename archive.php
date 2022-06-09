@@ -17,8 +17,7 @@
                         <p class="p-menu__photo" ><img src="<?php echo esc_url(get_theme_file_uri('img/hamburger3.jpg')); ?>" alt="ハンバーガーの写真"></p>
                         <figcaption class="p-menu__text-box">
                             <h3 class="p-menu__title"><?php the_title(); ?></h3>
-                            <h4 class="p-menu__heading">小見出しが入ります</h4>
-                            <p class="p-menu__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            <?php the_excerpt(); ?>
                             <a href="<?php the_permalink(); ?>" class="c-button--detail">詳しく見る</a>
                         </figcaption>
                     </figure>
